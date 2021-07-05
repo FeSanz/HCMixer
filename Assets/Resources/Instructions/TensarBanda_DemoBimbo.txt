@@ -1,0 +1,9 @@
+1- Apague el mezclador.
+2- Dirígete a las puertas señaladas.
+3- Abre las puertas.
+4- Asegúrate que la banda esté detenida por completo.
+5- Afloja los tornillos ubicados en la base del motorreductor.
+6- Mueve el motorreductor hacia la izquierda para tensar la banda.
+7- Asegura los tornillos nuevamente sin dejar de tensar la banda.
+8- Para reiniciar operaciones presione el botón para encender el mezclador.
+9- Cierre las puertas.

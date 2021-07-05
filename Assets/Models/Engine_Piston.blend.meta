@@ -1,0 +1,7821 @@
+fileFormatVersion: 2
+guid: 9b61e7a0cb8b4aa4a93b9e6bf1646f17
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: air_filter
+  - first:
+      1: 100002
+    second: block
+  - first:
+      1: 100004
+    second: cam_cyl1_exh1
+  - first:
+      1: 100006
+    second: cam_cyl1_exh2
+  - first:
+      1: 100008
+    second: cam_cyl1_int1
+  - first:
+      1: 100010
+    second: cam_cyl1_int2
+  - first:
+      1: 100012
+    second: cam_cyl2_exh1
+  - first:
+      1: 100014
+    second: cam_cyl2_int1
+  - first:
+      1: 100016
+    second: cam_cyl2_int2
+  - first:
+      1: 100018
+    second: cam_cyl3_exh1
+  - first:
+      1: 100020
+    second: cam_cyl3_exh2
+  - first:
+      1: 100022
+    second: cam_cyl3_int1
+  - first:
+      1: 100024
+    second: cam_cyl3_int2
+  - first:
+      1: 100026
+    second: cam_cyl4_exh1
+  - first:
+      1: 100028
+    second: cam_cyl4_exh2
+  - first:
+      1: 100030
+    second: cam_cyl4_int1
+  - first:
+      1: 100032
+    second: cam_cyl4_int2
+  - first:
+      1: 100034
+    second: cam_cyl_2_exh2
+  - first:
+      1: 100036
+    second: cam_exh
+  - first:
+      1: 100038
+    second: cam_gears_exh
+  - first:
+      1: 100040
+    second: cam_gears_int
+  - first:
+      1: 100042
+    second: cam_int
+  - first:
+      1: 100044
+    second: cam_pulley_exh
+  - first:
+      1: 100046
+    second: cam_pulley_int
+  - first:
+      1: 100048
+    second: crank_1
+  - first:
+      1: 100050
+    second: crank_1_bearing
+  - first:
+      1: 100052
+    second: crank_2
+  - first:
+      1: 100054
+    second: crank_2_bearing
+  - first:
+      1: 100056
+    second: crank_3
+  - first:
+      1: 100058
+    second: crank_3_bearing
+  - first:
+      1: 100060
+    second: crank_4
+  - first:
+      1: 100062
+    second: crank_4_bearing
+  - first:
+      1: 100064
+    second: crank_gears
+  - first:
+      1: 100066
+    second: crank_pulley
+  - first:
+      1: 100068
+    second: cyl1_exh_vlv2
+  - first:
+      1: 100070
+    second: cyl1_int_vlv1
+  - first:
+      1: 100072
+    second: cyl1_int_vlv2
+  - first:
+      1: 100074
+    second: cyl1_vlv_exh1
+  - first:
+      1: 100076
+    second: cyl2_exh_vlv1
+  - first:
+      1: 100078
+    second: cyl2_exh_vlv2
+  - first:
+      1: 100080
+    second: cyl2_int_vlv1
+  - first:
+      1: 100082
+    second: cyl2_int_vlv2
+  - first:
+      1: 100084
+    second: cyl3_exh_vlv1
+  - first:
+      1: 100086
+    second: cyl3_exh_vlv2
+  - first:
+      1: 100088
+    second: cyl3_int_vlv1
+  - first:
+      1: 100090
+    second: cyl3_int_vlv2
+  - first:
+      1: 100092
+    second: cyl4_exh_vlv1
+  - first:
+      1: 100094
+    second: cyl4_exh_vlv2
+  - first:
+      1: 100096
+    second: cyl4_int_vlv1
+  - first:
+      1: 100098
+    second: cyl4_int_vlv2
+  - first:
+      1: 100100
+    second: exhaust
+  - first:
+      1: 100102
+    second: Font
+  - first:
+      1: 100104
+    second: head
+  - first:
+      1: 100106
+    second: intake
+  - first:
+      1: 100108
+    second: oil_pan
+  - first:
+      1: 100110
+    second: piston_1
+  - first:
+      1: 100112
+    second: piston_2
+  - first:
+      1: 100114
+    second: piston_3
+  - first:
+      1: 100116
+    second: piston_4
+  - first:
+      1: 100118
+    second: //RootNode
+  - first:
+      1: 100120
+    second: rod_piston_4
+  - first:
+      1: 100122
+    second: rod_piston_4_001
+  - first:
+      1: 100124
+    second: rod_piston_4_002
+  - first:
+      1: 100126
+    second: rod_piston_4_003
+  - first:
+      1: 100128
+    second: valve_cover
+  - first:
+      1: 100130
+    second: air filter
+  - first:
+      1: 100132
+    second: cam cyl 2 exh2
+  - first:
+      1: 100134
+    second: cam cyl1 exh1
+  - first:
+      1: 100136
+    second: cam cyl1 exh2
+  - first:
+      1: 100138
+    second: cam cyl1 int1
+  - first:
+      1: 100140
+    second: cam cyl1 int2
+  - first:
+      1: 100142
+    second: cam cyl2 exh1
+  - first:
+      1: 100144
+    second: cam cyl2 int1
+  - first:
+      1: 100146
+    second: cam cyl2 int2
+  - first:
+      1: 100148
+    second: cam cyl3 exh1
+  - first:
+      1: 100150
+    second: cam cyl3 exh2
+  - first:
+      1: 100152
+    second: cam cyl3 int1
+  - first:
+      1: 100154
+    second: cam cyl3 int2
+  - first:
+      1: 100156
+    second: cam cyl4 exh1
+  - first:
+      1: 100158
+    second: cam cyl4 exh2
+  - first:
+      1: 100160
+    second: cam cyl4 int1
+  - first:
+      1: 100162
+    second: cam cyl4 int2
+  - first:
+      1: 100164
+    second: cam exh
+  - first:
+      1: 100166
+    second: cam gears exh
+  - first:
+      1: 100168
+    second: cam gears int
+  - first:
+      1: 100170
+    second: cam int
+  - first:
+      1: 100172
+    second: cam pulley exh
+  - first:
+      1: 100174
+    second: cam pulley int
+  - first:
+      1: 100176
+    second: Camera.001
+  - first:
+      1: 100178
+    second: crank 1
+  - first:
+      1: 100180
+    second: crank 1 bearing
+  - first:
+      1: 100182
+    second: crank 2
+  - first:
+      1: 100184
+    second: crank 2 bearing
+  - first:
+      1: 100186
+    second: crank 3
+  - first:
+      1: 100188
+    second: crank 3 bearing
+  - first:
+      1: 100190
+    second: crank 4
+  - first:
+      1: 100192
+    second: crank 4 bearing
+  - first:
+      1: 100194
+    second: crank gears
+  - first:
+      1: 100196
+    second: crank pulley
+  - first:
+      1: 100198
+    second: cyl1 exh vlv2
+  - first:
+      1: 100200
+    second: cyl1 int vlv1
+  - first:
+      1: 100202
+    second: cyl1 int vlv2
+  - first:
+      1: 100204
+    second: cyl1 vlv exh1
+  - first:
+      1: 100206
+    second: cyl2 exh vlv1
+  - first:
+      1: 100208
+    second: cyl2 exh vlv2
+  - first:
+      1: 100210
+    second: cyl2 int vlv1
+  - first:
+      1: 100212
+    second: cyl2 int vlv2
+  - first:
+      1: 100214
+    second: cyl3 exh vlv1
+  - first:
+      1: 100216
+    second: cyl3 exh vlv2
+  - first:
+      1: 100218
+    second: cyl3 int vlv1
+  - first:
+      1: 100220
+    second: cyl3 int vlv2
+  - first:
+      1: 100222
+    second: cyl4 exh vlv1
+  - first:
+      1: 100224
+    second: cyl4 exh vlv2
+  - first:
+      1: 100226
+    second: cyl4 int vlv1
+  - first:
+      1: 100228
+    second: cyl4 int vlv2
+  - first:
+      1: 100230
+    second: Lamp.008
+  - first:
+      1: 100232
+    second: Lamp.009
+  - first:
+      1: 100234
+    second: Lamp.010
+  - first:
+      1: 100236
+    second: Lamp.011
+  - first:
+      1: 100238
+    second: Lamp.012
+  - first:
+      1: 100240
+    second: Lamp.013
+  - first:
+      1: 100242
+    second: Lamp.014
+  - first:
+      1: 100244
+    second: Lamp.015
+  - first:
+      1: 100246
+    second: oil pan
+  - first:
+      1: 100248
+    second: piston 1
+  - first:
+      1: 100250
+    second: piston 2
+  - first:
+      1: 100252
+    second: piston 3
+  - first:
+      1: 100254
+    second: piston 4
+  - first:
+      1: 100256
+    second: rod piston 4
+  - first:
+      1: 100258
+    second: rod piston 4.001
+  - first:
+      1: 100260
+    second: rod piston 4.002
+  - first:
+      1: 100262
+    second: rod piston 4.003
+  - first:
+      1: 100264
+    second: valve cover
+  - first:
+      4: 400000
+    second: air_filter
+  - first:
+      4: 400002
+    second: block
+  - first:
+      4: 400004
+    second: cam_cyl1_exh1
+  - first:
+      4: 400006
+    second: cam_cyl1_exh2
+  - first:
+      4: 400008
+    second: cam_cyl1_int1
+  - first:
+      4: 400010
+    second: cam_cyl1_int2
+  - first:
+      4: 400012
+    second: cam_cyl2_exh1
+  - first:
+      4: 400014
+    second: cam_cyl2_int1
+  - first:
+      4: 400016
+    second: cam_cyl2_int2
+  - first:
+      4: 400018
+    second: cam_cyl3_exh1
+  - first:
+      4: 400020
+    second: cam_cyl3_exh2
+  - first:
+      4: 400022
+    second: cam_cyl3_int1
+  - first:
+      4: 400024
+    second: cam_cyl3_int2
+  - first:
+      4: 400026
+    second: cam_cyl4_exh1
+  - first:
+      4: 400028
+    second: cam_cyl4_exh2
+  - first:
+      4: 400030
+    second: cam_cyl4_int1
+  - first:
+      4: 400032
+    second: cam_cyl4_int2
+  - first:
+      4: 400034
+    second: cam_cyl_2_exh2
+  - first:
+      4: 400036
+    second: cam_exh
+  - first:
+      4: 400038
+    second: cam_gears_exh
+  - first:
+      4: 400040
+    second: cam_gears_int
+  - first:
+      4: 400042
+    second: cam_int
+  - first:
+      4: 400044
+    second: cam_pulley_exh
+  - first:
+      4: 400046
+    second: cam_pulley_int
+  - first:
+      4: 400048
+    second: crank_1
+  - first:
+      4: 400050
+    second: crank_1_bearing
+  - first:
+      4: 400052
+    second: crank_2
+  - first:
+      4: 400054
+    second: crank_2_bearing
+  - first:
+      4: 400056
+    second: crank_3
+  - first:
+      4: 400058
+    second: crank_3_bearing
+  - first:
+      4: 400060
+    second: crank_4
+  - first:
+      4: 400062
+    second: crank_4_bearing
+  - first:
+      4: 400064
+    second: crank_gears
+  - first:
+      4: 400066
+    second: crank_pulley
+  - first:
+      4: 400068
+    second: cyl1_exh_vlv2
+  - first:
+      4: 400070
+    second: cyl1_int_vlv1
+  - first:
+      4: 400072
+    second: cyl1_int_vlv2
+  - first:
+      4: 400074
+    second: cyl1_vlv_exh1
+  - first:
+      4: 400076
+    second: cyl2_exh_vlv1
+  - first:
+      4: 400078
+    second: cyl2_exh_vlv2
+  - first:
+      4: 400080
+    second: cyl2_int_vlv1
+  - first:
+      4: 400082
+    second: cyl2_int_vlv2
+  - first:
+      4: 400084
+    second: cyl3_exh_vlv1
+  - first:
+      4: 400086
+    second: cyl3_exh_vlv2
+  - first:
+      4: 400088
+    second: cyl3_int_vlv1
+  - first:
+      4: 400090
+    second: cyl3_int_vlv2
+  - first:
+      4: 400092
+    second: cyl4_exh_vlv1
+  - first:
+      4: 400094
+    second: cyl4_exh_vlv2
+  - first:
+      4: 400096
+    second: cyl4_int_vlv1
+  - first:
+      4: 400098
+    second: cyl4_int_vlv2
+  - first:
+      4: 400100
+    second: exhaust
+  - first:
+      4: 400102
+    second: Font
+  - first:
+      4: 400104
+    second: head
+  - first:
+      4: 400106
+    second: intake
+  - first:
+      4: 400108
+    second: oil_pan
+  - first:
+      4: 400110
+    second: piston_1
+  - first:
+      4: 400112
+    second: piston_2
+  - first:
+      4: 400114
+    second: piston_3
+  - first:
+      4: 400116
+    second: piston_4
+  - first:
+      4: 400118
+    second: //RootNode
+  - first:
+      4: 400120
+    second: rod_piston_4
+  - first:
+      4: 400122
+    second: rod_piston_4_001
+  - first:
+      4: 400124
+    second: rod_piston_4_002
+  - first:
+      4: 400126
+    second: rod_piston_4_003
+  - first:
+      4: 400128
+    second: valve_cover
+  - first:
+      4: 400130
+    second: air filter
+  - first:
+      4: 400132
+    second: cam cyl 2 exh2
+  - first:
+      4: 400134
+    second: cam cyl1 exh1
+  - first:
+      4: 400136
+    second: cam cyl1 exh2
+  - first:
+      4: 400138
+    second: cam cyl1 int1
+  - first:
+      4: 400140
+    second: cam cyl1 int2
+  - first:
+      4: 400142
+    second: cam cyl2 exh1
+  - first:
+      4: 400144
+    second: cam cyl2 int1
+  - first:
+      4: 400146
+    second: cam cyl2 int2
+  - first:
+      4: 400148
+    second: cam cyl3 exh1
+  - first:
+      4: 400150
+    second: cam cyl3 exh2
+  - first:
+      4: 400152
+    second: cam cyl3 int1
+  - first:
+      4: 400154
+    second: cam cyl3 int2
+  - first:
+      4: 400156
+    second: cam cyl4 exh1
+  - first:
+      4: 400158
+    second: cam cyl4 exh2
+  - first:
+      4: 400160
+    second: cam cyl4 int1
+  - first:
+      4: 400162
+    second: cam cyl4 int2
+  - first:
+      4: 400164
+    second: cam exh
+  - first:
+      4: 400166
+    second: cam gears exh
+  - first:
+      4: 400168
+    second: cam gears int
+  - first:
+      4: 400170
+    second: cam int
+  - first:
+      4: 400172
+    second: cam pulley exh
+  - first:
+      4: 400174
+    second: cam pulley int
+  - first:
+      4: 400176
+    second: Camera.001
+  - first:
+      4: 400178
+    second: crank 1
+  - first:
+      4: 400180
+    second: crank 1 bearing
+  - first:
+      4: 400182
+    second: crank 2
+  - first:
+      4: 400184
+    second: crank 2 bearing
+  - first:
+      4: 400186
+    second: crank 3
+  - first:
+      4: 400188
+    second: crank 3 bearing
+  - first:
+      4: 400190
+    second: crank 4
+  - first:
+      4: 400192
+    second: crank 4 bearing
+  - first:
+      4: 400194
+    second: crank gears
+  - first:
+      4: 400196
+    second: crank pulley
+  - first:
+      4: 400198
+    second: cyl1 exh vlv2
+  - first:
+      4: 400200
+    second: cyl1 int vlv1
+  - first:
+      4: 400202
+    second: cyl1 int vlv2
+  - first:
+      4: 400204
+    second: cyl1 vlv exh1
+  - first:
+      4: 400206
+    second: cyl2 exh vlv1
+  - first:
+      4: 400208
+    second: cyl2 exh vlv2
+  - first:
+      4: 400210
+    second: cyl2 int vlv1
+  - first:
+      4: 400212
+    second: cyl2 int vlv2
+  - first:
+      4: 400214
+    second: cyl3 exh vlv1
+  - first:
+      4: 400216
+    second: cyl3 exh vlv2
+  - first:
+      4: 400218
+    second: cyl3 int vlv1
+  - first:
+      4: 400220
+    second: cyl3 int vlv2
+  - first:
+      4: 400222
+    second: cyl4 exh vlv1
+  - first:
+      4: 400224
+    second: cyl4 exh vlv2
+  - first:
+      4: 400226
+    second: cyl4 int vlv1
+  - first:
+      4: 400228
+    second: cyl4 int vlv2
+  - first:
+      4: 400230
+    second: Lamp.008
+  - first:
+      4: 400232
+    second: Lamp.009
+  - first:
+      4: 400234
+    second: Lamp.010
+  - first:
+      4: 400236
+    second: Lamp.011
+  - first:
+      4: 400238
+    second: Lamp.012
+  - first:
+      4: 400240
+    second: Lamp.013
+  - first:
+      4: 400242
+    second: Lamp.014
+  - first:
+      4: 400244
+    second: Lamp.015
+  - first:
+      4: 400246
+    second: oil pan
+  - first:
+      4: 400248
+    second: piston 1
+  - first:
+      4: 400250
+    second: piston 2
+  - first:
+      4: 400252
+    second: piston 3
+  - first:
+      4: 400254
+    second: piston 4
+  - first:
+      4: 400256
+    second: rod piston 4
+  - first:
+      4: 400258
+    second: rod piston 4.001
+  - first:
+      4: 400260
+    second: rod piston 4.002
+  - first:
+      4: 400262
+    second: rod piston 4.003
+  - first:
+      4: 400264
+    second: valve cover
+  - first:
+      20: 2000000
+    second: Camera.001
+  - first:
+      21: 2100000
+    second: intake
+  - first:
+      21: 2100002
+    second: block_grey
+  - first:
+      21: 2100004
+    second: air_filter
+  - first:
+      21: 2100006
+    second: lettering
+  - first:
+      21: 2100008
+    second: cam_shaft
+  - first:
+      21: 2100010
+    second: cam_crank_gear
+  - first:
+      21: 2100012
+    second: anodized_red
+  - first:
+      21: 2100014
+    second: cam_lobe
+  - first:
+      21: 2100016
+    second: oil_pan
+  - first:
+      21: 2100018
+    second: rod
+  - first:
+      21: 2100020
+    second: valve_grey
+  - first:
+      21: 2100022
+    second: piston
+  - first:
+      21: 2100024
+    second: crank_balance
+  - first:
+      21: 2100026
+    second: block grey
+  - first:
+      21: 2100028
+    second: air filter
+  - first:
+      21: 2100030
+    second: cam shaft
+  - first:
+      21: 2100032
+    second: cam_crank gear
+  - first:
+      21: 2100034
+    second: anodized red
+  - first:
+      21: 2100036
+    second: cam lobe
+  - first:
+      21: 2100038
+    second: oil pan
+  - first:
+      21: 2100040
+    second: valve grey
+  - first:
+      21: 2100042
+    second: crank balance
+  - first:
+      23: 2300000
+    second: air_filter
+  - first:
+      23: 2300002
+    second: block
+  - first:
+      23: 2300004
+    second: cam_cyl1_exh1
+  - first:
+      23: 2300006
+    second: cam_cyl1_exh2
+  - first:
+      23: 2300008
+    second: cam_cyl1_int1
+  - first:
+      23: 2300010
+    second: cam_cyl1_int2
+  - first:
+      23: 2300012
+    second: cam_cyl2_exh1
+  - first:
+      23: 2300014
+    second: cam_cyl2_int1
+  - first:
+      23: 2300016
+    second: cam_cyl2_int2
+  - first:
+      23: 2300018
+    second: cam_cyl3_exh1
+  - first:
+      23: 2300020
+    second: cam_cyl3_exh2
+  - first:
+      23: 2300022
+    second: cam_cyl3_int1
+  - first:
+      23: 2300024
+    second: cam_cyl3_int2
+  - first:
+      23: 2300026
+    second: cam_cyl4_exh1
+  - first:
+      23: 2300028
+    second: cam_cyl4_exh2
+  - first:
+      23: 2300030
+    second: cam_cyl4_int1
+  - first:
+      23: 2300032
+    second: cam_cyl4_int2
+  - first:
+      23: 2300034
+    second: cam_cyl_2_exh2
+  - first:
+      23: 2300036
+    second: cam_exh
+  - first:
+      23: 2300038
+    second: cam_gears_exh
+  - first:
+      23: 2300040
+    second: cam_gears_int
+  - first:
+      23: 2300042
+    second: cam_int
+  - first:
+      23: 2300044
+    second: cam_pulley_exh
+  - first:
+      23: 2300046
+    second: cam_pulley_int
+  - first:
+      23: 2300048
+    second: crank_1
+  - first:
+      23: 2300050
+    second: crank_1_bearing
+  - first:
+      23: 2300052
+    second: crank_2
+  - first:
+      23: 2300054
+    second: crank_2_bearing
+  - first:
+      23: 2300056
+    second: crank_3
+  - first:
+      23: 2300058
+    second: crank_3_bearing
+  - first:
+      23: 2300060
+    second: crank_4
+  - first:
+      23: 2300062
+    second: crank_4_bearing
+  - first:
+      23: 2300064
+    second: crank_gears
+  - first:
+      23: 2300066
+    second: crank_pulley
+  - first:
+      23: 2300068
+    second: cyl1_exh_vlv2
+  - first:
+      23: 2300070
+    second: cyl1_int_vlv1
+  - first:
+      23: 2300072
+    second: cyl1_int_vlv2
+  - first:
+      23: 2300074
+    second: cyl1_vlv_exh1
+  - first:
+      23: 2300076
+    second: cyl2_exh_vlv1
+  - first:
+      23: 2300078
+    second: cyl2_exh_vlv2
+  - first:
+      23: 2300080
+    second: cyl2_int_vlv1
+  - first:
+      23: 2300082
+    second: cyl2_int_vlv2
+  - first:
+      23: 2300084
+    second: cyl3_exh_vlv1
+  - first:
+      23: 2300086
+    second: cyl3_exh_vlv2
+  - first:
+      23: 2300088
+    second: cyl3_int_vlv1
+  - first:
+      23: 2300090
+    second: cyl3_int_vlv2
+  - first:
+      23: 2300092
+    second: cyl4_exh_vlv1
+  - first:
+      23: 2300094
+    second: cyl4_exh_vlv2
+  - first:
+      23: 2300096
+    second: cyl4_int_vlv1
+  - first:
+      23: 2300098
+    second: cyl4_int_vlv2
+  - first:
+      23: 2300100
+    second: exhaust
+  - first:
+      23: 2300102
+    second: Font
+  - first:
+      23: 2300104
+    second: head
+  - first:
+      23: 2300106
+    second: intake
+  - first:
+      23: 2300108
+    second: oil_pan
+  - first:
+      23: 2300110
+    second: piston_1
+  - first:
+      23: 2300112
+    second: piston_2
+  - first:
+      23: 2300114
+    second: piston_3
+  - first:
+      23: 2300116
+    second: piston_4
+  - first:
+      23: 2300118
+    second: rod_piston_4
+  - first:
+      23: 2300120
+    second: rod_piston_4_001
+  - first:
+      23: 2300122
+    second: rod_piston_4_002
+  - first:
+      23: 2300124
+    second: rod_piston_4_003
+  - first:
+      23: 2300126
+    second: valve_cover
+  - first:
+      23: 2300128
+    second: air filter
+  - first:
+      23: 2300130
+    second: cam cyl 2 exh2
+  - first:
+      23: 2300132
+    second: cam cyl1 exh1
+  - first:
+      23: 2300134
+    second: cam cyl1 exh2
+  - first:
+      23: 2300136
+    second: cam cyl1 int1
+  - first:
+      23: 2300138
+    second: cam cyl1 int2
+  - first:
+      23: 2300140
+    second: cam cyl2 exh1
+  - first:
+      23: 2300142
+    second: cam cyl2 int1
+  - first:
+      23: 2300144
+    second: cam cyl2 int2
+  - first:
+      23: 2300146
+    second: cam cyl3 exh1
+  - first:
+      23: 2300148
+    second: cam cyl3 exh2
+  - first:
+      23: 2300150
+    second: cam cyl3 int1
+  - first:
+      23: 2300152
+    second: cam cyl3 int2
+  - first:
+      23: 2300154
+    second: cam cyl4 exh1
+  - first:
+      23: 2300156
+    second: cam cyl4 exh2
+  - first:
+      23: 2300158
+    second: cam cyl4 int1
+  - first:
+      23: 2300160
+    second: cam cyl4 int2
+  - first:
+      23: 2300162
+    second: cam exh
+  - first:
+      23: 2300164
+    second: cam gears exh
+  - first:
+      23: 2300166
+    second: cam gears int
+  - first:
+      23: 2300168
+    second: cam int
+  - first:
+      23: 2300170
+    second: cam pulley exh
+  - first:
+      23: 2300172
+    second: cam pulley int
+  - first:
+      23: 2300174
+    second: crank 1
+  - first:
+      23: 2300176
+    second: crank 1 bearing
+  - first:
+      23: 2300178
+    second: crank 2
+  - first:
+      23: 2300180
+    second: crank 2 bearing
+  - first:
+      23: 2300182
+    second: crank 3
+  - first:
+      23: 2300184
+    second: crank 3 bearing
+  - first:
+      23: 2300186
+    second: crank 4
+  - first:
+      23: 2300188
+    second: crank 4 bearing
+  - first:
+      23: 2300190
+    second: crank gears
+  - first:
+      23: 2300192
+    second: crank pulley
+  - first:
+      23: 2300194
+    second: cyl1 exh vlv2
+  - first:
+      23: 2300196
+    second: cyl1 int vlv1
+  - first:
+      23: 2300198
+    second: cyl1 int vlv2
+  - first:
+      23: 2300200
+    second: cyl1 vlv exh1
+  - first:
+      23: 2300202
+    second: cyl2 exh vlv1
+  - first:
+      23: 2300204
+    second: cyl2 exh vlv2
+  - first:
+      23: 2300206
+    second: cyl2 int vlv1
+  - first:
+      23: 2300208
+    second: cyl2 int vlv2
+  - first:
+      23: 2300210
+    second: cyl3 exh vlv1
+  - first:
+      23: 2300212
+    second: cyl3 exh vlv2
+  - first:
+      23: 2300214
+    second: cyl3 int vlv1
+  - first:
+      23: 2300216
+    second: cyl3 int vlv2
+  - first:
+      23: 2300218
+    second: cyl4 exh vlv1
+  - first:
+      23: 2300220
+    second: cyl4 exh vlv2
+  - first:
+      23: 2300222
+    second: cyl4 int vlv1
+  - first:
+      23: 2300224
+    second: cyl4 int vlv2
+  - first:
+      23: 2300226
+    second: oil pan
+  - first:
+      23: 2300228
+    second: piston 1
+  - first:
+      23: 2300230
+    second: piston 2
+  - first:
+      23: 2300232
+    second: piston 3
+  - first:
+      23: 2300234
+    second: piston 4
+  - first:
+      23: 2300236
+    second: rod piston 4
+  - first:
+      23: 2300238
+    second: rod piston 4.001
+  - first:
+      23: 2300240
+    second: rod piston 4.002
+  - first:
+      23: 2300242
+    second: rod piston 4.003
+  - first:
+      23: 2300244
+    second: valve cover
+  - first:
+      33: 3300000
+    second: air_filter
+  - first:
+      33: 3300002
+    second: block
+  - first:
+      33: 3300004
+    second: cam_cyl1_exh1
+  - first:
+      33: 3300006
+    second: cam_cyl1_exh2
+  - first:
+      33: 3300008
+    second: cam_cyl1_int1
+  - first:
+      33: 3300010
+    second: cam_cyl1_int2
+  - first:
+      33: 3300012
+    second: cam_cyl2_exh1
+  - first:
+      33: 3300014
+    second: cam_cyl2_int1
+  - first:
+      33: 3300016
+    second: cam_cyl2_int2
+  - first:
+      33: 3300018
+    second: cam_cyl3_exh1
+  - first:
+      33: 3300020
+    second: cam_cyl3_exh2
+  - first:
+      33: 3300022
+    second: cam_cyl3_int1
+  - first:
+      33: 3300024
+    second: cam_cyl3_int2
+  - first:
+      33: 3300026
+    second: cam_cyl4_exh1
+  - first:
+      33: 3300028
+    second: cam_cyl4_exh2
+  - first:
+      33: 3300030
+    second: cam_cyl4_int1
+  - first:
+      33: 3300032
+    second: cam_cyl4_int2
+  - first:
+      33: 3300034
+    second: cam_cyl_2_exh2
+  - first:
+      33: 3300036
+    second: cam_exh
+  - first:
+      33: 3300038
+    second: cam_gears_exh
+  - first:
+      33: 3300040
+    second: cam_gears_int
+  - first:
+      33: 3300042
+    second: cam_int
+  - first:
+      33: 3300044
+    second: cam_pulley_exh
+  - first:
+      33: 3300046
+    second: cam_pulley_int
+  - first:
+      33: 3300048
+    second: crank_1
+  - first:
+      33: 3300050
+    second: crank_1_bearing
+  - first:
+      33: 3300052
+    second: crank_2
+  - first:
+      33: 3300054
+    second: crank_2_bearing
+  - first:
+      33: 3300056
+    second: crank_3
+  - first:
+      33: 3300058
+    second: crank_3_bearing
+  - first:
+      33: 3300060
+    second: crank_4
+  - first:
+      33: 3300062
+    second: crank_4_bearing
+  - first:
+      33: 3300064
+    second: crank_gears
+  - first:
+      33: 3300066
+    second: crank_pulley
+  - first:
+      33: 3300068
+    second: cyl1_exh_vlv2
+  - first:
+      33: 3300070
+    second: cyl1_int_vlv1
+  - first:
+      33: 3300072
+    second: cyl1_int_vlv2
+  - first:
+      33: 3300074
+    second: cyl1_vlv_exh1
+  - first:
+      33: 3300076
+    second: cyl2_exh_vlv1
+  - first:
+      33: 3300078
+    second: cyl2_exh_vlv2
+  - first:
+      33: 3300080
+    second: cyl2_int_vlv1
+  - first:
+      33: 3300082
+    second: cyl2_int_vlv2
+  - first:
+      33: 3300084
+    second: cyl3_exh_vlv1
+  - first:
+      33: 3300086
+    second: cyl3_exh_vlv2
+  - first:
+      33: 3300088
+    second: cyl3_int_vlv1
+  - first:
+      33: 3300090
+    second: cyl3_int_vlv2
+  - first:
+      33: 3300092
+    second: cyl4_exh_vlv1
+  - first:
+      33: 3300094
+    second: cyl4_exh_vlv2
+  - first:
+      33: 3300096
+    second: cyl4_int_vlv1
+  - first:
+      33: 3300098
+    second: cyl4_int_vlv2
+  - first:
+      33: 3300100
+    second: exhaust
+  - first:
+      33: 3300102
+    second: Font
+  - first:
+      33: 3300104
+    second: head
+  - first:
+      33: 3300106
+    second: intake
+  - first:
+      33: 3300108
+    second: oil_pan
+  - first:
+      33: 3300110
+    second: piston_1
+  - first:
+      33: 3300112
+    second: piston_2
+  - first:
+      33: 3300114
+    second: piston_3
+  - first:
+      33: 3300116
+    second: piston_4
+  - first:
+      33: 3300118
+    second: rod_piston_4
+  - first:
+      33: 3300120
+    second: rod_piston_4_001
+  - first:
+      33: 3300122
+    second: rod_piston_4_002
+  - first:
+      33: 3300124
+    second: rod_piston_4_003
+  - first:
+      33: 3300126
+    second: valve_cover
+  - first:
+      33: 3300128
+    second: air filter
+  - first:
+      33: 3300130
+    second: cam cyl 2 exh2
+  - first:
+      33: 3300132
+    second: cam cyl1 exh1
+  - first:
+      33: 3300134
+    second: cam cyl1 exh2
+  - first:
+      33: 3300136
+    second: cam cyl1 int1
+  - first:
+      33: 3300138
+    second: cam cyl1 int2
+  - first:
+      33: 3300140
+    second: cam cyl2 exh1
+  - first:
+      33: 3300142
+    second: cam cyl2 int1
+  - first:
+      33: 3300144
+    second: cam cyl2 int2
+  - first:
+      33: 3300146
+    second: cam cyl3 exh1
+  - first:
+      33: 3300148
+    second: cam cyl3 exh2
+  - first:
+      33: 3300150
+    second: cam cyl3 int1
+  - first:
+      33: 3300152
+    second: cam cyl3 int2
+  - first:
+      33: 3300154
+    second: cam cyl4 exh1
+  - first:
+      33: 3300156
+    second: cam cyl4 exh2
+  - first:
+      33: 3300158
+    second: cam cyl4 int1
+  - first:
+      33: 3300160
+    second: cam cyl4 int2
+  - first:
+      33: 3300162
+    second: cam exh
+  - first:
+      33: 3300164
+    second: cam gears exh
+  - first:
+      33: 3300166
+    second: cam gears int
+  - first:
+      33: 3300168
+    second: cam int
+  - first:
+      33: 3300170
+    second: cam pulley exh
+  - first:
+      33: 3300172
+    second: cam pulley int
+  - first:
+      33: 3300174
+    second: crank 1
+  - first:
+      33: 3300176
+    second: crank 1 bearing
+  - first:
+      33: 3300178
+    second: crank 2
+  - first:
+      33: 3300180
+    second: crank 2 bearing
+  - first:
+      33: 3300182
+    second: crank 3
+  - first:
+      33: 3300184
+    second: crank 3 bearing
+  - first:
+      33: 3300186
+    second: crank 4
+  - first:
+      33: 3300188
+    second: crank 4 bearing
+  - first:
+      33: 3300190
+    second: crank gears
+  - first:
+      33: 3300192
+    second: crank pulley
+  - first:
+      33: 3300194
+    second: cyl1 exh vlv2
+  - first:
+      33: 3300196
+    second: cyl1 int vlv1
+  - first:
+      33: 3300198
+    second: cyl1 int vlv2
+  - first:
+      33: 3300200
+    second: cyl1 vlv exh1
+  - first:
+      33: 3300202
+    second: cyl2 exh vlv1
+  - first:
+      33: 3300204
+    second: cyl2 exh vlv2
+  - first:
+      33: 3300206
+    second: cyl2 int vlv1
+  - first:
+      33: 3300208
+    second: cyl2 int vlv2
+  - first:
+      33: 3300210
+    second: cyl3 exh vlv1
+  - first:
+      33: 3300212
+    second: cyl3 exh vlv2
+  - first:
+      33: 3300214
+    second: cyl3 int vlv1
+  - first:
+      33: 3300216
+    second: cyl3 int vlv2
+  - first:
+      33: 3300218
+    second: cyl4 exh vlv1
+  - first:
+      33: 3300220
+    second: cyl4 exh vlv2
+  - first:
+      33: 3300222
+    second: cyl4 int vlv1
+  - first:
+      33: 3300224
+    second: cyl4 int vlv2
+  - first:
+      33: 3300226
+    second: oil pan
+  - first:
+      33: 3300228
+    second: piston 1
+  - first:
+      33: 3300230
+    second: piston 2
+  - first:
+      33: 3300232
+    second: piston 3
+  - first:
+      33: 3300234
+    second: piston 4
+  - first:
+      33: 3300236
+    second: rod piston 4
+  - first:
+      33: 3300238
+    second: rod piston 4.001
+  - first:
+      33: 3300240
+    second: rod piston 4.002
+  - first:
+      33: 3300242
+    second: rod piston 4.003
+  - first:
+      33: 3300244
+    second: valve cover
+  - first:
+      43: 4300000
+    second: valve_cover
+  - first:
+      43: 4300002
+    second: head
+  - first:
+      43: 4300004
+    second: intake
+  - first:
+      43: 4300006
+    second: air_filter
+  - first:
+      43: 4300008
+    second: Font
+  - first:
+      43: 4300010
+    second: cam_int
+  - first:
+      43: 4300012
+    second: cam_gears_exh
+  - first:
+      43: 4300014
+    second: cam_pulley_exh
+  - first:
+      43: 4300016
+    second: cam_cyl3_int2
+  - first:
+      43: 4300018
+    second: cam_cyl2_int1
+  - first:
+      43: 4300020
+    second: cam_cyl1_int2
+  - first:
+      43: 4300022
+    second: cam_cyl1_int1
+  - first:
+      43: 4300024
+    second: cam_cyl3_int1
+  - first:
+      43: 4300026
+    second: cam_cyl4_int1
+  - first:
+      43: 4300028
+    second: cam_cyl2_int2
+  - first:
+      43: 4300030
+    second: cam_cyl4_int2
+  - first:
+      43: 4300032
+    second: cam_exh
+  - first:
+      43: 4300034
+    second: cam_gears_int
+  - first:
+      43: 4300036
+    second: cam_pulley_int
+  - first:
+      43: 4300038
+    second: cam_cyl4_exh2
+  - first:
+      43: 4300040
+    second: cam_cyl3_exh2
+  - first:
+      43: 4300042
+    second: cam_cyl_2_exh2
+  - first:
+      43: 4300044
+    second: cam_cyl4_exh1
+  - first:
+      43: 4300046
+    second: cam_cyl3_exh1
+  - first:
+      43: 4300048
+    second: cam_cyl2_exh1
+  - first:
+      43: 4300050
+    second: cam_cyl1_exh1
+  - first:
+      43: 4300052
+    second: cam_cyl1_exh2
+  - first:
+      43: 4300054
+    second: oil_pan
+  - first:
+      43: 4300056
+    second: block
+  - first:
+      43: 4300058
+    second: rod_piston_4_003
+  - first:
+      43: 4300060
+    second: rod_piston_4_002
+  - first:
+      43: 4300062
+    second: rod_piston_4_001
+  - first:
+      43: 4300064
+    second: crank_gears
+  - first:
+      43: 4300066
+    second: crank_pulley
+  - first:
+      43: 4300068
+    second: cyl4_exh_vlv1
+  - first:
+      43: 4300070
+    second: cyl4_exh_vlv2
+  - first:
+      43: 4300072
+    second: cyl4_int_vlv1
+  - first:
+      43: 4300074
+    second: cyl4_int_vlv2
+  - first:
+      43: 4300076
+    second: cyl1_int_vlv2
+  - first:
+      43: 4300078
+    second: cyl1_int_vlv1
+  - first:
+      43: 4300080
+    second: cyl1_exh_vlv2
+  - first:
+      43: 4300082
+    second: cyl1_vlv_exh1
+  - first:
+      43: 4300084
+    second: cyl2_exh_vlv1
+  - first:
+      43: 4300086
+    second: cyl3_exh_vlv1
+  - first:
+      43: 4300088
+    second: cyl3_exh_vlv2
+  - first:
+      43: 4300090
+    second: cyl2_exh_vlv2
+  - first:
+      43: 4300092
+    second: cyl3_int_vlv2
+  - first:
+      43: 4300094
+    second: cyl2_int_vlv1
+  - first:
+      43: 4300096
+    second: cyl3_int_vlv1
+  - first:
+      43: 4300098
+    second: piston_2
+  - first:
+      43: 4300100
+    second: piston_3
+  - first:
+      43: 4300102
+    second: piston_1
+  - first:
+      43: 4300104
+    second: cyl2_int_vlv2
+  - first:
+      43: 4300106
+    second: crank_1_bearing
+  - first:
+      43: 4300108
+    second: crank_1
+  - first:
+      43: 4300110
+    second: crank_2_bearing
+  - first:
+      43: 4300112
+    second: crank_2
+  - first:
+      43: 4300114
+    second: crank_3
+  - first:
+      43: 4300116
+    second: crank_3_bearing
+  - first:
+      43: 4300118
+    second: crank_4_bearing
+  - first:
+      43: 4300120
+    second: piston_4
+  - first:
+      43: 4300122
+    second: rod_piston_4
+  - first:
+      43: 4300124
+    second: crank_4
+  - first:
+      43: 4300126
+    second: exhaust
+  - first:
+      43: 4300128
+    second: valve cover
+  - first:
+      43: 4300130
+    second: air filter
+  - first:
+      43: 4300132
+    second: cam int
+  - first:
+      43: 4300134
+    second: cam gears exh
+  - first:
+      43: 4300136
+    second: cam pulley exh
+  - first:
+      43: 4300138
+    second: cam cyl3 int2
+  - first:
+      43: 4300140
+    second: cam cyl2 int1
+  - first:
+      43: 4300142
+    second: cam cyl1 int2
+  - first:
+      43: 4300144
+    second: cam cyl1 int1
+  - first:
+      43: 4300146
+    second: cam cyl3 int1
+  - first:
+      43: 4300148
+    second: cam cyl4 int1
+  - first:
+      43: 4300150
+    second: cam cyl2 int2
+  - first:
+      43: 4300152
+    second: cam cyl4 int2
+  - first:
+      43: 4300154
+    second: cam exh
+  - first:
+      43: 4300156
+    second: cam gears int
+  - first:
+      43: 4300158
+    second: cam pulley int
+  - first:
+      43: 4300160
+    second: cam cyl4 exh2
+  - first:
+      43: 4300162
+    second: cam cyl3 exh2
+  - first:
+      43: 4300164
+    second: cam cyl 2 exh2
+  - first:
+      43: 4300166
+    second: cam cyl4 exh1
+  - first:
+      43: 4300168
+    second: cam cyl3 exh1
+  - first:
+      43: 4300170
+    second: cam cyl2 exh1
+  - first:
+      43: 4300172
+    second: cam cyl1 exh1
+  - first:
+      43: 4300174
+    second: cam cyl1 exh2
+  - first:
+      43: 4300176
+    second: oil pan
+  - first:
+      43: 4300178
+    second: rod piston 4.003
+  - first:
+      43: 4300180
+    second: rod piston 4.002
+  - first:
+      43: 4300182
+    second: rod piston 4.001
+  - first:
+      43: 4300184
+    second: crank gears
+  - first:
+      43: 4300186
+    second: crank pulley
+  - first:
+      43: 4300188
+    second: cyl4 exh vlv1
+  - first:
+      43: 4300190
+    second: cyl4 exh vlv2
+  - first:
+      43: 4300192
+    second: cyl4 int vlv1
+  - first:
+      43: 4300194
+    second: cyl4 int vlv2
+  - first:
+      43: 4300196
+    second: cyl1 int vlv2
+  - first:
+      43: 4300198
+    second: cyl1 int vlv1
+  - first:
+      43: 4300200
+    second: cyl1 exh vlv2
+  - first:
+      43: 4300202
+    second: cyl1 vlv exh1
+  - first:
+      43: 4300204
+    second: cyl2 exh vlv1
+  - first:
+      43: 4300206
+    second: cyl3 exh vlv1
+  - first:
+      43: 4300208
+    second: cyl3 exh vlv2
+  - first:
+      43: 4300210
+    second: cyl2 exh vlv2
+  - first:
+      43: 4300212
+    second: cyl3 int vlv2
+  - first:
+      43: 4300214
+    second: cyl2 int vlv1
+  - first:
+      43: 4300216
+    second: cyl3 int vlv1
+  - first:
+      43: 4300218
+    second: piston 2
+  - first:
+      43: 4300220
+    second: piston 3
+  - first:
+      43: 4300222
+    second: piston 1
+  - first:
+      43: 4300224
+    second: cyl2 int vlv2
+  - first:
+      43: 4300226
+    second: crank 1 bearing
+  - first:
+      43: 4300228
+    second: crank 1
+  - first:
+      43: 4300230
+    second: crank 2 bearing
+  - first:
+      43: 4300232
+    second: crank 2
+  - first:
+      43: 4300234
+    second: crank 3
+  - first:
+      43: 4300236
+    second: crank 3 bearing
+  - first:
+      43: 4300238
+    second: crank 4 bearing
+  - first:
+      43: 4300240
+    second: piston 4
+  - first:
+      43: 4300242
+    second: rod piston 4
+  - first:
+      43: 4300244
+    second: crank 4
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      74: 7400002
+    second: rod piston 4.003|CDA:cam cyl1 exh
+  - first:
+      74: 7400004
+    second: rod piston 4.003|CDA:cam cyl1 int
+  - first:
+      74: 7400006
+    second: rod piston 4.003|CDA:cam cyl2 exh
+  - first:
+      74: 7400008
+    second: rod piston 4.003|CDA:cam cyl2 int
+  - first:
+      74: 7400010
+    second: rod piston 4.003|CDA:cam cyl3 exh
+  - first:
+      74: 7400012
+    second: rod piston 4.003|CDA:cam cyl3 int
+  - first:
+      74: 7400014
+    second: rod piston 4.003|CDA:cam cyl4 exh
+  - first:
+      74: 7400016
+    second: rod piston 4.003|CDA:cam cyl4 int
+  - first:
+      74: 7400018
+    second: rod piston 4.003|CDA:cam gear
+  - first:
+      74: 7400020
+    second: rod piston 4.003|CDA:crank 1
+  - first:
+      74: 7400022
+    second: rod piston 4.003|CDA:crank 2
+  - first:
+      74: 7400024
+    second: rod piston 4.003|CDA:crank 3
+  - first:
+      74: 7400026
+    second: rod piston 4.003|CDA:crank 4
+  - first:
+      74: 7400028
+    second: rod piston 4.003|CDA:crank pst 1
+  - first:
+      74: 7400030
+    second: rod piston 4.003|CDA:crank pst 2
+  - first:
+      74: 7400032
+    second: rod piston 4.003|CDA:crank pst 3
+  - first:
+      74: 7400034
+    second: rod piston 4.003|CDA:crank pst 4
+  - first:
+      74: 7400036
+    second: rod piston 4.003|CDA:cyl 1
+  - first:
+      74: 7400038
+    second: rod piston 4.003|CDA:cyl 2
+  - first:
+      74: 7400040
+    second: rod piston 4.003|CDA:cyl 3
+  - first:
+      74: 7400042
+    second: rod piston 4.003|CDA:cyl 4
+  - first:
+      74: 7400044
+    second: rod piston 4.003|CDA:cyl1 vlv exh
+  - first:
+      74: 7400046
+    second: rod piston 4.003|CDA:cyl1 vlv int
+  - first:
+      74: 7400048
+    second: rod piston 4.003|CDA:cyl1 vlv intk
+  - first:
+      74: 7400050
+    second: rod piston 4.003|CDA:cyl2 vlv exh
+  - first:
+      74: 7400052
+    second: rod piston 4.003|CDA:cyl2 vlv int
+  - first:
+      74: 7400054
+    second: rod piston 4.003|CDA:cyl3 vlv exh
+  - first:
+      74: 7400056
+    second: rod piston 4.003|CDA:cyl3 vlv int
+  - first:
+      74: 7400058
+    second: rod piston 4.003|CDA:cyl4 vlv exh
+  - first:
+      74: 7400060
+    second: rod piston 4.003|CDA:main pulley drive
+  - first:
+      74: 7400062
+    second: rod piston 4.003|CDA:rod 1
+  - first:
+      74: 7400064
+    second: rod piston 4.003|CDA:rod 2
+  - first:
+      74: 7400066
+    second: rod piston 4.003|CDA:rod 3
+  - first:
+      74: 7400068
+    second: rod piston 4.003|CDA:rod 4
+  - first:
+      74: 7400070
+    second: rod piston 4.002|CDA:cam cyl1 exh
+  - first:
+      74: 7400072
+    second: rod piston 4.002|CDA:cam cyl1 int
+  - first:
+      74: 7400074
+    second: rod piston 4.002|CDA:cam cyl2 exh
+  - first:
+      74: 7400076
+    second: rod piston 4.002|CDA:cam cyl2 int
+  - first:
+      74: 7400078
+    second: rod piston 4.002|CDA:cam cyl3 exh
+  - first:
+      74: 7400080
+    second: rod piston 4.002|CDA:cam cyl3 int
+  - first:
+      74: 7400082
+    second: rod piston 4.002|CDA:cam cyl4 exh
+  - first:
+      74: 7400084
+    second: rod piston 4.002|CDA:cam cyl4 int
+  - first:
+      74: 7400086
+    second: rod piston 4.002|CDA:cam gear
+  - first:
+      74: 7400088
+    second: rod piston 4.002|CDA:crank 1
+  - first:
+      74: 7400090
+    second: rod piston 4.002|CDA:crank 2
+  - first:
+      74: 7400092
+    second: rod piston 4.002|CDA:crank 3
+  - first:
+      74: 7400094
+    second: rod piston 4.002|CDA:crank 4
+  - first:
+      74: 7400096
+    second: rod piston 4.002|CDA:crank pst 1
+  - first:
+      74: 7400098
+    second: rod piston 4.002|CDA:crank pst 2
+  - first:
+      74: 7400100
+    second: rod piston 4.002|CDA:crank pst 3
+  - first:
+      74: 7400102
+    second: rod piston 4.002|CDA:crank pst 4
+  - first:
+      74: 7400104
+    second: rod piston 4.002|CDA:cyl 1
+  - first:
+      74: 7400106
+    second: rod piston 4.002|CDA:cyl 2
+  - first:
+      74: 7400108
+    second: rod piston 4.002|CDA:cyl 3
+  - first:
+      74: 7400110
+    second: rod piston 4.002|CDA:cyl 4
+  - first:
+      74: 7400112
+    second: rod piston 4.002|CDA:cyl1 vlv exh
+  - first:
+      74: 7400114
+    second: rod piston 4.002|CDA:cyl1 vlv int
+  - first:
+      74: 7400116
+    second: rod piston 4.002|CDA:cyl1 vlv intk
+  - first:
+      74: 7400118
+    second: rod piston 4.002|CDA:cyl2 vlv exh
+  - first:
+      74: 7400120
+    second: rod piston 4.002|CDA:cyl2 vlv int
+  - first:
+      74: 7400122
+    second: rod piston 4.002|CDA:cyl3 vlv exh
+  - first:
+      74: 7400124
+    second: rod piston 4.002|CDA:cyl3 vlv int
+  - first:
+      74: 7400126
+    second: rod piston 4.002|CDA:cyl4 vlv exh
+  - first:
+      74: 7400128
+    second: rod piston 4.002|CDA:main pulley drive
+  - first:
+      74: 7400130
+    second: rod piston 4.002|CDA:rod 1
+  - first:
+      74: 7400132
+    second: rod piston 4.002|CDA:rod 2
+  - first:
+      74: 7400134
+    second: rod piston 4.002|CDA:rod 3
+  - first:
+      74: 7400136
+    second: rod piston 4.002|CDA:rod 4
+  - first:
+      74: 7400138
+    second: rod piston 4.001|CDA:cam cyl1 exh
+  - first:
+      74: 7400140
+    second: rod piston 4.001|CDA:cam cyl1 int
+  - first:
+      74: 7400142
+    second: rod piston 4.001|CDA:cam cyl2 exh
+  - first:
+      74: 7400144
+    second: rod piston 4.001|CDA:cam cyl2 int
+  - first:
+      74: 7400146
+    second: rod piston 4.001|CDA:cam cyl3 exh
+  - first:
+      74: 7400148
+    second: rod piston 4.001|CDA:cam cyl3 int
+  - first:
+      74: 7400150
+    second: rod piston 4.001|CDA:cam cyl4 exh
+  - first:
+      74: 7400152
+    second: rod piston 4.001|CDA:cam cyl4 int
+  - first:
+      74: 7400154
+    second: rod piston 4.001|CDA:cam gear
+  - first:
+      74: 7400156
+    second: rod piston 4.001|CDA:crank 1
+  - first:
+      74: 7400158
+    second: rod piston 4.001|CDA:crank 2
+  - first:
+      74: 7400160
+    second: rod piston 4.001|CDA:crank 3
+  - first:
+      74: 7400162
+    second: rod piston 4.001|CDA:crank 4
+  - first:
+      74: 7400164
+    second: rod piston 4.001|CDA:crank pst 1
+  - first:
+      74: 7400166
+    second: rod piston 4.001|CDA:crank pst 2
+  - first:
+      74: 7400168
+    second: rod piston 4.001|CDA:crank pst 3
+  - first:
+      74: 7400170
+    second: rod piston 4.001|CDA:crank pst 4
+  - first:
+      74: 7400172
+    second: rod piston 4.001|CDA:cyl 1
+  - first:
+      74: 7400174
+    second: rod piston 4.001|CDA:cyl 2
+  - first:
+      74: 7400176
+    second: rod piston 4.001|CDA:cyl 3
+  - first:
+      74: 7400178
+    second: rod piston 4.001|CDA:cyl 4
+  - first:
+      74: 7400180
+    second: rod piston 4.001|CDA:cyl1 vlv exh
+  - first:
+      74: 7400182
+    second: rod piston 4.001|CDA:cyl1 vlv int
+  - first:
+      74: 7400184
+    second: rod piston 4.001|CDA:cyl1 vlv intk
+  - first:
+      74: 7400186
+    second: rod piston 4.001|CDA:cyl2 vlv exh
+  - first:
+      74: 7400188
+    second: rod piston 4.001|CDA:cyl2 vlv int
+  - first:
+      74: 7400190
+    second: rod piston 4.001|CDA:cyl3 vlv exh
+  - first:
+      74: 7400192
+    second: rod piston 4.001|CDA:cyl3 vlv int
+  - first:
+      74: 7400194
+    second: rod piston 4.001|CDA:cyl4 vlv exh
+  - first:
+      74: 7400196
+    second: rod piston 4.001|CDA:main pulley drive
+  - first:
+      74: 7400198
+    second: rod piston 4.001|CDA:rod 1
+  - first:
+      74: 7400200
+    second: rod piston 4.001|CDA:rod 2
+  - first:
+      74: 7400202
+    second: rod piston 4.001|CDA:rod 3
+  - first:
+      74: 7400204
+    second: rod piston 4.001|CDA:rod 4
+  - first:
+      74: 7400206
+    second: crank gears|CDA:cam cyl1 exh
+  - first:
+      74: 7400208
+    second: crank gears|CDA:cam cyl1 int
+  - first:
+      74: 7400210
+    second: crank gears|CDA:cam cyl2 exh
+  - first:
+      74: 7400212
+    second: crank gears|CDA:cam cyl2 int
+  - first:
+      74: 7400214
+    second: crank gears|CDA:cam cyl3 exh
+  - first:
+      74: 7400216
+    second: crank gears|CDA:cam cyl3 int
+  - first:
+      74: 7400218
+    second: crank gears|CDA:cam cyl4 exh
+  - first:
+      74: 7400220
+    second: crank gears|CDA:cam cyl4 int
+  - first:
+      74: 7400222
+    second: crank gears|CDA:cam gear
+  - first:
+      74: 7400224
+    second: crank gears|CDA:crank 1
+  - first:
+      74: 7400226
+    second: crank gears|CDA:crank 2
+  - first:
+      74: 7400228
+    second: crank gears|CDA:crank 3
+  - first:
+      74: 7400230
+    second: crank gears|CDA:crank 4
+  - first:
+      74: 7400232
+    second: crank gears|CDA:crank pst 1
+  - first:
+      74: 7400234
+    second: crank gears|CDA:crank pst 2
+  - first:
+      74: 7400236
+    second: crank gears|CDA:crank pst 3
+  - first:
+      74: 7400238
+    second: crank gears|CDA:crank pst 4
+  - first:
+      74: 7400240
+    second: crank gears|CDA:cyl 1
+  - first:
+      74: 7400242
+    second: crank gears|CDA:cyl 2
+  - first:
+      74: 7400244
+    second: crank gears|CDA:cyl 3
+  - first:
+      74: 7400246
+    second: crank gears|CDA:cyl 4
+  - first:
+      74: 7400248
+    second: crank gears|CDA:cyl1 vlv exh
+  - first:
+      74: 7400250
+    second: crank gears|CDA:cyl1 vlv int
+  - first:
+      74: 7400252
+    second: crank gears|CDA:cyl1 vlv intk
+  - first:
+      74: 7400254
+    second: crank gears|CDA:cyl2 vlv exh
+  - first:
+      74: 7400256
+    second: crank gears|CDA:cyl2 vlv int
+  - first:
+      74: 7400258
+    second: crank gears|CDA:cyl3 vlv exh
+  - first:
+      74: 7400260
+    second: crank gears|CDA:cyl3 vlv int
+  - first:
+      74: 7400262
+    second: crank gears|CDA:cyl4 vlv exh
+  - first:
+      74: 7400264
+    second: crank gears|CDA:main pulley drive
+  - first:
+      74: 7400266
+    second: crank gears|CDA:rod 1
+  - first:
+      74: 7400268
+    second: crank gears|CDA:rod 2
+  - first:
+      74: 7400270
+    second: crank gears|CDA:rod 3
+  - first:
+      74: 7400272
+    second: crank gears|CDA:rod 4
+  - first:
+      74: 7400274
+    second: crank pulley|CDA:cam cyl1 exh
+  - first:
+      74: 7400276
+    second: crank pulley|CDA:cam cyl1 int
+  - first:
+      74: 7400278
+    second: crank pulley|CDA:cam cyl2 exh
+  - first:
+      74: 7400280
+    second: crank pulley|CDA:cam cyl2 int
+  - first:
+      74: 7400282
+    second: crank pulley|CDA:cam cyl3 exh
+  - first:
+      74: 7400284
+    second: crank pulley|CDA:cam cyl3 int
+  - first:
+      74: 7400286
+    second: crank pulley|CDA:cam cyl4 exh
+  - first:
+      74: 7400288
+    second: crank pulley|CDA:cam cyl4 int
+  - first:
+      74: 7400290
+    second: crank pulley|CDA:cam gear
+  - first:
+      74: 7400292
+    second: crank pulley|CDA:crank 1
+  - first:
+      74: 7400294
+    second: crank pulley|CDA:crank 2
+  - first:
+      74: 7400296
+    second: crank pulley|CDA:crank 3
+  - first:
+      74: 7400298
+    second: crank pulley|CDA:crank 4
+  - first:
+      74: 7400300
+    second: crank pulley|CDA:crank pst 1
+  - first:
+      74: 7400302
+    second: crank pulley|CDA:crank pst 2
+  - first:
+      74: 7400304
+    second: crank pulley|CDA:crank pst 3
+  - first:
+      74: 7400306
+    second: crank pulley|CDA:crank pst 4
+  - first:
+      74: 7400308
+    second: crank pulley|CDA:cyl 1
+  - first:
+      74: 7400310
+    second: crank pulley|CDA:cyl 2
+  - first:
+      74: 7400312
+    second: crank pulley|CDA:cyl 3
+  - first:
+      74: 7400314
+    second: crank pulley|CDA:cyl 4
+  - first:
+      74: 7400316
+    second: crank pulley|CDA:cyl1 vlv exh
+  - first:
+      74: 7400318
+    second: crank pulley|CDA:cyl1 vlv int
+  - first:
+      74: 7400320
+    second: crank pulley|CDA:cyl1 vlv intk
+  - first:
+      74: 7400322
+    second: crank pulley|CDA:cyl2 vlv exh
+  - first:
+      74: 7400324
+    second: crank pulley|CDA:cyl2 vlv int
+  - first:
+      74: 7400326
+    second: crank pulley|CDA:cyl3 vlv exh
+  - first:
+      74: 7400328
+    second: crank pulley|CDA:cyl3 vlv int
+  - first:
+      74: 7400330
+    second: crank pulley|CDA:cyl4 vlv exh
+  - first:
+      74: 7400332
+    second: crank pulley|CDA:main pulley drive
+  - first:
+      74: 7400334
+    second: crank pulley|CDA:rod 1
+  - first:
+      74: 7400336
+    second: crank pulley|CDA:rod 2
+  - first:
+      74: 7400338
+    second: crank pulley|CDA:rod 3
+  - first:
+      74: 7400340
+    second: crank pulley|CDA:rod 4
+  - first:
+      74: 7400342
+    second: cyl4 exh vlv1|CDA:cam cyl1 exh
+  - first:
+      74: 7400344
+    second: cyl4 exh vlv1|CDA:cam cyl1 int
+  - first:
+      74: 7400346
+    second: cyl4 exh vlv1|CDA:cam cyl2 exh
+  - first:
+      74: 7400348
+    second: cyl4 exh vlv1|CDA:cam cyl2 int
+  - first:
+      74: 7400350
+    second: cyl4 exh vlv1|CDA:cam cyl3 exh
+  - first:
+      74: 7400352
+    second: cyl4 exh vlv1|CDA:cam cyl3 int
+  - first:
+      74: 7400354
+    second: cyl4 exh vlv1|CDA:cam cyl4 exh
+  - first:
+      74: 7400356
+    second: cyl4 exh vlv1|CDA:cam cyl4 int
+  - first:
+      74: 7400358
+    second: cyl4 exh vlv1|CDA:cam gear
+  - first:
+      74: 7400360
+    second: cyl4 exh vlv1|CDA:crank 1
+  - first:
+      74: 7400362
+    second: cyl4 exh vlv1|CDA:crank 2
+  - first:
+      74: 7400364
+    second: cyl4 exh vlv1|CDA:crank 3
+  - first:
+      74: 7400366
+    second: cyl4 exh vlv1|CDA:crank 4
+  - first:
+      74: 7400368
+    second: cyl4 exh vlv1|CDA:crank pst 1
+  - first:
+      74: 7400370
+    second: cyl4 exh vlv1|CDA:crank pst 2
+  - first:
+      74: 7400372
+    second: cyl4 exh vlv1|CDA:crank pst 3
+  - first:
+      74: 7400374
+    second: cyl4 exh vlv1|CDA:crank pst 4
+  - first:
+      74: 7400376
+    second: cyl4 exh vlv1|CDA:cyl 1
+  - first:
+      74: 7400378
+    second: cyl4 exh vlv1|CDA:cyl 2
+  - first:
+      74: 7400380
+    second: cyl4 exh vlv1|CDA:cyl 3
+  - first:
+      74: 7400382
+    second: cyl4 exh vlv1|CDA:cyl 4
+  - first:
+      74: 7400384
+    second: cyl4 exh vlv1|CDA:cyl1 vlv exh
+  - first:
+      74: 7400386
+    second: cyl4 exh vlv1|CDA:cyl1 vlv int
+  - first:
+      74: 7400388
+    second: cyl4 exh vlv1|CDA:cyl1 vlv intk
+  - first:
+      74: 7400390
+    second: cyl4 exh vlv1|CDA:cyl2 vlv exh
+  - first:
+      74: 7400392
+    second: cyl4 exh vlv1|CDA:cyl2 vlv int
+  - first:
+      74: 7400394
+    second: cyl4 exh vlv1|CDA:cyl3 vlv exh
+  - first:
+      74: 7400396
+    second: cyl4 exh vlv1|CDA:cyl3 vlv int
+  - first:
+      74: 7400398
+    second: cyl4 exh vlv1|CDA:cyl4 vlv exh
+  - first:
+      74: 7400400
+    second: cyl4 exh vlv1|CDA:main pulley drive
+  - first:
+      74: 7400402
+    second: cyl4 exh vlv1|CDA:rod 1
+  - first:
+      74: 7400404
+    second: cyl4 exh vlv1|CDA:rod 2
+  - first:
+      74: 7400406
+    second: cyl4 exh vlv1|CDA:rod 3
+  - first:
+      74: 7400408
+    second: cyl4 exh vlv1|CDA:rod 4
+  - first:
+      74: 7400410
+    second: cyl4 exh vlv2|CDA:cam cyl1 exh
+  - first:
+      74: 7400412
+    second: cyl4 exh vlv2|CDA:cam cyl1 int
+  - first:
+      74: 7400414
+    second: cyl4 exh vlv2|CDA:cam cyl2 exh
+  - first:
+      74: 7400416
+    second: cyl4 exh vlv2|CDA:cam cyl2 int
+  - first:
+      74: 7400418
+    second: cyl4 exh vlv2|CDA:cam cyl3 exh
+  - first:
+      74: 7400420
+    second: cyl4 exh vlv2|CDA:cam cyl3 int
+  - first:
+      74: 7400422
+    second: cyl4 exh vlv2|CDA:cam cyl4 exh
+  - first:
+      74: 7400424
+    second: cyl4 exh vlv2|CDA:cam cyl4 int
+  - first:
+      74: 7400426
+    second: cyl4 exh vlv2|CDA:cam gear
+  - first:
+      74: 7400428
+    second: cyl4 exh vlv2|CDA:crank 1
+  - first:
+      74: 7400430
+    second: cyl4 exh vlv2|CDA:crank 2
+  - first:
+      74: 7400432
+    second: cyl4 exh vlv2|CDA:crank 3
+  - first:
+      74: 7400434
+    second: cyl4 exh vlv2|CDA:crank 4
+  - first:
+      74: 7400436
+    second: cyl4 exh vlv2|CDA:crank pst 1
+  - first:
+      74: 7400438
+    second: cyl4 exh vlv2|CDA:crank pst 2
+  - first:
+      74: 7400440
+    second: cyl4 exh vlv2|CDA:crank pst 3
+  - first:
+      74: 7400442
+    second: cyl4 exh vlv2|CDA:crank pst 4
+  - first:
+      74: 7400444
+    second: cyl4 exh vlv2|CDA:cyl 1
+  - first:
+      74: 7400446
+    second: cyl4 exh vlv2|CDA:cyl 2
+  - first:
+      74: 7400448
+    second: cyl4 exh vlv2|CDA:cyl 3
+  - first:
+      74: 7400450
+    second: cyl4 exh vlv2|CDA:cyl 4
+  - first:
+      74: 7400452
+    second: cyl4 exh vlv2|CDA:cyl1 vlv exh
+  - first:
+      74: 7400454
+    second: cyl4 exh vlv2|CDA:cyl1 vlv int
+  - first:
+      74: 7400456
+    second: cyl4 exh vlv2|CDA:cyl1 vlv intk
+  - first:
+      74: 7400458
+    second: cyl4 exh vlv2|CDA:cyl2 vlv exh
+  - first:
+      74: 7400460
+    second: cyl4 exh vlv2|CDA:cyl2 vlv int
+  - first:
+      74: 7400462
+    second: cyl4 exh vlv2|CDA:cyl3 vlv exh
+  - first:
+      74: 7400464
+    second: cyl4 exh vlv2|CDA:cyl3 vlv int
+  - first:
+      74: 7400466
+    second: cyl4 exh vlv2|CDA:cyl4 vlv exh
+  - first:
+      74: 7400468
+    second: cyl4 exh vlv2|CDA:main pulley drive
+  - first:
+      74: 7400470
+    second: cyl4 exh vlv2|CDA:rod 1
+  - first:
+      74: 7400472
+    second: cyl4 exh vlv2|CDA:rod 2
+  - first:
+      74: 7400474
+    second: cyl4 exh vlv2|CDA:rod 3
+  - first:
+      74: 7400476
+    second: cyl4 exh vlv2|CDA:rod 4
+  - first:
+      74: 7400478
+    second: cyl4 int vlv1|CDA:cam cyl1 exh
+  - first:
+      74: 7400480
+    second: cyl4 int vlv1|CDA:cam cyl1 int
+  - first:
+      74: 7400482
+    second: cyl4 int vlv1|CDA:cam cyl2 exh
+  - first:
+      74: 7400484
+    second: cyl4 int vlv1|CDA:cam cyl2 int
+  - first:
+      74: 7400486
+    second: cyl4 int vlv1|CDA:cam cyl3 exh
+  - first:
+      74: 7400488
+    second: cyl4 int vlv1|CDA:cam cyl3 int
+  - first:
+      74: 7400490
+    second: cyl4 int vlv1|CDA:cam cyl4 exh
+  - first:
+      74: 7400492
+    second: cyl4 int vlv1|CDA:cam cyl4 int
+  - first:
+      74: 7400494
+    second: cyl4 int vlv1|CDA:cam gear
+  - first:
+      74: 7400496
+    second: cyl4 int vlv1|CDA:crank 1
+  - first:
+      74: 7400498
+    second: cyl4 int vlv1|CDA:crank 2
+  - first:
+      74: 7400500
+    second: cyl4 int vlv1|CDA:crank 3
+  - first:
+      74: 7400502
+    second: cyl4 int vlv1|CDA:crank 4
+  - first:
+      74: 7400504
+    second: cyl4 int vlv1|CDA:crank pst 1
+  - first:
+      74: 7400506
+    second: cyl4 int vlv1|CDA:crank pst 2
+  - first:
+      74: 7400508
+    second: cyl4 int vlv1|CDA:crank pst 3
+  - first:
+      74: 7400510
+    second: cyl4 int vlv1|CDA:crank pst 4
+  - first:
+      74: 7400512
+    second: cyl4 int vlv1|CDA:cyl 1
+  - first:
+      74: 7400514
+    second: cyl4 int vlv1|CDA:cyl 2
+  - first:
+      74: 7400516
+    second: cyl4 int vlv1|CDA:cyl 3
+  - first:
+      74: 7400518
+    second: cyl4 int vlv1|CDA:cyl 4
+  - first:
+      74: 7400520
+    second: cyl4 int vlv1|CDA:cyl1 vlv exh
+  - first:
+      74: 7400522
+    second: cyl4 int vlv1|CDA:cyl1 vlv int
+  - first:
+      74: 7400524
+    second: cyl4 int vlv1|CDA:cyl1 vlv intk
+  - first:
+      74: 7400526
+    second: cyl4 int vlv1|CDA:cyl2 vlv exh
+  - first:
+      74: 7400528
+    second: cyl4 int vlv1|CDA:cyl2 vlv int
+  - first:
+      74: 7400530
+    second: cyl4 int vlv1|CDA:cyl3 vlv exh
+  - first:
+      74: 7400532
+    second: cyl4 int vlv1|CDA:cyl3 vlv int
+  - first:
+      74: 7400534
+    second: cyl4 int vlv1|CDA:cyl4 vlv exh
+  - first:
+      74: 7400536
+    second: cyl4 int vlv1|CDA:main pulley drive
+  - first:
+      74: 7400538
+    second: cyl4 int vlv1|CDA:rod 1
+  - first:
+      74: 7400540
+    second: cyl4 int vlv1|CDA:rod 2
+  - first:
+      74: 7400542
+    second: cyl4 int vlv1|CDA:rod 3
+  - first:
+      74: 7400544
+    second: cyl4 int vlv1|CDA:rod 4
+  - first:
+      74: 7400546
+    second: cyl4 int vlv2|CDA:cam cyl1 exh
+  - first:
+      74: 7400548
+    second: cyl4 int vlv2|CDA:cam cyl1 int
+  - first:
+      74: 7400550
+    second: cyl4 int vlv2|CDA:cam cyl2 exh
+  - first:
+      74: 7400552
+    second: cyl4 int vlv2|CDA:cam cyl2 int
+  - first:
+      74: 7400554
+    second: cyl4 int vlv2|CDA:cam cyl3 exh
+  - first:
+      74: 7400556
+    second: cyl4 int vlv2|CDA:cam cyl3 int
+  - first:
+      74: 7400558
+    second: cyl4 int vlv2|CDA:cam cyl4 exh
+  - first:
+      74: 7400560
+    second: cyl4 int vlv2|CDA:cam cyl4 int
+  - first:
+      74: 7400562
+    second: cyl4 int vlv2|CDA:cam gear
+  - first:
+      74: 7400564
+    second: cyl4 int vlv2|CDA:crank 1
+  - first:
+      74: 7400566
+    second: cyl4 int vlv2|CDA:crank 2
+  - first:
+      74: 7400568
+    second: cyl4 int vlv2|CDA:crank 3
+  - first:
+      74: 7400570
+    second: cyl4 int vlv2|CDA:crank 4
+  - first:
+      74: 7400572
+    second: cyl4 int vlv2|CDA:crank pst 1
+  - first:
+      74: 7400574
+    second: cyl4 int vlv2|CDA:crank pst 2
+  - first:
+      74: 7400576
+    second: cyl4 int vlv2|CDA:crank pst 3
+  - first:
+      74: 7400578
+    second: cyl4 int vlv2|CDA:crank pst 4
+  - first:
+      74: 7400580
+    second: cyl4 int vlv2|CDA:cyl 1
+  - first:
+      74: 7400582
+    second: cyl4 int vlv2|CDA:cyl 2
+  - first:
+      74: 7400584
+    second: cyl4 int vlv2|CDA:cyl 3
+  - first:
+      74: 7400586
+    second: cyl4 int vlv2|CDA:cyl 4
+  - first:
+      74: 7400588
+    second: cyl4 int vlv2|CDA:cyl1 vlv exh
+  - first:
+      74: 7400590
+    second: cyl4 int vlv2|CDA:cyl1 vlv int
+  - first:
+      74: 7400592
+    second: cyl4 int vlv2|CDA:cyl1 vlv intk
+  - first:
+      74: 7400594
+    second: cyl4 int vlv2|CDA:cyl2 vlv exh
+  - first:
+      74: 7400596
+    second: cyl4 int vlv2|CDA:cyl2 vlv int
+  - first:
+      74: 7400598
+    second: cyl4 int vlv2|CDA:cyl3 vlv exh
+  - first:
+      74: 7400600
+    second: cyl4 int vlv2|CDA:cyl3 vlv int
+  - first:
+      74: 7400602
+    second: cyl4 int vlv2|CDA:cyl4 vlv exh
+  - first:
+      74: 7400604
+    second: cyl4 int vlv2|CDA:main pulley drive
+  - first:
+      74: 7400606
+    second: cyl4 int vlv2|CDA:rod 1
+  - first:
+      74: 7400608
+    second: cyl4 int vlv2|CDA:rod 2
+  - first:
+      74: 7400610
+    second: cyl4 int vlv2|CDA:rod 3
+  - first:
+      74: 7400612
+    second: cyl4 int vlv2|CDA:rod 4
+  - first:
+      74: 7400614
+    second: cyl1 int vlv2|CDA:cam cyl1 exh
+  - first:
+      74: 7400616
+    second: cyl1 int vlv2|CDA:cam cyl1 int
+  - first:
+      74: 7400618
+    second: cyl1 int vlv2|CDA:cam cyl2 exh
+  - first:
+      74: 7400620
+    second: cyl1 int vlv2|CDA:cam cyl2 int
+  - first:
+      74: 7400622
+    second: cyl1 int vlv2|CDA:cam cyl3 exh
+  - first:
+      74: 7400624
+    second: cyl1 int vlv2|CDA:cam cyl3 int
+  - first:
+      74: 7400626
+    second: cyl1 int vlv2|CDA:cam cyl4 exh
+  - first:
+      74: 7400628
+    second: cyl1 int vlv2|CDA:cam cyl4 int
+  - first:
+      74: 7400630
+    second: cyl1 int vlv2|CDA:cam gear
+  - first:
+      74: 7400632
+    second: cyl1 int vlv2|CDA:crank 1
+  - first:
+      74: 7400634
+    second: cyl1 int vlv2|CDA:crank 2
+  - first:
+      74: 7400636
+    second: cyl1 int vlv2|CDA:crank 3
+  - first:
+      74: 7400638
+    second: cyl1 int vlv2|CDA:crank 4
+  - first:
+      74: 7400640
+    second: cyl1 int vlv2|CDA:crank pst 1
+  - first:
+      74: 7400642
+    second: cyl1 int vlv2|CDA:crank pst 2
+  - first:
+      74: 7400644
+    second: cyl1 int vlv2|CDA:crank pst 3
+  - first:
+      74: 7400646
+    second: cyl1 int vlv2|CDA:crank pst 4
+  - first:
+      74: 7400648
+    second: cyl1 int vlv2|CDA:cyl 1
+  - first:
+      74: 7400650
+    second: cyl1 int vlv2|CDA:cyl 2
+  - first:
+      74: 7400652
+    second: cyl1 int vlv2|CDA:cyl 3
+  - first:
+      74: 7400654
+    second: cyl1 int vlv2|CDA:cyl 4
+  - first:
+      74: 7400656
+    second: cyl1 int vlv2|CDA:cyl1 vlv exh
+  - first:
+      74: 7400658
+    second: cyl1 int vlv2|CDA:cyl1 vlv int
+  - first:
+      74: 7400660
+    second: cyl1 int vlv2|CDA:cyl1 vlv intk
+  - first:
+      74: 7400662
+    second: cyl1 int vlv2|CDA:cyl2 vlv exh
+  - first:
+      74: 7400664
+    second: cyl1 int vlv2|CDA:cyl2 vlv int
+  - first:
+      74: 7400666
+    second: cyl1 int vlv2|CDA:cyl3 vlv exh
+  - first:
+      74: 7400668
+    second: cyl1 int vlv2|CDA:cyl3 vlv int
+  - first:
+      74: 7400670
+    second: cyl1 int vlv2|CDA:cyl4 vlv exh
+  - first:
+      74: 7400672
+    second: cyl1 int vlv2|CDA:main pulley drive
+  - first:
+      74: 7400674
+    second: cyl1 int vlv2|CDA:rod 1
+  - first:
+      74: 7400676
+    second: cyl1 int vlv2|CDA:rod 2
+  - first:
+      74: 7400678
+    second: cyl1 int vlv2|CDA:rod 3
+  - first:
+      74: 7400680
+    second: cyl1 int vlv2|CDA:rod 4
+  - first:
+      74: 7400682
+    second: cyl1 int vlv1|CDA:cam cyl1 exh
+  - first:
+      74: 7400684
+    second: cyl1 int vlv1|CDA:cam cyl1 int
+  - first:
+      74: 7400686
+    second: cyl1 int vlv1|CDA:cam cyl2 exh
+  - first:
+      74: 7400688
+    second: cyl1 int vlv1|CDA:cam cyl2 int
+  - first:
+      74: 7400690
+    second: cyl1 int vlv1|CDA:cam cyl3 exh
+  - first:
+      74: 7400692
+    second: cyl1 int vlv1|CDA:cam cyl3 int
+  - first:
+      74: 7400694
+    second: cyl1 int vlv1|CDA:cam cyl4 exh
+  - first:
+      74: 7400696
+    second: cyl1 int vlv1|CDA:cam cyl4 int
+  - first:
+      74: 7400698
+    second: cyl1 int vlv1|CDA:cam gear
+  - first:
+      74: 7400700
+    second: cyl1 int vlv1|CDA:crank 1
+  - first:
+      74: 7400702
+    second: cyl1 int vlv1|CDA:crank 2
+  - first:
+      74: 7400704
+    second: cyl1 int vlv1|CDA:crank 3
+  - first:
+      74: 7400706
+    second: cyl1 int vlv1|CDA:crank 4
+  - first:
+      74: 7400708
+    second: cyl1 int vlv1|CDA:crank pst 1
+  - first:
+      74: 7400710
+    second: cyl1 int vlv1|CDA:crank pst 2
+  - first:
+      74: 7400712
+    second: cyl1 int vlv1|CDA:crank pst 3
+  - first:
+      74: 7400714
+    second: cyl1 int vlv1|CDA:crank pst 4
+  - first:
+      74: 7400716
+    second: cyl1 int vlv1|CDA:cyl 1
+  - first:
+      74: 7400718
+    second: cyl1 int vlv1|CDA:cyl 2
+  - first:
+      74: 7400720
+    second: cyl1 int vlv1|CDA:cyl 3
+  - first:
+      74: 7400722
+    second: cyl1 int vlv1|CDA:cyl 4
+  - first:
+      74: 7400724
+    second: cyl1 int vlv1|CDA:cyl1 vlv exh
+  - first:
+      74: 7400726
+    second: cyl1 int vlv1|CDA:cyl1 vlv int
+  - first:
+      74: 7400728
+    second: cyl1 int vlv1|CDA:cyl1 vlv intk
+  - first:
+      74: 7400730
+    second: cyl1 int vlv1|CDA:cyl2 vlv exh
+  - first:
+      74: 7400732
+    second: cyl1 int vlv1|CDA:cyl2 vlv int
+  - first:
+      74: 7400734
+    second: cyl1 int vlv1|CDA:cyl3 vlv exh
+  - first:
+      74: 7400736
+    second: cyl1 int vlv1|CDA:cyl3 vlv int
+  - first:
+      74: 7400738
+    second: cyl1 int vlv1|CDA:cyl4 vlv exh
+  - first:
+      74: 7400740
+    second: cyl1 int vlv1|CDA:main pulley drive
+  - first:
+      74: 7400742
+    second: cyl1 int vlv1|CDA:rod 1
+  - first:
+      74: 7400744
+    second: cyl1 int vlv1|CDA:rod 2
+  - first:
+      74: 7400746
+    second: cyl1 int vlv1|CDA:rod 3
+  - first:
+      74: 7400748
+    second: cyl1 int vlv1|CDA:rod 4
+  - first:
+      74: 7400750
+    second: cyl1 exh vlv2|CDA:cam cyl1 exh
+  - first:
+      74: 7400752
+    second: cyl1 exh vlv2|CDA:cam cyl1 int
+  - first:
+      74: 7400754
+    second: cyl1 exh vlv2|CDA:cam cyl2 exh
+  - first:
+      74: 7400756
+    second: cyl1 exh vlv2|CDA:cam cyl2 int
+  - first:
+      74: 7400758
+    second: cyl1 exh vlv2|CDA:cam cyl3 exh
+  - first:
+      74: 7400760
+    second: cyl1 exh vlv2|CDA:cam cyl3 int
+  - first:
+      74: 7400762
+    second: cyl1 exh vlv2|CDA:cam cyl4 exh
+  - first:
+      74: 7400764
+    second: cyl1 exh vlv2|CDA:cam cyl4 int
+  - first:
+      74: 7400766
+    second: cyl1 exh vlv2|CDA:cam gear
+  - first:
+      74: 7400768
+    second: cyl1 exh vlv2|CDA:crank 1
+  - first:
+      74: 7400770
+    second: cyl1 exh vlv2|CDA:crank 2
+  - first:
+      74: 7400772
+    second: cyl1 exh vlv2|CDA:crank 3
+  - first:
+      74: 7400774
+    second: cyl1 exh vlv2|CDA:crank 4
+  - first:
+      74: 7400776
+    second: cyl1 exh vlv2|CDA:crank pst 1
+  - first:
+      74: 7400778
+    second: cyl1 exh vlv2|CDA:crank pst 2
+  - first:
+      74: 7400780
+    second: cyl1 exh vlv2|CDA:crank pst 3
+  - first:
+      74: 7400782
+    second: cyl1 exh vlv2|CDA:crank pst 4
+  - first:
+      74: 7400784
+    second: cyl1 exh vlv2|CDA:cyl 1
+  - first:
+      74: 7400786
+    second: cyl1 exh vlv2|CDA:cyl 2
+  - first:
+      74: 7400788
+    second: cyl1 exh vlv2|CDA:cyl 3
+  - first:
+      74: 7400790
+    second: cyl1 exh vlv2|CDA:cyl 4
+  - first:
+      74: 7400792
+    second: cyl1 exh vlv2|CDA:cyl1 vlv exh
+  - first:
+      74: 7400794
+    second: cyl1 exh vlv2|CDA:cyl1 vlv int
+  - first:
+      74: 7400796
+    second: cyl1 exh vlv2|CDA:cyl1 vlv intk
+  - first:
+      74: 7400798
+    second: cyl1 exh vlv2|CDA:cyl2 vlv exh
+  - first:
+      74: 7400800
+    second: cyl1 exh vlv2|CDA:cyl2 vlv int
+  - first:
+      74: 7400802
+    second: cyl1 exh vlv2|CDA:cyl3 vlv exh
+  - first:
+      74: 7400804
+    second: cyl1 exh vlv2|CDA:cyl3 vlv int
+  - first:
+      74: 7400806
+    second: cyl1 exh vlv2|CDA:cyl4 vlv exh
+  - first:
+      74: 7400808
+    second: cyl1 exh vlv2|CDA:main pulley drive
+  - first:
+      74: 7400810
+    second: cyl1 exh vlv2|CDA:rod 1
+  - first:
+      74: 7400812
+    second: cyl1 exh vlv2|CDA:rod 2
+  - first:
+      74: 7400814
+    second: cyl1 exh vlv2|CDA:rod 3
+  - first:
+      74: 7400816
+    second: cyl1 exh vlv2|CDA:rod 4
+  - first:
+      74: 7400818
+    second: cyl1 vlv exh1|CDA:cam cyl1 exh
+  - first:
+      74: 7400820
+    second: cyl1 vlv exh1|CDA:cam cyl1 int
+  - first:
+      74: 7400822
+    second: cyl1 vlv exh1|CDA:cam cyl2 exh
+  - first:
+      74: 7400824
+    second: cyl1 vlv exh1|CDA:cam cyl2 int
+  - first:
+      74: 7400826
+    second: cyl1 vlv exh1|CDA:cam cyl3 exh
+  - first:
+      74: 7400828
+    second: cyl1 vlv exh1|CDA:cam cyl3 int
+  - first:
+      74: 7400830
+    second: cyl1 vlv exh1|CDA:cam cyl4 exh
+  - first:
+      74: 7400832
+    second: cyl1 vlv exh1|CDA:cam cyl4 int
+  - first:
+      74: 7400834
+    second: cyl1 vlv exh1|CDA:cam gear
+  - first:
+      74: 7400836
+    second: cyl1 vlv exh1|CDA:crank 1
+  - first:
+      74: 7400838
+    second: cyl1 vlv exh1|CDA:crank 2
+  - first:
+      74: 7400840
+    second: cyl1 vlv exh1|CDA:crank 3
+  - first:
+      74: 7400842
+    second: cyl1 vlv exh1|CDA:crank 4
+  - first:
+      74: 7400844
+    second: cyl1 vlv exh1|CDA:crank pst 1
+  - first:
+      74: 7400846
+    second: cyl1 vlv exh1|CDA:crank pst 2
+  - first:
+      74: 7400848
+    second: cyl1 vlv exh1|CDA:crank pst 3
+  - first:
+      74: 7400850
+    second: cyl1 vlv exh1|CDA:crank pst 4
+  - first:
+      74: 7400852
+    second: cyl1 vlv exh1|CDA:cyl 1
+  - first:
+      74: 7400854
+    second: cyl1 vlv exh1|CDA:cyl 2
+  - first:
+      74: 7400856
+    second: cyl1 vlv exh1|CDA:cyl 3
+  - first:
+      74: 7400858
+    second: cyl1 vlv exh1|CDA:cyl 4
+  - first:
+      74: 7400860
+    second: cyl1 vlv exh1|CDA:cyl1 vlv exh
+  - first:
+      74: 7400862
+    second: cyl1 vlv exh1|CDA:cyl1 vlv int
+  - first:
+      74: 7400864
+    second: cyl1 vlv exh1|CDA:cyl1 vlv intk
+  - first:
+      74: 7400866
+    second: cyl1 vlv exh1|CDA:cyl2 vlv exh
+  - first:
+      74: 7400868
+    second: cyl1 vlv exh1|CDA:cyl2 vlv int
+  - first:
+      74: 7400870
+    second: cyl1 vlv exh1|CDA:cyl3 vlv exh
+  - first:
+      74: 7400872
+    second: cyl1 vlv exh1|CDA:cyl3 vlv int
+  - first:
+      74: 7400874
+    second: cyl1 vlv exh1|CDA:cyl4 vlv exh
+  - first:
+      74: 7400876
+    second: cyl1 vlv exh1|CDA:main pulley drive
+  - first:
+      74: 7400878
+    second: cyl1 vlv exh1|CDA:rod 1
+  - first:
+      74: 7400880
+    second: cyl1 vlv exh1|CDA:rod 2
+  - first:
+      74: 7400882
+    second: cyl1 vlv exh1|CDA:rod 3
+  - first:
+      74: 7400884
+    second: cyl1 vlv exh1|CDA:rod 4
+  - first:
+      74: 7400886
+    second: cyl2 exh vlv1|CDA:cam cyl1 exh
+  - first:
+      74: 7400888
+    second: cyl2 exh vlv1|CDA:cam cyl1 int
+  - first:
+      74: 7400890
+    second: cyl2 exh vlv1|CDA:cam cyl2 exh
+  - first:
+      74: 7400892
+    second: cyl2 exh vlv1|CDA:cam cyl2 int
+  - first:
+      74: 7400894
+    second: cyl2 exh vlv1|CDA:cam cyl3 exh
+  - first:
+      74: 7400896
+    second: cyl2 exh vlv1|CDA:cam cyl3 int
+  - first:
+      74: 7400898
+    second: cyl2 exh vlv1|CDA:cam cyl4 exh
+  - first:
+      74: 7400900
+    second: cyl2 exh vlv1|CDA:cam cyl4 int
+  - first:
+      74: 7400902
+    second: cyl2 exh vlv1|CDA:cam gear
+  - first:
+      74: 7400904
+    second: cyl2 exh vlv1|CDA:crank 1
+  - first:
+      74: 7400906
+    second: cyl2 exh vlv1|CDA:crank 2
+  - first:
+      74: 7400908
+    second: cyl2 exh vlv1|CDA:crank 3
+  - first:
+      74: 7400910
+    second: cyl2 exh vlv1|CDA:crank 4
+  - first:
+      74: 7400912
+    second: cyl2 exh vlv1|CDA:crank pst 1
+  - first:
+      74: 7400914
+    second: cyl2 exh vlv1|CDA:crank pst 2
+  - first:
+      74: 7400916
+    second: cyl2 exh vlv1|CDA:crank pst 3
+  - first:
+      74: 7400918
+    second: cyl2 exh vlv1|CDA:crank pst 4
+  - first:
+      74: 7400920
+    second: cyl2 exh vlv1|CDA:cyl 1
+  - first:
+      74: 7400922
+    second: cyl2 exh vlv1|CDA:cyl 2
+  - first:
+      74: 7400924
+    second: cyl2 exh vlv1|CDA:cyl 3
+  - first:
+      74: 7400926
+    second: cyl2 exh vlv1|CDA:cyl 4
+  - first:
+      74: 7400928
+    second: cyl2 exh vlv1|CDA:cyl1 vlv exh
+  - first:
+      74: 7400930
+    second: cyl2 exh vlv1|CDA:cyl1 vlv int
+  - first:
+      74: 7400932
+    second: cyl2 exh vlv1|CDA:cyl1 vlv intk
+  - first:
+      74: 7400934
+    second: cyl2 exh vlv1|CDA:cyl2 vlv exh
+  - first:
+      74: 7400936
+    second: cyl2 exh vlv1|CDA:cyl2 vlv int
+  - first:
+      74: 7400938
+    second: cyl2 exh vlv1|CDA:cyl3 vlv exh
+  - first:
+      74: 7400940
+    second: cyl2 exh vlv1|CDA:cyl3 vlv int
+  - first:
+      74: 7400942
+    second: cyl2 exh vlv1|CDA:cyl4 vlv exh
+  - first:
+      74: 7400944
+    second: cyl2 exh vlv1|CDA:main pulley drive
+  - first:
+      74: 7400946
+    second: cyl2 exh vlv1|CDA:rod 1
+  - first:
+      74: 7400948
+    second: cyl2 exh vlv1|CDA:rod 2
+  - first:
+      74: 7400950
+    second: cyl2 exh vlv1|CDA:rod 3
+  - first:
+      74: 7400952
+    second: cyl2 exh vlv1|CDA:rod 4
+  - first:
+      74: 7400954
+    second: cyl3 exh vlv1|CDA:cam cyl1 exh
+  - first:
+      74: 7400956
+    second: cyl3 exh vlv1|CDA:cam cyl1 int
+  - first:
+      74: 7400958
+    second: cyl3 exh vlv1|CDA:cam cyl2 exh
+  - first:
+      74: 7400960
+    second: cyl3 exh vlv1|CDA:cam cyl2 int
+  - first:
+      74: 7400962
+    second: cyl3 exh vlv1|CDA:cam cyl3 exh
+  - first:
+      74: 7400964
+    second: cyl3 exh vlv1|CDA:cam cyl3 int
+  - first:
+      74: 7400966
+    second: cyl3 exh vlv1|CDA:cam cyl4 exh
+  - first:
+      74: 7400968
+    second: cyl3 exh vlv1|CDA:cam cyl4 int
+  - first:
+      74: 7400970
+    second: cyl3 exh vlv1|CDA:cam gear
+  - first:
+      74: 7400972
+    second: cyl3 exh vlv1|CDA:crank 1
+  - first:
+      74: 7400974
+    second: cyl3 exh vlv1|CDA:crank 2
+  - first:
+      74: 7400976
+    second: cyl3 exh vlv1|CDA:crank 3
+  - first:
+      74: 7400978
+    second: cyl3 exh vlv1|CDA:crank 4
+  - first:
+      74: 7400980
+    second: cyl3 exh vlv1|CDA:crank pst 1
+  - first:
+      74: 7400982
+    second: cyl3 exh vlv1|CDA:crank pst 2
+  - first:
+      74: 7400984
+    second: cyl3 exh vlv1|CDA:crank pst 3
+  - first:
+      74: 7400986
+    second: cyl3 exh vlv1|CDA:crank pst 4
+  - first:
+      74: 7400988
+    second: cyl3 exh vlv1|CDA:cyl 1
+  - first:
+      74: 7400990
+    second: cyl3 exh vlv1|CDA:cyl 2
+  - first:
+      74: 7400992
+    second: cyl3 exh vlv1|CDA:cyl 3
+  - first:
+      74: 7400994
+    second: cyl3 exh vlv1|CDA:cyl 4
+  - first:
+      74: 7400996
+    second: cyl3 exh vlv1|CDA:cyl1 vlv exh
+  - first:
+      74: 7400998
+    second: cyl3 exh vlv1|CDA:cyl1 vlv int
+  - first:
+      74: 7401000
+    second: cyl3 exh vlv1|CDA:cyl1 vlv intk
+  - first:
+      74: 7401002
+    second: cyl3 exh vlv1|CDA:cyl2 vlv exh
+  - first:
+      74: 7401004
+    second: cyl3 exh vlv1|CDA:cyl2 vlv int
+  - first:
+      74: 7401006
+    second: cyl3 exh vlv1|CDA:cyl3 vlv exh
+  - first:
+      74: 7401008
+    second: cyl3 exh vlv1|CDA:cyl3 vlv int
+  - first:
+      74: 7401010
+    second: cyl3 exh vlv1|CDA:cyl4 vlv exh
+  - first:
+      74: 7401012
+    second: cyl3 exh vlv1|CDA:main pulley drive
+  - first:
+      74: 7401014
+    second: cyl3 exh vlv1|CDA:rod 1
+  - first:
+      74: 7401016
+    second: cyl3 exh vlv1|CDA:rod 2
+  - first:
+      74: 7401018
+    second: cyl3 exh vlv1|CDA:rod 3
+  - first:
+      74: 7401020
+    second: cyl3 exh vlv1|CDA:rod 4
+  - first:
+      74: 7401022
+    second: cyl3 exh vlv2|CDA:cam cyl1 exh
+  - first:
+      74: 7401024
+    second: cyl3 exh vlv2|CDA:cam cyl1 int
+  - first:
+      74: 7401026
+    second: cyl3 exh vlv2|CDA:cam cyl2 exh
+  - first:
+      74: 7401028
+    second: cyl3 exh vlv2|CDA:cam cyl2 int
+  - first:
+      74: 7401030
+    second: cyl3 exh vlv2|CDA:cam cyl3 exh
+  - first:
+      74: 7401032
+    second: cyl3 exh vlv2|CDA:cam cyl3 int
+  - first:
+      74: 7401034
+    second: cyl3 exh vlv2|CDA:cam cyl4 exh
+  - first:
+      74: 7401036
+    second: cyl3 exh vlv2|CDA:cam cyl4 int
+  - first:
+      74: 7401038
+    second: cyl3 exh vlv2|CDA:cam gear
+  - first:
+      74: 7401040
+    second: cyl3 exh vlv2|CDA:crank 1
+  - first:
+      74: 7401042
+    second: cyl3 exh vlv2|CDA:crank 2
+  - first:
+      74: 7401044
+    second: cyl3 exh vlv2|CDA:crank 3
+  - first:
+      74: 7401046
+    second: cyl3 exh vlv2|CDA:crank 4
+  - first:
+      74: 7401048
+    second: cyl3 exh vlv2|CDA:crank pst 1
+  - first:
+      74: 7401050
+    second: cyl3 exh vlv2|CDA:crank pst 2
+  - first:
+      74: 7401052
+    second: cyl3 exh vlv2|CDA:crank pst 3
+  - first:
+      74: 7401054
+    second: cyl3 exh vlv2|CDA:crank pst 4
+  - first:
+      74: 7401056
+    second: cyl3 exh vlv2|CDA:cyl 1
+  - first:
+      74: 7401058
+    second: cyl3 exh vlv2|CDA:cyl 2
+  - first:
+      74: 7401060
+    second: cyl3 exh vlv2|CDA:cyl 3
+  - first:
+      74: 7401062
+    second: cyl3 exh vlv2|CDA:cyl 4
+  - first:
+      74: 7401064
+    second: cyl3 exh vlv2|CDA:cyl1 vlv exh
+  - first:
+      74: 7401066
+    second: cyl3 exh vlv2|CDA:cyl1 vlv int
+  - first:
+      74: 7401068
+    second: cyl3 exh vlv2|CDA:cyl1 vlv intk
+  - first:
+      74: 7401070
+    second: cyl3 exh vlv2|CDA:cyl2 vlv exh
+  - first:
+      74: 7401072
+    second: cyl3 exh vlv2|CDA:cyl2 vlv int
+  - first:
+      74: 7401074
+    second: cyl3 exh vlv2|CDA:cyl3 vlv exh
+  - first:
+      74: 7401076
+    second: cyl3 exh vlv2|CDA:cyl3 vlv int
+  - first:
+      74: 7401078
+    second: cyl3 exh vlv2|CDA:cyl4 vlv exh
+  - first:
+      74: 7401080
+    second: cyl3 exh vlv2|CDA:main pulley drive
+  - first:
+      74: 7401082
+    second: cyl3 exh vlv2|CDA:rod 1
+  - first:
+      74: 7401084
+    second: cyl3 exh vlv2|CDA:rod 2
+  - first:
+      74: 7401086
+    second: cyl3 exh vlv2|CDA:rod 3
+  - first:
+      74: 7401088
+    second: cyl3 exh vlv2|CDA:rod 4
+  - first:
+      74: 7401090
+    second: cyl2 exh vlv2|CDA:cam cyl1 exh
+  - first:
+      74: 7401092
+    second: cyl2 exh vlv2|CDA:cam cyl1 int
+  - first:
+      74: 7401094
+    second: cyl2 exh vlv2|CDA:cam cyl2 exh
+  - first:
+      74: 7401096
+    second: cyl2 exh vlv2|CDA:cam cyl2 int
+  - first:
+      74: 7401098
+    second: cyl2 exh vlv2|CDA:cam cyl3 exh
+  - first:
+      74: 7401100
+    second: cyl2 exh vlv2|CDA:cam cyl3 int
+  - first:
+      74: 7401102
+    second: cyl2 exh vlv2|CDA:cam cyl4 exh
+  - first:
+      74: 7401104
+    second: cyl2 exh vlv2|CDA:cam cyl4 int
+  - first:
+      74: 7401106
+    second: cyl2 exh vlv2|CDA:cam gear
+  - first:
+      74: 7401108
+    second: cyl2 exh vlv2|CDA:crank 1
+  - first:
+      74: 7401110
+    second: cyl2 exh vlv2|CDA:crank 2
+  - first:
+      74: 7401112
+    second: cyl2 exh vlv2|CDA:crank 3
+  - first:
+      74: 7401114
+    second: cyl2 exh vlv2|CDA:crank 4
+  - first:
+      74: 7401116
+    second: cyl2 exh vlv2|CDA:crank pst 1
+  - first:
+      74: 7401118
+    second: cyl2 exh vlv2|CDA:crank pst 2
+  - first:
+      74: 7401120
+    second: cyl2 exh vlv2|CDA:crank pst 3
+  - first:
+      74: 7401122
+    second: cyl2 exh vlv2|CDA:crank pst 4
+  - first:
+      74: 7401124
+    second: cyl2 exh vlv2|CDA:cyl 1
+  - first:
+      74: 7401126
+    second: cyl2 exh vlv2|CDA:cyl 2
+  - first:
+      74: 7401128
+    second: cyl2 exh vlv2|CDA:cyl 3
+  - first:
+      74: 7401130
+    second: cyl2 exh vlv2|CDA:cyl 4
+  - first:
+      74: 7401132
+    second: cyl2 exh vlv2|CDA:cyl1 vlv exh
+  - first:
+      74: 7401134
+    second: cyl2 exh vlv2|CDA:cyl1 vlv int
+  - first:
+      74: 7401136
+    second: cyl2 exh vlv2|CDA:cyl1 vlv intk
+  - first:
+      74: 7401138
+    second: cyl2 exh vlv2|CDA:cyl2 vlv exh
+  - first:
+      74: 7401140
+    second: cyl2 exh vlv2|CDA:cyl2 vlv int
+  - first:
+      74: 7401142
+    second: cyl2 exh vlv2|CDA:cyl3 vlv exh
+  - first:
+      74: 7401144
+    second: cyl2 exh vlv2|CDA:cyl3 vlv int
+  - first:
+      74: 7401146
+    second: cyl2 exh vlv2|CDA:cyl4 vlv exh
+  - first:
+      74: 7401148
+    second: cyl2 exh vlv2|CDA:main pulley drive
+  - first:
+      74: 7401150
+    second: cyl2 exh vlv2|CDA:rod 1
+  - first:
+      74: 7401152
+    second: cyl2 exh vlv2|CDA:rod 2
+  - first:
+      74: 7401154
+    second: cyl2 exh vlv2|CDA:rod 3
+  - first:
+      74: 7401156
+    second: cyl2 exh vlv2|CDA:rod 4
+  - first:
+      74: 7401158
+    second: cyl3 int vlv2|CDA:cam cyl1 exh
+  - first:
+      74: 7401160
+    second: cyl3 int vlv2|CDA:cam cyl1 int
+  - first:
+      74: 7401162
+    second: cyl3 int vlv2|CDA:cam cyl2 exh
+  - first:
+      74: 7401164
+    second: cyl3 int vlv2|CDA:cam cyl2 int
+  - first:
+      74: 7401166
+    second: cyl3 int vlv2|CDA:cam cyl3 exh
+  - first:
+      74: 7401168
+    second: cyl3 int vlv2|CDA:cam cyl3 int
+  - first:
+      74: 7401170
+    second: cyl3 int vlv2|CDA:cam cyl4 exh
+  - first:
+      74: 7401172
+    second: cyl3 int vlv2|CDA:cam cyl4 int
+  - first:
+      74: 7401174
+    second: cyl3 int vlv2|CDA:cam gear
+  - first:
+      74: 7401176
+    second: cyl3 int vlv2|CDA:crank 1
+  - first:
+      74: 7401178
+    second: cyl3 int vlv2|CDA:crank 2
+  - first:
+      74: 7401180
+    second: cyl3 int vlv2|CDA:crank 3
+  - first:
+      74: 7401182
+    second: cyl3 int vlv2|CDA:crank 4
+  - first:
+      74: 7401184
+    second: cyl3 int vlv2|CDA:crank pst 1
+  - first:
+      74: 7401186
+    second: cyl3 int vlv2|CDA:crank pst 2
+  - first:
+      74: 7401188
+    second: cyl3 int vlv2|CDA:crank pst 3
+  - first:
+      74: 7401190
+    second: cyl3 int vlv2|CDA:crank pst 4
+  - first:
+      74: 7401192
+    second: cyl3 int vlv2|CDA:cyl 1
+  - first:
+      74: 7401194
+    second: cyl3 int vlv2|CDA:cyl 2
+  - first:
+      74: 7401196
+    second: cyl3 int vlv2|CDA:cyl 3
+  - first:
+      74: 7401198
+    second: cyl3 int vlv2|CDA:cyl 4
+  - first:
+      74: 7401200
+    second: cyl3 int vlv2|CDA:cyl1 vlv exh
+  - first:
+      74: 7401202
+    second: cyl3 int vlv2|CDA:cyl1 vlv int
+  - first:
+      74: 7401204
+    second: cyl3 int vlv2|CDA:cyl1 vlv intk
+  - first:
+      74: 7401206
+    second: cyl3 int vlv2|CDA:cyl2 vlv exh
+  - first:
+      74: 7401208
+    second: cyl3 int vlv2|CDA:cyl2 vlv int
+  - first:
+      74: 7401210
+    second: cyl3 int vlv2|CDA:cyl3 vlv exh
+  - first:
+      74: 7401212
+    second: cyl3 int vlv2|CDA:cyl3 vlv int
+  - first:
+      74: 7401214
+    second: cyl3 int vlv2|CDA:cyl4 vlv exh
+  - first:
+      74: 7401216
+    second: cyl3 int vlv2|CDA:main pulley drive
+  - first:
+      74: 7401218
+    second: cyl3 int vlv2|CDA:rod 1
+  - first:
+      74: 7401220
+    second: cyl3 int vlv2|CDA:rod 2
+  - first:
+      74: 7401222
+    second: cyl3 int vlv2|CDA:rod 3
+  - first:
+      74: 7401224
+    second: cyl3 int vlv2|CDA:rod 4
+  - first:
+      74: 7401226
+    second: cyl2 int vlv1|CDA:cam cyl1 exh
+  - first:
+      74: 7401228
+    second: cyl2 int vlv1|CDA:cam cyl1 int
+  - first:
+      74: 7401230
+    second: cyl2 int vlv1|CDA:cam cyl2 exh
+  - first:
+      74: 7401232
+    second: cyl2 int vlv1|CDA:cam cyl2 int
+  - first:
+      74: 7401234
+    second: cyl2 int vlv1|CDA:cam cyl3 exh
+  - first:
+      74: 7401236
+    second: cyl2 int vlv1|CDA:cam cyl3 int
+  - first:
+      74: 7401238
+    second: cyl2 int vlv1|CDA:cam cyl4 exh
+  - first:
+      74: 7401240
+    second: cyl2 int vlv1|CDA:cam cyl4 int
+  - first:
+      74: 7401242
+    second: cyl2 int vlv1|CDA:cam gear
+  - first:
+      74: 7401244
+    second: cyl2 int vlv1|CDA:crank 1
+  - first:
+      74: 7401246
+    second: cyl2 int vlv1|CDA:crank 2
+  - first:
+      74: 7401248
+    second: cyl2 int vlv1|CDA:crank 3
+  - first:
+      74: 7401250
+    second: cyl2 int vlv1|CDA:crank 4
+  - first:
+      74: 7401252
+    second: cyl2 int vlv1|CDA:crank pst 1
+  - first:
+      74: 7401254
+    second: cyl2 int vlv1|CDA:crank pst 2
+  - first:
+      74: 7401256
+    second: cyl2 int vlv1|CDA:crank pst 3
+  - first:
+      74: 7401258
+    second: cyl2 int vlv1|CDA:crank pst 4
+  - first:
+      74: 7401260
+    second: cyl2 int vlv1|CDA:cyl 1
+  - first:
+      74: 7401262
+    second: cyl2 int vlv1|CDA:cyl 2
+  - first:
+      74: 7401264
+    second: cyl2 int vlv1|CDA:cyl 3
+  - first:
+      74: 7401266
+    second: cyl2 int vlv1|CDA:cyl 4
+  - first:
+      74: 7401268
+    second: cyl2 int vlv1|CDA:cyl1 vlv exh
+  - first:
+      74: 7401270
+    second: cyl2 int vlv1|CDA:cyl1 vlv int
+  - first:
+      74: 7401272
+    second: cyl2 int vlv1|CDA:cyl1 vlv intk
+  - first:
+      74: 7401274
+    second: cyl2 int vlv1|CDA:cyl2 vlv exh
+  - first:
+      74: 7401276
+    second: cyl2 int vlv1|CDA:cyl2 vlv int
+  - first:
+      74: 7401278
+    second: cyl2 int vlv1|CDA:cyl3 vlv exh
+  - first:
+      74: 7401280
+    second: cyl2 int vlv1|CDA:cyl3 vlv int
+  - first:
+      74: 7401282
+    second: cyl2 int vlv1|CDA:cyl4 vlv exh
+  - first:
+      74: 7401284
+    second: cyl2 int vlv1|CDA:main pulley drive
+  - first:
+      74: 7401286
+    second: cyl2 int vlv1|CDA:rod 1
+  - first:
+      74: 7401288
+    second: cyl2 int vlv1|CDA:rod 2
+  - first:
+      74: 7401290
+    second: cyl2 int vlv1|CDA:rod 3
+  - first:
+      74: 7401292
+    second: cyl2 int vlv1|CDA:rod 4
+  - first:
+      74: 7401294
+    second: cyl3 int vlv1|CDA:cam cyl1 exh
+  - first:
+      74: 7401296
+    second: cyl3 int vlv1|CDA:cam cyl1 int
+  - first:
+      74: 7401298
+    second: cyl3 int vlv1|CDA:cam cyl2 exh
+  - first:
+      74: 7401300
+    second: cyl3 int vlv1|CDA:cam cyl2 int
+  - first:
+      74: 7401302
+    second: cyl3 int vlv1|CDA:cam cyl3 exh
+  - first:
+      74: 7401304
+    second: cyl3 int vlv1|CDA:cam cyl3 int
+  - first:
+      74: 7401306
+    second: cyl3 int vlv1|CDA:cam cyl4 exh
+  - first:
+      74: 7401308
+    second: cyl3 int vlv1|CDA:cam cyl4 int
+  - first:
+      74: 7401310
+    second: cyl3 int vlv1|CDA:cam gear
+  - first:
+      74: 7401312
+    second: cyl3 int vlv1|CDA:crank 1
+  - first:
+      74: 7401314
+    second: cyl3 int vlv1|CDA:crank 2
+  - first:
+      74: 7401316
+    second: cyl3 int vlv1|CDA:crank 3
+  - first:
+      74: 7401318
+    second: cyl3 int vlv1|CDA:crank 4
+  - first:
+      74: 7401320
+    second: cyl3 int vlv1|CDA:crank pst 1
+  - first:
+      74: 7401322
+    second: cyl3 int vlv1|CDA:crank pst 2
+  - first:
+      74: 7401324
+    second: cyl3 int vlv1|CDA:crank pst 3
+  - first:
+      74: 7401326
+    second: cyl3 int vlv1|CDA:crank pst 4
+  - first:
+      74: 7401328
+    second: cyl3 int vlv1|CDA:cyl 1
+  - first:
+      74: 7401330
+    second: cyl3 int vlv1|CDA:cyl 2
+  - first:
+      74: 7401332
+    second: cyl3 int vlv1|CDA:cyl 3
+  - first:
+      74: 7401334
+    second: cyl3 int vlv1|CDA:cyl 4
+  - first:
+      74: 7401336
+    second: cyl3 int vlv1|CDA:cyl1 vlv exh
+  - first:
+      74: 7401338
+    second: cyl3 int vlv1|CDA:cyl1 vlv int
+  - first:
+      74: 7401340
+    second: cyl3 int vlv1|CDA:cyl1 vlv intk
+  - first:
+      74: 7401342
+    second: cyl3 int vlv1|CDA:cyl2 vlv exh
+  - first:
+      74: 7401344
+    second: cyl3 int vlv1|CDA:cyl2 vlv int
+  - first:
+      74: 7401346
+    second: cyl3 int vlv1|CDA:cyl3 vlv exh
+  - first:
+      74: 7401348
+    second: cyl3 int vlv1|CDA:cyl3 vlv int
+  - first:
+      74: 7401350
+    second: cyl3 int vlv1|CDA:cyl4 vlv exh
+  - first:
+      74: 7401352
+    second: cyl3 int vlv1|CDA:main pulley drive
+  - first:
+      74: 7401354
+    second: cyl3 int vlv1|CDA:rod 1
+  - first:
+      74: 7401356
+    second: cyl3 int vlv1|CDA:rod 2
+  - first:
+      74: 7401358
+    second: cyl3 int vlv1|CDA:rod 3
+  - first:
+      74: 7401360
+    second: cyl3 int vlv1|CDA:rod 4
+  - first:
+      74: 7401362
+    second: piston 2|CDA:cam cyl1 exh
+  - first:
+      74: 7401364
+    second: piston 2|CDA:cam cyl1 int
+  - first:
+      74: 7401366
+    second: piston 2|CDA:cam cyl2 exh
+  - first:
+      74: 7401368
+    second: piston 2|CDA:cam cyl2 int
+  - first:
+      74: 7401370
+    second: piston 2|CDA:cam cyl3 exh
+  - first:
+      74: 7401372
+    second: piston 2|CDA:cam cyl3 int
+  - first:
+      74: 7401374
+    second: piston 2|CDA:cam cyl4 exh
+  - first:
+      74: 7401376
+    second: piston 2|CDA:cam cyl4 int
+  - first:
+      74: 7401378
+    second: piston 2|CDA:cam gear
+  - first:
+      74: 7401380
+    second: piston 2|CDA:crank 1
+  - first:
+      74: 7401382
+    second: piston 2|CDA:crank 2
+  - first:
+      74: 7401384
+    second: piston 2|CDA:crank 3
+  - first:
+      74: 7401386
+    second: piston 2|CDA:crank 4
+  - first:
+      74: 7401388
+    second: piston 2|CDA:crank pst 1
+  - first:
+      74: 7401390
+    second: piston 2|CDA:crank pst 2
+  - first:
+      74: 7401392
+    second: piston 2|CDA:crank pst 3
+  - first:
+      74: 7401394
+    second: piston 2|CDA:crank pst 4
+  - first:
+      74: 7401396
+    second: piston 2|CDA:cyl 1
+  - first:
+      74: 7401398
+    second: piston 2|CDA:cyl 2
+  - first:
+      74: 7401400
+    second: piston 2|CDA:cyl 3
+  - first:
+      74: 7401402
+    second: piston 2|CDA:cyl 4
+  - first:
+      74: 7401404
+    second: piston 2|CDA:cyl1 vlv exh
+  - first:
+      74: 7401406
+    second: piston 2|CDA:cyl1 vlv int
+  - first:
+      74: 7401408
+    second: piston 2|CDA:cyl1 vlv intk
+  - first:
+      74: 7401410
+    second: piston 2|CDA:cyl2 vlv exh
+  - first:
+      74: 7401412
+    second: piston 2|CDA:cyl2 vlv int
+  - first:
+      74: 7401414
+    second: piston 2|CDA:cyl3 vlv exh
+  - first:
+      74: 7401416
+    second: piston 2|CDA:cyl3 vlv int
+  - first:
+      74: 7401418
+    second: piston 2|CDA:cyl4 vlv exh
+  - first:
+      74: 7401420
+    second: piston 2|CDA:main pulley drive
+  - first:
+      74: 7401422
+    second: piston 2|CDA:rod 1
+  - first:
+      74: 7401424
+    second: piston 2|CDA:rod 2
+  - first:
+      74: 7401426
+    second: piston 2|CDA:rod 3
+  - first:
+      74: 7401428
+    second: piston 2|CDA:rod 4
+  - first:
+      74: 7401430
+    second: piston 3|CDA:cam cyl1 exh
+  - first:
+      74: 7401432
+    second: piston 3|CDA:cam cyl1 int
+  - first:
+      74: 7401434
+    second: piston 3|CDA:cam cyl2 exh
+  - first:
+      74: 7401436
+    second: piston 3|CDA:cam cyl2 int
+  - first:
+      74: 7401438
+    second: piston 3|CDA:cam cyl3 exh
+  - first:
+      74: 7401440
+    second: piston 3|CDA:cam cyl3 int
+  - first:
+      74: 7401442
+    second: piston 3|CDA:cam cyl4 exh
+  - first:
+      74: 7401444
+    second: piston 3|CDA:cam cyl4 int
+  - first:
+      74: 7401446
+    second: piston 3|CDA:cam gear
+  - first:
+      74: 7401448
+    second: piston 3|CDA:crank 1
+  - first:
+      74: 7401450
+    second: piston 3|CDA:crank 2
+  - first:
+      74: 7401452
+    second: piston 3|CDA:crank 3
+  - first:
+      74: 7401454
+    second: piston 3|CDA:crank 4
+  - first:
+      74: 7401456
+    second: piston 3|CDA:crank pst 1
+  - first:
+      74: 7401458
+    second: piston 3|CDA:crank pst 2
+  - first:
+      74: 7401460
+    second: piston 3|CDA:crank pst 3
+  - first:
+      74: 7401462
+    second: piston 3|CDA:crank pst 4
+  - first:
+      74: 7401464
+    second: piston 3|CDA:cyl 1
+  - first:
+      74: 7401466
+    second: piston 3|CDA:cyl 2
+  - first:
+      74: 7401468
+    second: piston 3|CDA:cyl 3
+  - first:
+      74: 7401470
+    second: piston 3|CDA:cyl 4
+  - first:
+      74: 7401472
+    second: piston 3|CDA:cyl1 vlv exh
+  - first:
+      74: 7401474
+    second: piston 3|CDA:cyl1 vlv int
+  - first:
+      74: 7401476
+    second: piston 3|CDA:cyl1 vlv intk
+  - first:
+      74: 7401478
+    second: piston 3|CDA:cyl2 vlv exh
+  - first:
+      74: 7401480
+    second: piston 3|CDA:cyl2 vlv int
+  - first:
+      74: 7401482
+    second: piston 3|CDA:cyl3 vlv exh
+  - first:
+      74: 7401484
+    second: piston 3|CDA:cyl3 vlv int
+  - first:
+      74: 7401486
+    second: piston 3|CDA:cyl4 vlv exh
+  - first:
+      74: 7401488
+    second: piston 3|CDA:main pulley drive
+  - first:
+      74: 7401490
+    second: piston 3|CDA:rod 1
+  - first:
+      74: 7401492
+    second: piston 3|CDA:rod 2
+  - first:
+      74: 7401494
+    second: piston 3|CDA:rod 3
+  - first:
+      74: 7401496
+    second: piston 3|CDA:rod 4
+  - first:
+      74: 7401498
+    second: piston 1|CDA:cam cyl1 exh
+  - first:
+      74: 7401500
+    second: piston 1|CDA:cam cyl1 int
+  - first:
+      74: 7401502
+    second: piston 1|CDA:cam cyl2 exh
+  - first:
+      74: 7401504
+    second: piston 1|CDA:cam cyl2 int
+  - first:
+      74: 7401506
+    second: piston 1|CDA:cam cyl3 exh
+  - first:
+      74: 7401508
+    second: piston 1|CDA:cam cyl3 int
+  - first:
+      74: 7401510
+    second: piston 1|CDA:cam cyl4 exh
+  - first:
+      74: 7401512
+    second: piston 1|CDA:cam cyl4 int
+  - first:
+      74: 7401514
+    second: piston 1|CDA:cam gear
+  - first:
+      74: 7401516
+    second: piston 1|CDA:crank 1
+  - first:
+      74: 7401518
+    second: piston 1|CDA:crank 2
+  - first:
+      74: 7401520
+    second: piston 1|CDA:crank 3
+  - first:
+      74: 7401522
+    second: piston 1|CDA:crank 4
+  - first:
+      74: 7401524
+    second: piston 1|CDA:crank pst 1
+  - first:
+      74: 7401526
+    second: piston 1|CDA:crank pst 2
+  - first:
+      74: 7401528
+    second: piston 1|CDA:crank pst 3
+  - first:
+      74: 7401530
+    second: piston 1|CDA:crank pst 4
+  - first:
+      74: 7401532
+    second: piston 1|CDA:cyl 1
+  - first:
+      74: 7401534
+    second: piston 1|CDA:cyl 2
+  - first:
+      74: 7401536
+    second: piston 1|CDA:cyl 3
+  - first:
+      74: 7401538
+    second: piston 1|CDA:cyl 4
+  - first:
+      74: 7401540
+    second: piston 1|CDA:cyl1 vlv exh
+  - first:
+      74: 7401542
+    second: piston 1|CDA:cyl1 vlv int
+  - first:
+      74: 7401544
+    second: piston 1|CDA:cyl1 vlv intk
+  - first:
+      74: 7401546
+    second: piston 1|CDA:cyl2 vlv exh
+  - first:
+      74: 7401548
+    second: piston 1|CDA:cyl2 vlv int
+  - first:
+      74: 7401550
+    second: piston 1|CDA:cyl3 vlv exh
+  - first:
+      74: 7401552
+    second: piston 1|CDA:cyl3 vlv int
+  - first:
+      74: 7401554
+    second: piston 1|CDA:cyl4 vlv exh
+  - first:
+      74: 7401556
+    second: piston 1|CDA:main pulley drive
+  - first:
+      74: 7401558
+    second: piston 1|CDA:rod 1
+  - first:
+      74: 7401560
+    second: piston 1|CDA:rod 2
+  - first:
+      74: 7401562
+    second: piston 1|CDA:rod 3
+  - first:
+      74: 7401564
+    second: piston 1|CDA:rod 4
+  - first:
+      74: 7401566
+    second: cyl2 int vlv2|CDA:cam cyl1 exh
+  - first:
+      74: 7401568
+    second: cyl2 int vlv2|CDA:cam cyl1 int
+  - first:
+      74: 7401570
+    second: cyl2 int vlv2|CDA:cam cyl2 exh
+  - first:
+      74: 7401572
+    second: cyl2 int vlv2|CDA:cam cyl2 int
+  - first:
+      74: 7401574
+    second: cyl2 int vlv2|CDA:cam cyl3 exh
+  - first:
+      74: 7401576
+    second: cyl2 int vlv2|CDA:cam cyl3 int
+  - first:
+      74: 7401578
+    second: cyl2 int vlv2|CDA:cam cyl4 exh
+  - first:
+      74: 7401580
+    second: cyl2 int vlv2|CDA:cam cyl4 int
+  - first:
+      74: 7401582
+    second: cyl2 int vlv2|CDA:cam gear
+  - first:
+      74: 7401584
+    second: cyl2 int vlv2|CDA:crank 1
+  - first:
+      74: 7401586
+    second: cyl2 int vlv2|CDA:crank 2
+  - first:
+      74: 7401588
+    second: cyl2 int vlv2|CDA:crank 3
+  - first:
+      74: 7401590
+    second: cyl2 int vlv2|CDA:crank 4
+  - first:
+      74: 7401592
+    second: cyl2 int vlv2|CDA:crank pst 1
+  - first:
+      74: 7401594
+    second: cyl2 int vlv2|CDA:crank pst 2
+  - first:
+      74: 7401596
+    second: cyl2 int vlv2|CDA:crank pst 3
+  - first:
+      74: 7401598
+    second: cyl2 int vlv2|CDA:crank pst 4
+  - first:
+      74: 7401600
+    second: cyl2 int vlv2|CDA:cyl 1
+  - first:
+      74: 7401602
+    second: cyl2 int vlv2|CDA:cyl 2
+  - first:
+      74: 7401604
+    second: cyl2 int vlv2|CDA:cyl 3
+  - first:
+      74: 7401606
+    second: cyl2 int vlv2|CDA:cyl 4
+  - first:
+      74: 7401608
+    second: cyl2 int vlv2|CDA:cyl1 vlv exh
+  - first:
+      74: 7401610
+    second: cyl2 int vlv2|CDA:cyl1 vlv int
+  - first:
+      74: 7401612
+    second: cyl2 int vlv2|CDA:cyl1 vlv intk
+  - first:
+      74: 7401614
+    second: cyl2 int vlv2|CDA:cyl2 vlv exh
+  - first:
+      74: 7401616
+    second: cyl2 int vlv2|CDA:cyl2 vlv int
+  - first:
+      74: 7401618
+    second: cyl2 int vlv2|CDA:cyl3 vlv exh
+  - first:
+      74: 7401620
+    second: cyl2 int vlv2|CDA:cyl3 vlv int
+  - first:
+      74: 7401622
+    second: cyl2 int vlv2|CDA:cyl4 vlv exh
+  - first:
+      74: 7401624
+    second: cyl2 int vlv2|CDA:main pulley drive
+  - first:
+      74: 7401626
+    second: cyl2 int vlv2|CDA:rod 1
+  - first:
+      74: 7401628
+    second: cyl2 int vlv2|CDA:rod 2
+  - first:
+      74: 7401630
+    second: cyl2 int vlv2|CDA:rod 3
+  - first:
+      74: 7401632
+    second: cyl2 int vlv2|CDA:rod 4
+  - first:
+      74: 7401634
+    second: crank 1 bearing|CDA:cam cyl1 exh
+  - first:
+      74: 7401636
+    second: crank 1 bearing|CDA:cam cyl1 int
+  - first:
+      74: 7401638
+    second: crank 1 bearing|CDA:cam cyl2 exh
+  - first:
+      74: 7401640
+    second: crank 1 bearing|CDA:cam cyl2 int
+  - first:
+      74: 7401642
+    second: crank 1 bearing|CDA:cam cyl3 exh
+  - first:
+      74: 7401644
+    second: crank 1 bearing|CDA:cam cyl3 int
+  - first:
+      74: 7401646
+    second: crank 1 bearing|CDA:cam cyl4 exh
+  - first:
+      74: 7401648
+    second: crank 1 bearing|CDA:cam cyl4 int
+  - first:
+      74: 7401650
+    second: crank 1 bearing|CDA:cam gear
+  - first:
+      74: 7401652
+    second: crank 1 bearing|CDA:crank 1
+  - first:
+      74: 7401654
+    second: crank 1 bearing|CDA:crank 2
+  - first:
+      74: 7401656
+    second: crank 1 bearing|CDA:crank 3
+  - first:
+      74: 7401658
+    second: crank 1 bearing|CDA:crank 4
+  - first:
+      74: 7401660
+    second: crank 1 bearing|CDA:crank pst 1
+  - first:
+      74: 7401662
+    second: crank 1 bearing|CDA:crank pst 2
+  - first:
+      74: 7401664
+    second: crank 1 bearing|CDA:crank pst 3
+  - first:
+      74: 7401666
+    second: crank 1 bearing|CDA:crank pst 4
+  - first:
+      74: 7401668
+    second: crank 1 bearing|CDA:cyl 1
+  - first:
+      74: 7401670
+    second: crank 1 bearing|CDA:cyl 2
+  - first:
+      74: 7401672
+    second: crank 1 bearing|CDA:cyl 3
+  - first:
+      74: 7401674
+    second: crank 1 bearing|CDA:cyl 4
+  - first:
+      74: 7401676
+    second: crank 1 bearing|CDA:cyl1 vlv exh
+  - first:
+      74: 7401678
+    second: crank 1 bearing|CDA:cyl1 vlv int
+  - first:
+      74: 7401680
+    second: crank 1 bearing|CDA:cyl1 vlv intk
+  - first:
+      74: 7401682
+    second: crank 1 bearing|CDA:cyl2 vlv exh
+  - first:
+      74: 7401684
+    second: crank 1 bearing|CDA:cyl2 vlv int
+  - first:
+      74: 7401686
+    second: crank 1 bearing|CDA:cyl3 vlv exh
+  - first:
+      74: 7401688
+    second: crank 1 bearing|CDA:cyl3 vlv int
+  - first:
+      74: 7401690
+    second: crank 1 bearing|CDA:cyl4 vlv exh
+  - first:
+      74: 7401692
+    second: crank 1 bearing|CDA:main pulley drive
+  - first:
+      74: 7401694
+    second: crank 1 bearing|CDA:rod 1
+  - first:
+      74: 7401696
+    second: crank 1 bearing|CDA:rod 2
+  - first:
+      74: 7401698
+    second: crank 1 bearing|CDA:rod 3
+  - first:
+      74: 7401700
+    second: crank 1 bearing|CDA:rod 4
+  - first:
+      74: 7401702
+    second: crank 1|CDA:cam cyl1 exh
+  - first:
+      74: 7401704
+    second: crank 1|CDA:cam cyl1 int
+  - first:
+      74: 7401706
+    second: crank 1|CDA:cam cyl2 exh
+  - first:
+      74: 7401708
+    second: crank 1|CDA:cam cyl2 int
+  - first:
+      74: 7401710
+    second: crank 1|CDA:cam cyl3 exh
+  - first:
+      74: 7401712
+    second: crank 1|CDA:cam cyl3 int
+  - first:
+      74: 7401714
+    second: crank 1|CDA:cam cyl4 exh
+  - first:
+      74: 7401716
+    second: crank 1|CDA:cam cyl4 int
+  - first:
+      74: 7401718
+    second: crank 1|CDA:cam gear
+  - first:
+      74: 7401720
+    second: crank 1|CDA:crank 1
+  - first:
+      74: 7401722
+    second: crank 1|CDA:crank 2
+  - first:
+      74: 7401724
+    second: crank 1|CDA:crank 3
+  - first:
+      74: 7401726
+    second: crank 1|CDA:crank 4
+  - first:
+      74: 7401728
+    second: crank 1|CDA:crank pst 1
+  - first:
+      74: 7401730
+    second: crank 1|CDA:crank pst 2
+  - first:
+      74: 7401732
+    second: crank 1|CDA:crank pst 3
+  - first:
+      74: 7401734
+    second: crank 1|CDA:crank pst 4
+  - first:
+      74: 7401736
+    second: crank 1|CDA:cyl 1
+  - first:
+      74: 7401738
+    second: crank 1|CDA:cyl 2
+  - first:
+      74: 7401740
+    second: crank 1|CDA:cyl 3
+  - first:
+      74: 7401742
+    second: crank 1|CDA:cyl 4
+  - first:
+      74: 7401744
+    second: crank 1|CDA:cyl1 vlv exh
+  - first:
+      74: 7401746
+    second: crank 1|CDA:cyl1 vlv int
+  - first:
+      74: 7401748
+    second: crank 1|CDA:cyl1 vlv intk
+  - first:
+      74: 7401750
+    second: crank 1|CDA:cyl2 vlv exh
+  - first:
+      74: 7401752
+    second: crank 1|CDA:cyl2 vlv int
+  - first:
+      74: 7401754
+    second: crank 1|CDA:cyl3 vlv exh
+  - first:
+      74: 7401756
+    second: crank 1|CDA:cyl3 vlv int
+  - first:
+      74: 7401758
+    second: crank 1|CDA:cyl4 vlv exh
+  - first:
+      74: 7401760
+    second: crank 1|CDA:main pulley drive
+  - first:
+      74: 7401762
+    second: crank 1|CDA:rod 1
+  - first:
+      74: 7401764
+    second: crank 1|CDA:rod 2
+  - first:
+      74: 7401766
+    second: crank 1|CDA:rod 3
+  - first:
+      74: 7401768
+    second: crank 1|CDA:rod 4
+  - first:
+      74: 7401770
+    second: crank 2 bearing|CDA:cam cyl1 exh
+  - first:
+      74: 7401772
+    second: crank 2 bearing|CDA:cam cyl1 int
+  - first:
+      74: 7401774
+    second: crank 2 bearing|CDA:cam cyl2 exh
+  - first:
+      74: 7401776
+    second: crank 2 bearing|CDA:cam cyl2 int
+  - first:
+      74: 7401778
+    second: crank 2 bearing|CDA:cam cyl3 exh
+  - first:
+      74: 7401780
+    second: crank 2 bearing|CDA:cam cyl3 int
+  - first:
+      74: 7401782
+    second: crank 2 bearing|CDA:cam cyl4 exh
+  - first:
+      74: 7401784
+    second: crank 2 bearing|CDA:cam cyl4 int
+  - first:
+      74: 7401786
+    second: crank 2 bearing|CDA:cam gear
+  - first:
+      74: 7401788
+    second: crank 2 bearing|CDA:crank 1
+  - first:
+      74: 7401790
+    second: crank 2 bearing|CDA:crank 2
+  - first:
+      74: 7401792
+    second: crank 2 bearing|CDA:crank 3
+  - first:
+      74: 7401794
+    second: crank 2 bearing|CDA:crank 4
+  - first:
+      74: 7401796
+    second: crank 2 bearing|CDA:crank pst 1
+  - first:
+      74: 7401798
+    second: crank 2 bearing|CDA:crank pst 2
+  - first:
+      74: 7401800
+    second: crank 2 bearing|CDA:crank pst 3
+  - first:
+      74: 7401802
+    second: crank 2 bearing|CDA:crank pst 4
+  - first:
+      74: 7401804
+    second: crank 2 bearing|CDA:cyl 1
+  - first:
+      74: 7401806
+    second: crank 2 bearing|CDA:cyl 2
+  - first:
+      74: 7401808
+    second: crank 2 bearing|CDA:cyl 3
+  - first:
+      74: 7401810
+    second: crank 2 bearing|CDA:cyl 4
+  - first:
+      74: 7401812
+    second: crank 2 bearing|CDA:cyl1 vlv exh
+  - first:
+      74: 7401814
+    second: crank 2 bearing|CDA:cyl1 vlv int
+  - first:
+      74: 7401816
+    second: crank 2 bearing|CDA:cyl1 vlv intk
+  - first:
+      74: 7401818
+    second: crank 2 bearing|CDA:cyl2 vlv exh
+  - first:
+      74: 7401820
+    second: crank 2 bearing|CDA:cyl2 vlv int
+  - first:
+      74: 7401822
+    second: crank 2 bearing|CDA:cyl3 vlv exh
+  - first:
+      74: 7401824
+    second: crank 2 bearing|CDA:cyl3 vlv int
+  - first:
+      74: 7401826
+    second: crank 2 bearing|CDA:cyl4 vlv exh
+  - first:
+      74: 7401828
+    second: crank 2 bearing|CDA:main pulley drive
+  - first:
+      74: 7401830
+    second: crank 2 bearing|CDA:rod 1
+  - first:
+      74: 7401832
+    second: crank 2 bearing|CDA:rod 2
+  - first:
+      74: 7401834
+    second: crank 2 bearing|CDA:rod 3
+  - first:
+      74: 7401836
+    second: crank 2 bearing|CDA:rod 4
+  - first:
+      74: 7401838
+    second: crank 2|CDA:cam cyl1 exh
+  - first:
+      74: 7401840
+    second: crank 2|CDA:cam cyl1 int
+  - first:
+      74: 7401842
+    second: crank 2|CDA:cam cyl2 exh
+  - first:
+      74: 7401844
+    second: crank 2|CDA:cam cyl2 int
+  - first:
+      74: 7401846
+    second: crank 2|CDA:cam cyl3 exh
+  - first:
+      74: 7401848
+    second: crank 2|CDA:cam cyl3 int
+  - first:
+      74: 7401850
+    second: crank 2|CDA:cam cyl4 exh
+  - first:
+      74: 7401852
+    second: crank 2|CDA:cam cyl4 int
+  - first:
+      74: 7401854
+    second: crank 2|CDA:cam gear
+  - first:
+      74: 7401856
+    second: crank 2|CDA:crank 1
+  - first:
+      74: 7401858
+    second: crank 2|CDA:crank 2
+  - first:
+      74: 7401860
+    second: crank 2|CDA:crank 3
+  - first:
+      74: 7401862
+    second: crank 2|CDA:crank 4
+  - first:
+      74: 7401864
+    second: crank 2|CDA:crank pst 1
+  - first:
+      74: 7401866
+    second: crank 2|CDA:crank pst 2
+  - first:
+      74: 7401868
+    second: crank 2|CDA:crank pst 3
+  - first:
+      74: 7401870
+    second: crank 2|CDA:crank pst 4
+  - first:
+      74: 7401872
+    second: crank 2|CDA:cyl 1
+  - first:
+      74: 7401874
+    second: crank 2|CDA:cyl 2
+  - first:
+      74: 7401876
+    second: crank 2|CDA:cyl 3
+  - first:
+      74: 7401878
+    second: crank 2|CDA:cyl 4
+  - first:
+      74: 7401880
+    second: crank 2|CDA:cyl1 vlv exh
+  - first:
+      74: 7401882
+    second: crank 2|CDA:cyl1 vlv int
+  - first:
+      74: 7401884
+    second: crank 2|CDA:cyl1 vlv intk
+  - first:
+      74: 7401886
+    second: crank 2|CDA:cyl2 vlv exh
+  - first:
+      74: 7401888
+    second: crank 2|CDA:cyl2 vlv int
+  - first:
+      74: 7401890
+    second: crank 2|CDA:cyl3 vlv exh
+  - first:
+      74: 7401892
+    second: crank 2|CDA:cyl3 vlv int
+  - first:
+      74: 7401894
+    second: crank 2|CDA:cyl4 vlv exh
+  - first:
+      74: 7401896
+    second: crank 2|CDA:main pulley drive
+  - first:
+      74: 7401898
+    second: crank 2|CDA:rod 1
+  - first:
+      74: 7401900
+    second: crank 2|CDA:rod 2
+  - first:
+      74: 7401902
+    second: crank 2|CDA:rod 3
+  - first:
+      74: 7401904
+    second: crank 2|CDA:rod 4
+  - first:
+      74: 7401906
+    second: crank 3|CDA:cam cyl1 exh
+  - first:
+      74: 7401908
+    second: crank 3|CDA:cam cyl1 int
+  - first:
+      74: 7401910
+    second: crank 3|CDA:cam cyl2 exh
+  - first:
+      74: 7401912
+    second: crank 3|CDA:cam cyl2 int
+  - first:
+      74: 7401914
+    second: crank 3|CDA:cam cyl3 exh
+  - first:
+      74: 7401916
+    second: crank 3|CDA:cam cyl3 int
+  - first:
+      74: 7401918
+    second: crank 3|CDA:cam cyl4 exh
+  - first:
+      74: 7401920
+    second: crank 3|CDA:cam cyl4 int
+  - first:
+      74: 7401922
+    second: crank 3|CDA:cam gear
+  - first:
+      74: 7401924
+    second: crank 3|CDA:crank 1
+  - first:
+      74: 7401926
+    second: crank 3|CDA:crank 2
+  - first:
+      74: 7401928
+    second: crank 3|CDA:crank 3
+  - first:
+      74: 7401930
+    second: crank 3|CDA:crank 4
+  - first:
+      74: 7401932
+    second: crank 3|CDA:crank pst 1
+  - first:
+      74: 7401934
+    second: crank 3|CDA:crank pst 2
+  - first:
+      74: 7401936
+    second: crank 3|CDA:crank pst 3
+  - first:
+      74: 7401938
+    second: crank 3|CDA:crank pst 4
+  - first:
+      74: 7401940
+    second: crank 3|CDA:cyl 1
+  - first:
+      74: 7401942
+    second: crank 3|CDA:cyl 2
+  - first:
+      74: 7401944
+    second: crank 3|CDA:cyl 3
+  - first:
+      74: 7401946
+    second: crank 3|CDA:cyl 4
+  - first:
+      74: 7401948
+    second: crank 3|CDA:cyl1 vlv exh
+  - first:
+      74: 7401950
+    second: crank 3|CDA:cyl1 vlv int
+  - first:
+      74: 7401952
+    second: crank 3|CDA:cyl1 vlv intk
+  - first:
+      74: 7401954
+    second: crank 3|CDA:cyl2 vlv exh
+  - first:
+      74: 7401956
+    second: crank 3|CDA:cyl2 vlv int
+  - first:
+      74: 7401958
+    second: crank 3|CDA:cyl3 vlv exh
+  - first:
+      74: 7401960
+    second: crank 3|CDA:cyl3 vlv int
+  - first:
+      74: 7401962
+    second: crank 3|CDA:cyl4 vlv exh
+  - first:
+      74: 7401964
+    second: crank 3|CDA:main pulley drive
+  - first:
+      74: 7401966
+    second: crank 3|CDA:rod 1
+  - first:
+      74: 7401968
+    second: crank 3|CDA:rod 2
+  - first:
+      74: 7401970
+    second: crank 3|CDA:rod 3
+  - first:
+      74: 7401972
+    second: crank 3|CDA:rod 4
+  - first:
+      74: 7401974
+    second: crank 3 bearing|CDA:cam cyl1 exh
+  - first:
+      74: 7401976
+    second: crank 3 bearing|CDA:cam cyl1 int
+  - first:
+      74: 7401978
+    second: crank 3 bearing|CDA:cam cyl2 exh
+  - first:
+      74: 7401980
+    second: crank 3 bearing|CDA:cam cyl2 int
+  - first:
+      74: 7401982
+    second: crank 3 bearing|CDA:cam cyl3 exh
+  - first:
+      74: 7401984
+    second: crank 3 bearing|CDA:cam cyl3 int
+  - first:
+      74: 7401986
+    second: crank 3 bearing|CDA:cam cyl4 exh
+  - first:
+      74: 7401988
+    second: crank 3 bearing|CDA:cam cyl4 int
+  - first:
+      74: 7401990
+    second: crank 3 bearing|CDA:cam gear
+  - first:
+      74: 7401992
+    second: crank 3 bearing|CDA:crank 1
+  - first:
+      74: 7401994
+    second: crank 3 bearing|CDA:crank 2
+  - first:
+      74: 7401996
+    second: crank 3 bearing|CDA:crank 3
+  - first:
+      74: 7401998
+    second: crank 3 bearing|CDA:crank 4
+  - first:
+      74: 7402000
+    second: crank 3 bearing|CDA:crank pst 1
+  - first:
+      74: 7402002
+    second: crank 3 bearing|CDA:crank pst 2
+  - first:
+      74: 7402004
+    second: crank 3 bearing|CDA:crank pst 3
+  - first:
+      74: 7402006
+    second: crank 3 bearing|CDA:crank pst 4
+  - first:
+      74: 7402008
+    second: crank 3 bearing|CDA:cyl 1
+  - first:
+      74: 7402010
+    second: crank 3 bearing|CDA:cyl 2
+  - first:
+      74: 7402012
+    second: crank 3 bearing|CDA:cyl 3
+  - first:
+      74: 7402014
+    second: crank 3 bearing|CDA:cyl 4
+  - first:
+      74: 7402016
+    second: crank 3 bearing|CDA:cyl1 vlv exh
+  - first:
+      74: 7402018
+    second: crank 3 bearing|CDA:cyl1 vlv int
+  - first:
+      74: 7402020
+    second: crank 3 bearing|CDA:cyl1 vlv intk
+  - first:
+      74: 7402022
+    second: crank 3 bearing|CDA:cyl2 vlv exh
+  - first:
+      74: 7402024
+    second: crank 3 bearing|CDA:cyl2 vlv int
+  - first:
+      74: 7402026
+    second: crank 3 bearing|CDA:cyl3 vlv exh
+  - first:
+      74: 7402028
+    second: crank 3 bearing|CDA:cyl3 vlv int
+  - first:
+      74: 7402030
+    second: crank 3 bearing|CDA:cyl4 vlv exh
+  - first:
+      74: 7402032
+    second: crank 3 bearing|CDA:main pulley drive
+  - first:
+      74: 7402034
+    second: crank 3 bearing|CDA:rod 1
+  - first:
+      74: 7402036
+    second: crank 3 bearing|CDA:rod 2
+  - first:
+      74: 7402038
+    second: crank 3 bearing|CDA:rod 3
+  - first:
+      74: 7402040
+    second: crank 3 bearing|CDA:rod 4
+  - first:
+      74: 7402042
+    second: crank 4 bearing|CDA:cam cyl1 exh
+  - first:
+      74: 7402044
+    second: crank 4 bearing|CDA:cam cyl1 int
+  - first:
+      74: 7402046
+    second: crank 4 bearing|CDA:cam cyl2 exh
+  - first:
+      74: 7402048
+    second: crank 4 bearing|CDA:cam cyl2 int
+  - first:
+      74: 7402050
+    second: crank 4 bearing|CDA:cam cyl3 exh
+  - first:
+      74: 7402052
+    second: crank 4 bearing|CDA:cam cyl3 int
+  - first:
+      74: 7402054
+    second: crank 4 bearing|CDA:cam cyl4 exh
+  - first:
+      74: 7402056
+    second: crank 4 bearing|CDA:cam cyl4 int
+  - first:
+      74: 7402058
+    second: crank 4 bearing|CDA:cam gear
+  - first:
+      74: 7402060
+    second: crank 4 bearing|CDA:crank 1
+  - first:
+      74: 7402062
+    second: crank 4 bearing|CDA:crank 2
+  - first:
+      74: 7402064
+    second: crank 4 bearing|CDA:crank 3
+  - first:
+      74: 7402066
+    second: crank 4 bearing|CDA:crank 4
+  - first:
+      74: 7402068
+    second: crank 4 bearing|CDA:crank pst 1
+  - first:
+      74: 7402070
+    second: crank 4 bearing|CDA:crank pst 2
+  - first:
+      74: 7402072
+    second: crank 4 bearing|CDA:crank pst 3
+  - first:
+      74: 7402074
+    second: crank 4 bearing|CDA:crank pst 4
+  - first:
+      74: 7402076
+    second: crank 4 bearing|CDA:cyl 1
+  - first:
+      74: 7402078
+    second: crank 4 bearing|CDA:cyl 2
+  - first:
+      74: 7402080
+    second: crank 4 bearing|CDA:cyl 3
+  - first:
+      74: 7402082
+    second: crank 4 bearing|CDA:cyl 4
+  - first:
+      74: 7402084
+    second: crank 4 bearing|CDA:cyl1 vlv exh
+  - first:
+      74: 7402086
+    second: crank 4 bearing|CDA:cyl1 vlv int
+  - first:
+      74: 7402088
+    second: crank 4 bearing|CDA:cyl1 vlv intk
+  - first:
+      74: 7402090
+    second: crank 4 bearing|CDA:cyl2 vlv exh
+  - first:
+      74: 7402092
+    second: crank 4 bearing|CDA:cyl2 vlv int
+  - first:
+      74: 7402094
+    second: crank 4 bearing|CDA:cyl3 vlv exh
+  - first:
+      74: 7402096
+    second: crank 4 bearing|CDA:cyl3 vlv int
+  - first:
+      74: 7402098
+    second: crank 4 bearing|CDA:cyl4 vlv exh
+  - first:
+      74: 7402100
+    second: crank 4 bearing|CDA:main pulley drive
+  - first:
+      74: 7402102
+    second: crank 4 bearing|CDA:rod 1
+  - first:
+      74: 7402104
+    second: crank 4 bearing|CDA:rod 2
+  - first:
+      74: 7402106
+    second: crank 4 bearing|CDA:rod 3
+  - first:
+      74: 7402108
+    second: crank 4 bearing|CDA:rod 4
+  - first:
+      74: 7402110
+    second: piston 4|CDA:cam cyl1 exh
+  - first:
+      74: 7402112
+    second: piston 4|CDA:cam cyl1 int
+  - first:
+      74: 7402114
+    second: piston 4|CDA:cam cyl2 exh
+  - first:
+      74: 7402116
+    second: piston 4|CDA:cam cyl2 int
+  - first:
+      74: 7402118
+    second: piston 4|CDA:cam cyl3 exh
+  - first:
+      74: 7402120
+    second: piston 4|CDA:cam cyl3 int
+  - first:
+      74: 7402122
+    second: piston 4|CDA:cam cyl4 exh
+  - first:
+      74: 7402124
+    second: piston 4|CDA:cam cyl4 int
+  - first:
+      74: 7402126
+    second: piston 4|CDA:cam gear
+  - first:
+      74: 7402128
+    second: piston 4|CDA:crank 1
+  - first:
+      74: 7402130
+    second: piston 4|CDA:crank 2
+  - first:
+      74: 7402132
+    second: piston 4|CDA:crank 3
+  - first:
+      74: 7402134
+    second: piston 4|CDA:crank 4
+  - first:
+      74: 7402136
+    second: piston 4|CDA:crank pst 1
+  - first:
+      74: 7402138
+    second: piston 4|CDA:crank pst 2
+  - first:
+      74: 7402140
+    second: piston 4|CDA:crank pst 3
+  - first:
+      74: 7402142
+    second: piston 4|CDA:crank pst 4
+  - first:
+      74: 7402144
+    second: piston 4|CDA:cyl 1
+  - first:
+      74: 7402146
+    second: piston 4|CDA:cyl 2
+  - first:
+      74: 7402148
+    second: piston 4|CDA:cyl 3
+  - first:
+      74: 7402150
+    second: piston 4|CDA:cyl 4
+  - first:
+      74: 7402152
+    second: piston 4|CDA:cyl1 vlv exh
+  - first:
+      74: 7402154
+    second: piston 4|CDA:cyl1 vlv int
+  - first:
+      74: 7402156
+    second: piston 4|CDA:cyl1 vlv intk
+  - first:
+      74: 7402158
+    second: piston 4|CDA:cyl2 vlv exh
+  - first:
+      74: 7402160
+    second: piston 4|CDA:cyl2 vlv int
+  - first:
+      74: 7402162
+    second: piston 4|CDA:cyl3 vlv exh
+  - first:
+      74: 7402164
+    second: piston 4|CDA:cyl3 vlv int
+  - first:
+      74: 7402166
+    second: piston 4|CDA:cyl4 vlv exh
+  - first:
+      74: 7402168
+    second: piston 4|CDA:main pulley drive
+  - first:
+      74: 7402170
+    second: piston 4|CDA:rod 1
+  - first:
+      74: 7402172
+    second: piston 4|CDA:rod 2
+  - first:
+      74: 7402174
+    second: piston 4|CDA:rod 3
+  - first:
+      74: 7402176
+    second: piston 4|CDA:rod 4
+  - first:
+      74: 7402178
+    second: rod piston 4|CDA:cam cyl1 exh
+  - first:
+      74: 7402180
+    second: rod piston 4|CDA:cam cyl1 int
+  - first:
+      74: 7402182
+    second: rod piston 4|CDA:cam cyl2 exh
+  - first:
+      74: 7402184
+    second: rod piston 4|CDA:cam cyl2 int
+  - first:
+      74: 7402186
+    second: rod piston 4|CDA:cam cyl3 exh
+  - first:
+      74: 7402188
+    second: rod piston 4|CDA:cam cyl3 int
+  - first:
+      74: 7402190
+    second: rod piston 4|CDA:cam cyl4 exh
+  - first:
+      74: 7402192
+    second: rod piston 4|CDA:cam cyl4 int
+  - first:
+      74: 7402194
+    second: rod piston 4|CDA:cam gear
+  - first:
+      74: 7402196
+    second: rod piston 4|CDA:crank 1
+  - first:
+      74: 7402198
+    second: rod piston 4|CDA:crank 2
+  - first:
+      74: 7402200
+    second: rod piston 4|CDA:crank 3
+  - first:
+      74: 7402202
+    second: rod piston 4|CDA:crank 4
+  - first:
+      74: 7402204
+    second: rod piston 4|CDA:crank pst 1
+  - first:
+      74: 7402206
+    second: rod piston 4|CDA:crank pst 2
+  - first:
+      74: 7402208
+    second: rod piston 4|CDA:crank pst 3
+  - first:
+      74: 7402210
+    second: rod piston 4|CDA:crank pst 4
+  - first:
+      74: 7402212
+    second: rod piston 4|CDA:cyl 1
+  - first:
+      74: 7402214
+    second: rod piston 4|CDA:cyl 2
+  - first:
+      74: 7402216
+    second: rod piston 4|CDA:cyl 3
+  - first:
+      74: 7402218
+    second: rod piston 4|CDA:cyl 4
+  - first:
+      74: 7402220
+    second: rod piston 4|CDA:cyl1 vlv exh
+  - first:
+      74: 7402222
+    second: rod piston 4|CDA:cyl1 vlv int
+  - first:
+      74: 7402224
+    second: rod piston 4|CDA:cyl1 vlv intk
+  - first:
+      74: 7402226
+    second: rod piston 4|CDA:cyl2 vlv exh
+  - first:
+      74: 7402228
+    second: rod piston 4|CDA:cyl2 vlv int
+  - first:
+      74: 7402230
+    second: rod piston 4|CDA:cyl3 vlv exh
+  - first:
+      74: 7402232
+    second: rod piston 4|CDA:cyl3 vlv int
+  - first:
+      74: 7402234
+    second: rod piston 4|CDA:cyl4 vlv exh
+  - first:
+      74: 7402236
+    second: rod piston 4|CDA:main pulley drive
+  - first:
+      74: 7402238
+    second: rod piston 4|CDA:rod 1
+  - first:
+      74: 7402240
+    second: rod piston 4|CDA:rod 2
+  - first:
+      74: 7402242
+    second: rod piston 4|CDA:rod 3
+  - first:
+      74: 7402244
+    second: rod piston 4|CDA:rod 4
+  - first:
+      74: 7402246
+    second: crank 4|CDA:cam cyl1 exh
+  - first:
+      74: 7402248
+    second: crank 4|CDA:cam cyl1 int
+  - first:
+      74: 7402250
+    second: crank 4|CDA:cam cyl2 exh
+  - first:
+      74: 7402252
+    second: crank 4|CDA:cam cyl2 int
+  - first:
+      74: 7402254
+    second: crank 4|CDA:cam cyl3 exh
+  - first:
+      74: 7402256
+    second: crank 4|CDA:cam cyl3 int
+  - first:
+      74: 7402258
+    second: crank 4|CDA:cam cyl4 exh
+  - first:
+      74: 7402260
+    second: crank 4|CDA:cam cyl4 int
+  - first:
+      74: 7402262
+    second: crank 4|CDA:cam gear
+  - first:
+      74: 7402264
+    second: crank 4|CDA:crank 1
+  - first:
+      74: 7402266
+    second: crank 4|CDA:crank 2
+  - first:
+      74: 7402268
+    second: crank 4|CDA:crank 3
+  - first:
+      74: 7402270
+    second: crank 4|CDA:crank 4
+  - first:
+      74: 7402272
+    second: crank 4|CDA:crank pst 1
+  - first:
+      74: 7402274
+    second: crank 4|CDA:crank pst 2
+  - first:
+      74: 7402276
+    second: crank 4|CDA:crank pst 3
+  - first:
+      74: 7402278
+    second: crank 4|CDA:crank pst 4
+  - first:
+      74: 7402280
+    second: crank 4|CDA:cyl 1
+  - first:
+      74: 7402282
+    second: crank 4|CDA:cyl 2
+  - first:
+      74: 7402284
+    second: crank 4|CDA:cyl 3
+  - first:
+      74: 7402286
+    second: crank 4|CDA:cyl 4
+  - first:
+      74: 7402288
+    second: crank 4|CDA:cyl1 vlv exh
+  - first:
+      74: 7402290
+    second: crank 4|CDA:cyl1 vlv int
+  - first:
+      74: 7402292
+    second: crank 4|CDA:cyl1 vlv intk
+  - first:
+      74: 7402294
+    second: crank 4|CDA:cyl2 vlv exh
+  - first:
+      74: 7402296
+    second: crank 4|CDA:cyl2 vlv int
+  - first:
+      74: 7402298
+    second: crank 4|CDA:cyl3 vlv exh
+  - first:
+      74: 7402300
+    second: crank 4|CDA:cyl3 vlv int
+  - first:
+      74: 7402302
+    second: crank 4|CDA:cyl4 vlv exh
+  - first:
+      74: 7402304
+    second: crank 4|CDA:main pulley drive
+  - first:
+      74: 7402306
+    second: crank 4|CDA:rod 1
+  - first:
+      74: 7402308
+    second: crank 4|CDA:rod 2
+  - first:
+      74: 7402310
+    second: crank 4|CDA:rod 3
+  - first:
+      74: 7402312
+    second: crank 4|CDA:rod 4
+  - first:
+      74: 7402314
+    second: cam int|CDA:cam cyl1 exh
+  - first:
+      74: 7402316
+    second: cam int|CDA:cam cyl1 int
+  - first:
+      74: 7402318
+    second: cam int|CDA:cam cyl2 exh
+  - first:
+      74: 7402320
+    second: cam int|CDA:cam cyl2 int
+  - first:
+      74: 7402322
+    second: cam int|CDA:cam cyl3 exh
+  - first:
+      74: 7402324
+    second: cam int|CDA:cam cyl3 int
+  - first:
+      74: 7402326
+    second: cam int|CDA:cam cyl4 exh
+  - first:
+      74: 7402328
+    second: cam int|CDA:cam cyl4 int
+  - first:
+      74: 7402330
+    second: cam int|CDA:cam gear
+  - first:
+      74: 7402332
+    second: cam int|CDA:crank 1
+  - first:
+      74: 7402334
+    second: cam int|CDA:crank 2
+  - first:
+      74: 7402336
+    second: cam int|CDA:crank 3
+  - first:
+      74: 7402338
+    second: cam int|CDA:crank 4
+  - first:
+      74: 7402340
+    second: cam int|CDA:crank pst 1
+  - first:
+      74: 7402342
+    second: cam int|CDA:crank pst 2
+  - first:
+      74: 7402344
+    second: cam int|CDA:crank pst 3
+  - first:
+      74: 7402346
+    second: cam int|CDA:crank pst 4
+  - first:
+      74: 7402348
+    second: cam int|CDA:cyl 1
+  - first:
+      74: 7402350
+    second: cam int|CDA:cyl 2
+  - first:
+      74: 7402352
+    second: cam int|CDA:cyl 3
+  - first:
+      74: 7402354
+    second: cam int|CDA:cyl 4
+  - first:
+      74: 7402356
+    second: cam int|CDA:cyl1 vlv exh
+  - first:
+      74: 7402358
+    second: cam int|CDA:cyl1 vlv int
+  - first:
+      74: 7402360
+    second: cam int|CDA:cyl1 vlv intk
+  - first:
+      74: 7402362
+    second: cam int|CDA:cyl2 vlv exh
+  - first:
+      74: 7402364
+    second: cam int|CDA:cyl2 vlv int
+  - first:
+      74: 7402366
+    second: cam int|CDA:cyl3 vlv exh
+  - first:
+      74: 7402368
+    second: cam int|CDA:cyl3 vlv int
+  - first:
+      74: 7402370
+    second: cam int|CDA:cyl4 vlv exh
+  - first:
+      74: 7402372
+    second: cam int|CDA:main pulley drive
+  - first:
+      74: 7402374
+    second: cam int|CDA:rod 1
+  - first:
+      74: 7402376
+    second: cam int|CDA:rod 2
+  - first:
+      74: 7402378
+    second: cam int|CDA:rod 3
+  - first:
+      74: 7402380
+    second: cam int|CDA:rod 4
+  - first:
+      74: 7402382
+    second: cam gears exh|CDA:cam cyl1 exh
+  - first:
+      74: 7402384
+    second: cam gears exh|CDA:cam cyl1 int
+  - first:
+      74: 7402386
+    second: cam gears exh|CDA:cam cyl2 exh
+  - first:
+      74: 7402388
+    second: cam gears exh|CDA:cam cyl2 int
+  - first:
+      74: 7402390
+    second: cam gears exh|CDA:cam cyl3 exh
+  - first:
+      74: 7402392
+    second: cam gears exh|CDA:cam cyl3 int
+  - first:
+      74: 7402394
+    second: cam gears exh|CDA:cam cyl4 exh
+  - first:
+      74: 7402396
+    second: cam gears exh|CDA:cam cyl4 int
+  - first:
+      74: 7402398
+    second: cam gears exh|CDA:cam gear
+  - first:
+      74: 7402400
+    second: cam gears exh|CDA:crank 1
+  - first:
+      74: 7402402
+    second: cam gears exh|CDA:crank 2
+  - first:
+      74: 7402404
+    second: cam gears exh|CDA:crank 3
+  - first:
+      74: 7402406
+    second: cam gears exh|CDA:crank 4
+  - first:
+      74: 7402408
+    second: cam gears exh|CDA:crank pst 1
+  - first:
+      74: 7402410
+    second: cam gears exh|CDA:crank pst 2
+  - first:
+      74: 7402412
+    second: cam gears exh|CDA:crank pst 3
+  - first:
+      74: 7402414
+    second: cam gears exh|CDA:crank pst 4
+  - first:
+      74: 7402416
+    second: cam gears exh|CDA:cyl 1
+  - first:
+      74: 7402418
+    second: cam gears exh|CDA:cyl 2
+  - first:
+      74: 7402420
+    second: cam gears exh|CDA:cyl 3
+  - first:
+      74: 7402422
+    second: cam gears exh|CDA:cyl 4
+  - first:
+      74: 7402424
+    second: cam gears exh|CDA:cyl1 vlv exh
+  - first:
+      74: 7402426
+    second: cam gears exh|CDA:cyl1 vlv int
+  - first:
+      74: 7402428
+    second: cam gears exh|CDA:cyl1 vlv intk
+  - first:
+      74: 7402430
+    second: cam gears exh|CDA:cyl2 vlv exh
+  - first:
+      74: 7402432
+    second: cam gears exh|CDA:cyl2 vlv int
+  - first:
+      74: 7402434
+    second: cam gears exh|CDA:cyl3 vlv exh
+  - first:
+      74: 7402436
+    second: cam gears exh|CDA:cyl3 vlv int
+  - first:
+      74: 7402438
+    second: cam gears exh|CDA:cyl4 vlv exh
+  - first:
+      74: 7402440
+    second: cam gears exh|CDA:main pulley drive
+  - first:
+      74: 7402442
+    second: cam gears exh|CDA:rod 1
+  - first:
+      74: 7402444
+    second: cam gears exh|CDA:rod 2
+  - first:
+      74: 7402446
+    second: cam gears exh|CDA:rod 3
+  - first:
+      74: 7402448
+    second: cam gears exh|CDA:rod 4
+  - first:
+      74: 7402450
+    second: cam pulley exh|CDA:cam cyl1 exh
+  - first:
+      74: 7402452
+    second: cam pulley exh|CDA:cam cyl1 int
+  - first:
+      74: 7402454
+    second: cam pulley exh|CDA:cam cyl2 exh
+  - first:
+      74: 7402456
+    second: cam pulley exh|CDA:cam cyl2 int
+  - first:
+      74: 7402458
+    second: cam pulley exh|CDA:cam cyl3 exh
+  - first:
+      74: 7402460
+    second: cam pulley exh|CDA:cam cyl3 int
+  - first:
+      74: 7402462
+    second: cam pulley exh|CDA:cam cyl4 exh
+  - first:
+      74: 7402464
+    second: cam pulley exh|CDA:cam cyl4 int
+  - first:
+      74: 7402466
+    second: cam pulley exh|CDA:cam gear
+  - first:
+      74: 7402468
+    second: cam pulley exh|CDA:crank 1
+  - first:
+      74: 7402470
+    second: cam pulley exh|CDA:crank 2
+  - first:
+      74: 7402472
+    second: cam pulley exh|CDA:crank 3
+  - first:
+      74: 7402474
+    second: cam pulley exh|CDA:crank 4
+  - first:
+      74: 7402476
+    second: cam pulley exh|CDA:crank pst 1
+  - first:
+      74: 7402478
+    second: cam pulley exh|CDA:crank pst 2
+  - first:
+      74: 7402480
+    second: cam pulley exh|CDA:crank pst 3
+  - first:
+      74: 7402482
+    second: cam pulley exh|CDA:crank pst 4
+  - first:
+      74: 7402484
+    second: cam pulley exh|CDA:cyl 1
+  - first:
+      74: 7402486
+    second: cam pulley exh|CDA:cyl 2
+  - first:
+      74: 7402488
+    second: cam pulley exh|CDA:cyl 3
+  - first:
+      74: 7402490
+    second: cam pulley exh|CDA:cyl 4
+  - first:
+      74: 7402492
+    second: cam pulley exh|CDA:cyl1 vlv exh
+  - first:
+      74: 7402494
+    second: cam pulley exh|CDA:cyl1 vlv int
+  - first:
+      74: 7402496
+    second: cam pulley exh|CDA:cyl1 vlv intk
+  - first:
+      74: 7402498
+    second: cam pulley exh|CDA:cyl2 vlv exh
+  - first:
+      74: 7402500
+    second: cam pulley exh|CDA:cyl2 vlv int
+  - first:
+      74: 7402502
+    second: cam pulley exh|CDA:cyl3 vlv exh
+  - first:
+      74: 7402504
+    second: cam pulley exh|CDA:cyl3 vlv int
+  - first:
+      74: 7402506
+    second: cam pulley exh|CDA:cyl4 vlv exh
+  - first:
+      74: 7402508
+    second: cam pulley exh|CDA:main pulley drive
+  - first:
+      74: 7402510
+    second: cam pulley exh|CDA:rod 1
+  - first:
+      74: 7402512
+    second: cam pulley exh|CDA:rod 2
+  - first:
+      74: 7402514
+    second: cam pulley exh|CDA:rod 3
+  - first:
+      74: 7402516
+    second: cam pulley exh|CDA:rod 4
+  - first:
+      74: 7402518
+    second: cam cyl3 int2|CDA:cam cyl1 exh
+  - first:
+      74: 7402520
+    second: cam cyl3 int2|CDA:cam cyl1 int
+  - first:
+      74: 7402522
+    second: cam cyl3 int2|CDA:cam cyl2 exh
+  - first:
+      74: 7402524
+    second: cam cyl3 int2|CDA:cam cyl2 int
+  - first:
+      74: 7402526
+    second: cam cyl3 int2|CDA:cam cyl3 exh
+  - first:
+      74: 7402528
+    second: cam cyl3 int2|CDA:cam cyl3 int
+  - first:
+      74: 7402530
+    second: cam cyl3 int2|CDA:cam cyl4 exh
+  - first:
+      74: 7402532
+    second: cam cyl3 int2|CDA:cam cyl4 int
+  - first:
+      74: 7402534
+    second: cam cyl3 int2|CDA:cam gear
+  - first:
+      74: 7402536
+    second: cam cyl3 int2|CDA:crank 1
+  - first:
+      74: 7402538
+    second: cam cyl3 int2|CDA:crank 2
+  - first:
+      74: 7402540
+    second: cam cyl3 int2|CDA:crank 3
+  - first:
+      74: 7402542
+    second: cam cyl3 int2|CDA:crank 4
+  - first:
+      74: 7402544
+    second: cam cyl3 int2|CDA:crank pst 1
+  - first:
+      74: 7402546
+    second: cam cyl3 int2|CDA:crank pst 2
+  - first:
+      74: 7402548
+    second: cam cyl3 int2|CDA:crank pst 3
+  - first:
+      74: 7402550
+    second: cam cyl3 int2|CDA:crank pst 4
+  - first:
+      74: 7402552
+    second: cam cyl3 int2|CDA:cyl 1
+  - first:
+      74: 7402554
+    second: cam cyl3 int2|CDA:cyl 2
+  - first:
+      74: 7402556
+    second: cam cyl3 int2|CDA:cyl 3
+  - first:
+      74: 7402558
+    second: cam cyl3 int2|CDA:cyl 4
+  - first:
+      74: 7402560
+    second: cam cyl3 int2|CDA:cyl1 vlv exh
+  - first:
+      74: 7402562
+    second: cam cyl3 int2|CDA:cyl1 vlv int
+  - first:
+      74: 7402564
+    second: cam cyl3 int2|CDA:cyl1 vlv intk
+  - first:
+      74: 7402566
+    second: cam cyl3 int2|CDA:cyl2 vlv exh
+  - first:
+      74: 7402568
+    second: cam cyl3 int2|CDA:cyl2 vlv int
+  - first:
+      74: 7402570
+    second: cam cyl3 int2|CDA:cyl3 vlv exh
+  - first:
+      74: 7402572
+    second: cam cyl3 int2|CDA:cyl3 vlv int
+  - first:
+      74: 7402574
+    second: cam cyl3 int2|CDA:cyl4 vlv exh
+  - first:
+      74: 7402576
+    second: cam cyl3 int2|CDA:main pulley drive
+  - first:
+      74: 7402578
+    second: cam cyl3 int2|CDA:rod 1
+  - first:
+      74: 7402580
+    second: cam cyl3 int2|CDA:rod 2
+  - first:
+      74: 7402582
+    second: cam cyl3 int2|CDA:rod 3
+  - first:
+      74: 7402584
+    second: cam cyl3 int2|CDA:rod 4
+  - first:
+      74: 7402586
+    second: cam cyl2 int1|CDA:cam cyl1 exh
+  - first:
+      74: 7402588
+    second: cam cyl2 int1|CDA:cam cyl1 int
+  - first:
+      74: 7402590
+    second: cam cyl2 int1|CDA:cam cyl2 exh
+  - first:
+      74: 7402592
+    second: cam cyl2 int1|CDA:cam cyl2 int
+  - first:
+      74: 7402594
+    second: cam cyl2 int1|CDA:cam cyl3 exh
+  - first:
+      74: 7402596
+    second: cam cyl2 int1|CDA:cam cyl3 int
+  - first:
+      74: 7402598
+    second: cam cyl2 int1|CDA:cam cyl4 exh
+  - first:
+      74: 7402600
+    second: cam cyl2 int1|CDA:cam cyl4 int
+  - first:
+      74: 7402602
+    second: cam cyl2 int1|CDA:cam gear
+  - first:
+      74: 7402604
+    second: cam cyl2 int1|CDA:crank 1
+  - first:
+      74: 7402606
+    second: cam cyl2 int1|CDA:crank 2
+  - first:
+      74: 7402608
+    second: cam cyl2 int1|CDA:crank 3
+  - first:
+      74: 7402610
+    second: cam cyl2 int1|CDA:crank 4
+  - first:
+      74: 7402612
+    second: cam cyl2 int1|CDA:crank pst 1
+  - first:
+      74: 7402614
+    second: cam cyl2 int1|CDA:crank pst 2
+  - first:
+      74: 7402616
+    second: cam cyl2 int1|CDA:crank pst 3
+  - first:
+      74: 7402618
+    second: cam cyl2 int1|CDA:crank pst 4
+  - first:
+      74: 7402620
+    second: cam cyl2 int1|CDA:cyl 1
+  - first:
+      74: 7402622
+    second: cam cyl2 int1|CDA:cyl 2
+  - first:
+      74: 7402624
+    second: cam cyl2 int1|CDA:cyl 3
+  - first:
+      74: 7402626
+    second: cam cyl2 int1|CDA:cyl 4
+  - first:
+      74: 7402628
+    second: cam cyl2 int1|CDA:cyl1 vlv exh
+  - first:
+      74: 7402630
+    second: cam cyl2 int1|CDA:cyl1 vlv int
+  - first:
+      74: 7402632
+    second: cam cyl2 int1|CDA:cyl1 vlv intk
+  - first:
+      74: 7402634
+    second: cam cyl2 int1|CDA:cyl2 vlv exh
+  - first:
+      74: 7402636
+    second: cam cyl2 int1|CDA:cyl2 vlv int
+  - first:
+      74: 7402638
+    second: cam cyl2 int1|CDA:cyl3 vlv exh
+  - first:
+      74: 7402640
+    second: cam cyl2 int1|CDA:cyl3 vlv int
+  - first:
+      74: 7402642
+    second: cam cyl2 int1|CDA:cyl4 vlv exh
+  - first:
+      74: 7402644
+    second: cam cyl2 int1|CDA:main pulley drive
+  - first:
+      74: 7402646
+    second: cam cyl2 int1|CDA:rod 1
+  - first:
+      74: 7402648
+    second: cam cyl2 int1|CDA:rod 2
+  - first:
+      74: 7402650
+    second: cam cyl2 int1|CDA:rod 3
+  - first:
+      74: 7402652
+    second: cam cyl2 int1|CDA:rod 4
+  - first:
+      74: 7402654
+    second: cam cyl1 int2|CDA:cam cyl1 exh
+  - first:
+      74: 7402656
+    second: cam cyl1 int2|CDA:cam cyl1 int
+  - first:
+      74: 7402658
+    second: cam cyl1 int2|CDA:cam cyl2 exh
+  - first:
+      74: 7402660
+    second: cam cyl1 int2|CDA:cam cyl2 int
+  - first:
+      74: 7402662
+    second: cam cyl1 int2|CDA:cam cyl3 exh
+  - first:
+      74: 7402664
+    second: cam cyl1 int2|CDA:cam cyl3 int
+  - first:
+      74: 7402666
+    second: cam cyl1 int2|CDA:cam cyl4 exh
+  - first:
+      74: 7402668
+    second: cam cyl1 int2|CDA:cam cyl4 int
+  - first:
+      74: 7402670
+    second: cam cyl1 int2|CDA:cam gear
+  - first:
+      74: 7402672
+    second: cam cyl1 int2|CDA:crank 1
+  - first:
+      74: 7402674
+    second: cam cyl1 int2|CDA:crank 2
+  - first:
+      74: 7402676
+    second: cam cyl1 int2|CDA:crank 3
+  - first:
+      74: 7402678
+    second: cam cyl1 int2|CDA:crank 4
+  - first:
+      74: 7402680
+    second: cam cyl1 int2|CDA:crank pst 1
+  - first:
+      74: 7402682
+    second: cam cyl1 int2|CDA:crank pst 2
+  - first:
+      74: 7402684
+    second: cam cyl1 int2|CDA:crank pst 3
+  - first:
+      74: 7402686
+    second: cam cyl1 int2|CDA:crank pst 4
+  - first:
+      74: 7402688
+    second: cam cyl1 int2|CDA:cyl 1
+  - first:
+      74: 7402690
+    second: cam cyl1 int2|CDA:cyl 2
+  - first:
+      74: 7402692
+    second: cam cyl1 int2|CDA:cyl 3
+  - first:
+      74: 7402694
+    second: cam cyl1 int2|CDA:cyl 4
+  - first:
+      74: 7402696
+    second: cam cyl1 int2|CDA:cyl1 vlv exh
+  - first:
+      74: 7402698
+    second: cam cyl1 int2|CDA:cyl1 vlv int
+  - first:
+      74: 7402700
+    second: cam cyl1 int2|CDA:cyl1 vlv intk
+  - first:
+      74: 7402702
+    second: cam cyl1 int2|CDA:cyl2 vlv exh
+  - first:
+      74: 7402704
+    second: cam cyl1 int2|CDA:cyl2 vlv int
+  - first:
+      74: 7402706
+    second: cam cyl1 int2|CDA:cyl3 vlv exh
+  - first:
+      74: 7402708
+    second: cam cyl1 int2|CDA:cyl3 vlv int
+  - first:
+      74: 7402710
+    second: cam cyl1 int2|CDA:cyl4 vlv exh
+  - first:
+      74: 7402712
+    second: cam cyl1 int2|CDA:main pulley drive
+  - first:
+      74: 7402714
+    second: cam cyl1 int2|CDA:rod 1
+  - first:
+      74: 7402716
+    second: cam cyl1 int2|CDA:rod 2
+  - first:
+      74: 7402718
+    second: cam cyl1 int2|CDA:rod 3
+  - first:
+      74: 7402720
+    second: cam cyl1 int2|CDA:rod 4
+  - first:
+      74: 7402722
+    second: cam cyl1 int1|CDA:cam cyl1 exh
+  - first:
+      74: 7402724
+    second: cam cyl1 int1|CDA:cam cyl1 int
+  - first:
+      74: 7402726
+    second: cam cyl1 int1|CDA:cam cyl2 exh
+  - first:
+      74: 7402728
+    second: cam cyl1 int1|CDA:cam cyl2 int
+  - first:
+      74: 7402730
+    second: cam cyl1 int1|CDA:cam cyl3 exh
+  - first:
+      74: 7402732
+    second: cam cyl1 int1|CDA:cam cyl3 int
+  - first:
+      74: 7402734
+    second: cam cyl1 int1|CDA:cam cyl4 exh
+  - first:
+      74: 7402736
+    second: cam cyl1 int1|CDA:cam cyl4 int
+  - first:
+      74: 7402738
+    second: cam cyl1 int1|CDA:cam gear
+  - first:
+      74: 7402740
+    second: cam cyl1 int1|CDA:crank 1
+  - first:
+      74: 7402742
+    second: cam cyl1 int1|CDA:crank 2
+  - first:
+      74: 7402744
+    second: cam cyl1 int1|CDA:crank 3
+  - first:
+      74: 7402746
+    second: cam cyl1 int1|CDA:crank 4
+  - first:
+      74: 7402748
+    second: cam cyl1 int1|CDA:crank pst 1
+  - first:
+      74: 7402750
+    second: cam cyl1 int1|CDA:crank pst 2
+  - first:
+      74: 7402752
+    second: cam cyl1 int1|CDA:crank pst 3
+  - first:
+      74: 7402754
+    second: cam cyl1 int1|CDA:crank pst 4
+  - first:
+      74: 7402756
+    second: cam cyl1 int1|CDA:cyl 1
+  - first:
+      74: 7402758
+    second: cam cyl1 int1|CDA:cyl 2
+  - first:
+      74: 7402760
+    second: cam cyl1 int1|CDA:cyl 3
+  - first:
+      74: 7402762
+    second: cam cyl1 int1|CDA:cyl 4
+  - first:
+      74: 7402764
+    second: cam cyl1 int1|CDA:cyl1 vlv exh
+  - first:
+      74: 7402766
+    second: cam cyl1 int1|CDA:cyl1 vlv int
+  - first:
+      74: 7402768
+    second: cam cyl1 int1|CDA:cyl1 vlv intk
+  - first:
+      74: 7402770
+    second: cam cyl1 int1|CDA:cyl2 vlv exh
+  - first:
+      74: 7402772
+    second: cam cyl1 int1|CDA:cyl2 vlv int
+  - first:
+      74: 7402774
+    second: cam cyl1 int1|CDA:cyl3 vlv exh
+  - first:
+      74: 7402776
+    second: cam cyl1 int1|CDA:cyl3 vlv int
+  - first:
+      74: 7402778
+    second: cam cyl1 int1|CDA:cyl4 vlv exh
+  - first:
+      74: 7402780
+    second: cam cyl1 int1|CDA:main pulley drive
+  - first:
+      74: 7402782
+    second: cam cyl1 int1|CDA:rod 1
+  - first:
+      74: 7402784
+    second: cam cyl1 int1|CDA:rod 2
+  - first:
+      74: 7402786
+    second: cam cyl1 int1|CDA:rod 3
+  - first:
+      74: 7402788
+    second: cam cyl1 int1|CDA:rod 4
+  - first:
+      74: 7402790
+    second: cam cyl3 int1|CDA:cam cyl1 exh
+  - first:
+      74: 7402792
+    second: cam cyl3 int1|CDA:cam cyl1 int
+  - first:
+      74: 7402794
+    second: cam cyl3 int1|CDA:cam cyl2 exh
+  - first:
+      74: 7402796
+    second: cam cyl3 int1|CDA:cam cyl2 int
+  - first:
+      74: 7402798
+    second: cam cyl3 int1|CDA:cam cyl3 exh
+  - first:
+      74: 7402800
+    second: cam cyl3 int1|CDA:cam cyl3 int
+  - first:
+      74: 7402802
+    second: cam cyl3 int1|CDA:cam cyl4 exh
+  - first:
+      74: 7402804
+    second: cam cyl3 int1|CDA:cam cyl4 int
+  - first:
+      74: 7402806
+    second: cam cyl3 int1|CDA:cam gear
+  - first:
+      74: 7402808
+    second: cam cyl3 int1|CDA:crank 1
+  - first:
+      74: 7402810
+    second: cam cyl3 int1|CDA:crank 2
+  - first:
+      74: 7402812
+    second: cam cyl3 int1|CDA:crank 3
+  - first:
+      74: 7402814
+    second: cam cyl3 int1|CDA:crank 4
+  - first:
+      74: 7402816
+    second: cam cyl3 int1|CDA:crank pst 1
+  - first:
+      74: 7402818
+    second: cam cyl3 int1|CDA:crank pst 2
+  - first:
+      74: 7402820
+    second: cam cyl3 int1|CDA:crank pst 3
+  - first:
+      74: 7402822
+    second: cam cyl3 int1|CDA:crank pst 4
+  - first:
+      74: 7402824
+    second: cam cyl3 int1|CDA:cyl 1
+  - first:
+      74: 7402826
+    second: cam cyl3 int1|CDA:cyl 2
+  - first:
+      74: 7402828
+    second: cam cyl3 int1|CDA:cyl 3
+  - first:
+      74: 7402830
+    second: cam cyl3 int1|CDA:cyl 4
+  - first:
+      74: 7402832
+    second: cam cyl3 int1|CDA:cyl1 vlv exh
+  - first:
+      74: 7402834
+    second: cam cyl3 int1|CDA:cyl1 vlv int
+  - first:
+      74: 7402836
+    second: cam cyl3 int1|CDA:cyl1 vlv intk
+  - first:
+      74: 7402838
+    second: cam cyl3 int1|CDA:cyl2 vlv exh
+  - first:
+      74: 7402840
+    second: cam cyl3 int1|CDA:cyl2 vlv int
+  - first:
+      74: 7402842
+    second: cam cyl3 int1|CDA:cyl3 vlv exh
+  - first:
+      74: 7402844
+    second: cam cyl3 int1|CDA:cyl3 vlv int
+  - first:
+      74: 7402846
+    second: cam cyl3 int1|CDA:cyl4 vlv exh
+  - first:
+      74: 7402848
+    second: cam cyl3 int1|CDA:main pulley drive
+  - first:
+      74: 7402850
+    second: cam cyl3 int1|CDA:rod 1
+  - first:
+      74: 7402852
+    second: cam cyl3 int1|CDA:rod 2
+  - first:
+      74: 7402854
+    second: cam cyl3 int1|CDA:rod 3
+  - first:
+      74: 7402856
+    second: cam cyl3 int1|CDA:rod 4
+  - first:
+      74: 7402858
+    second: cam cyl4 int1|CDA:cam cyl1 exh
+  - first:
+      74: 7402860
+    second: cam cyl4 int1|CDA:cam cyl1 int
+  - first:
+      74: 7402862
+    second: cam cyl4 int1|CDA:cam cyl2 exh
+  - first:
+      74: 7402864
+    second: cam cyl4 int1|CDA:cam cyl2 int
+  - first:
+      74: 7402866
+    second: cam cyl4 int1|CDA:cam cyl3 exh
+  - first:
+      74: 7402868
+    second: cam cyl4 int1|CDA:cam cyl3 int
+  - first:
+      74: 7402870
+    second: cam cyl4 int1|CDA:cam cyl4 exh
+  - first:
+      74: 7402872
+    second: cam cyl4 int1|CDA:cam cyl4 int
+  - first:
+      74: 7402874
+    second: cam cyl4 int1|CDA:cam gear
+  - first:
+      74: 7402876
+    second: cam cyl4 int1|CDA:crank 1
+  - first:
+      74: 7402878
+    second: cam cyl4 int1|CDA:crank 2
+  - first:
+      74: 7402880
+    second: cam cyl4 int1|CDA:crank 3
+  - first:
+      74: 7402882
+    second: cam cyl4 int1|CDA:crank 4
+  - first:
+      74: 7402884
+    second: cam cyl4 int1|CDA:crank pst 1
+  - first:
+      74: 7402886
+    second: cam cyl4 int1|CDA:crank pst 2
+  - first:
+      74: 7402888
+    second: cam cyl4 int1|CDA:crank pst 3
+  - first:
+      74: 7402890
+    second: cam cyl4 int1|CDA:crank pst 4
+  - first:
+      74: 7402892
+    second: cam cyl4 int1|CDA:cyl 1
+  - first:
+      74: 7402894
+    second: cam cyl4 int1|CDA:cyl 2
+  - first:
+      74: 7402896
+    second: cam cyl4 int1|CDA:cyl 3
+  - first:
+      74: 7402898
+    second: cam cyl4 int1|CDA:cyl 4
+  - first:
+      74: 7402900
+    second: cam cyl4 int1|CDA:cyl1 vlv exh
+  - first:
+      74: 7402902
+    second: cam cyl4 int1|CDA:cyl1 vlv int
+  - first:
+      74: 7402904
+    second: cam cyl4 int1|CDA:cyl1 vlv intk
+  - first:
+      74: 7402906
+    second: cam cyl4 int1|CDA:cyl2 vlv exh
+  - first:
+      74: 7402908
+    second: cam cyl4 int1|CDA:cyl2 vlv int
+  - first:
+      74: 7402910
+    second: cam cyl4 int1|CDA:cyl3 vlv exh
+  - first:
+      74: 7402912
+    second: cam cyl4 int1|CDA:cyl3 vlv int
+  - first:
+      74: 7402914
+    second: cam cyl4 int1|CDA:cyl4 vlv exh
+  - first:
+      74: 7402916
+    second: cam cyl4 int1|CDA:main pulley drive
+  - first:
+      74: 7402918
+    second: cam cyl4 int1|CDA:rod 1
+  - first:
+      74: 7402920
+    second: cam cyl4 int1|CDA:rod 2
+  - first:
+      74: 7402922
+    second: cam cyl4 int1|CDA:rod 3
+  - first:
+      74: 7402924
+    second: cam cyl4 int1|CDA:rod 4
+  - first:
+      74: 7402926
+    second: cam cyl2 int2|CDA:cam cyl1 exh
+  - first:
+      74: 7402928
+    second: cam cyl2 int2|CDA:cam cyl1 int
+  - first:
+      74: 7402930
+    second: cam cyl2 int2|CDA:cam cyl2 exh
+  - first:
+      74: 7402932
+    second: cam cyl2 int2|CDA:cam cyl2 int
+  - first:
+      74: 7402934
+    second: cam cyl2 int2|CDA:cam cyl3 exh
+  - first:
+      74: 7402936
+    second: cam cyl2 int2|CDA:cam cyl3 int
+  - first:
+      74: 7402938
+    second: cam cyl2 int2|CDA:cam cyl4 exh
+  - first:
+      74: 7402940
+    second: cam cyl2 int2|CDA:cam cyl4 int
+  - first:
+      74: 7402942
+    second: cam cyl2 int2|CDA:cam gear
+  - first:
+      74: 7402944
+    second: cam cyl2 int2|CDA:crank 1
+  - first:
+      74: 7402946
+    second: cam cyl2 int2|CDA:crank 2
+  - first:
+      74: 7402948
+    second: cam cyl2 int2|CDA:crank 3
+  - first:
+      74: 7402950
+    second: cam cyl2 int2|CDA:crank 4
+  - first:
+      74: 7402952
+    second: cam cyl2 int2|CDA:crank pst 1
+  - first:
+      74: 7402954
+    second: cam cyl2 int2|CDA:crank pst 2
+  - first:
+      74: 7402956
+    second: cam cyl2 int2|CDA:crank pst 3
+  - first:
+      74: 7402958
+    second: cam cyl2 int2|CDA:crank pst 4
+  - first:
+      74: 7402960
+    second: cam cyl2 int2|CDA:cyl 1
+  - first:
+      74: 7402962
+    second: cam cyl2 int2|CDA:cyl 2
+  - first:
+      74: 7402964
+    second: cam cyl2 int2|CDA:cyl 3
+  - first:
+      74: 7402966
+    second: cam cyl2 int2|CDA:cyl 4
+  - first:
+      74: 7402968
+    second: cam cyl2 int2|CDA:cyl1 vlv exh
+  - first:
+      74: 7402970
+    second: cam cyl2 int2|CDA:cyl1 vlv int
+  - first:
+      74: 7402972
+    second: cam cyl2 int2|CDA:cyl1 vlv intk
+  - first:
+      74: 7402974
+    second: cam cyl2 int2|CDA:cyl2 vlv exh
+  - first:
+      74: 7402976
+    second: cam cyl2 int2|CDA:cyl2 vlv int
+  - first:
+      74: 7402978
+    second: cam cyl2 int2|CDA:cyl3 vlv exh
+  - first:
+      74: 7402980
+    second: cam cyl2 int2|CDA:cyl3 vlv int
+  - first:
+      74: 7402982
+    second: cam cyl2 int2|CDA:cyl4 vlv exh
+  - first:
+      74: 7402984
+    second: cam cyl2 int2|CDA:main pulley drive
+  - first:
+      74: 7402986
+    second: cam cyl2 int2|CDA:rod 1
+  - first:
+      74: 7402988
+    second: cam cyl2 int2|CDA:rod 2
+  - first:
+      74: 7402990
+    second: cam cyl2 int2|CDA:rod 3
+  - first:
+      74: 7402992
+    second: cam cyl2 int2|CDA:rod 4
+  - first:
+      74: 7402994
+    second: cam cyl4 int2|CDA:cam cyl1 exh
+  - first:
+      74: 7402996
+    second: cam cyl4 int2|CDA:cam cyl1 int
+  - first:
+      74: 7402998
+    second: cam cyl4 int2|CDA:cam cyl2 exh
+  - first:
+      74: 7403000
+    second: cam cyl4 int2|CDA:cam cyl2 int
+  - first:
+      74: 7403002
+    second: cam cyl4 int2|CDA:cam cyl3 exh
+  - first:
+      74: 7403004
+    second: cam cyl4 int2|CDA:cam cyl3 int
+  - first:
+      74: 7403006
+    second: cam cyl4 int2|CDA:cam cyl4 exh
+  - first:
+      74: 7403008
+    second: cam cyl4 int2|CDA:cam cyl4 int
+  - first:
+      74: 7403010
+    second: cam cyl4 int2|CDA:cam gear
+  - first:
+      74: 7403012
+    second: cam cyl4 int2|CDA:crank 1
+  - first:
+      74: 7403014
+    second: cam cyl4 int2|CDA:crank 2
+  - first:
+      74: 7403016
+    second: cam cyl4 int2|CDA:crank 3
+  - first:
+      74: 7403018
+    second: cam cyl4 int2|CDA:crank 4
+  - first:
+      74: 7403020
+    second: cam cyl4 int2|CDA:crank pst 1
+  - first:
+      74: 7403022
+    second: cam cyl4 int2|CDA:crank pst 2
+  - first:
+      74: 7403024
+    second: cam cyl4 int2|CDA:crank pst 3
+  - first:
+      74: 7403026
+    second: cam cyl4 int2|CDA:crank pst 4
+  - first:
+      74: 7403028
+    second: cam cyl4 int2|CDA:cyl 1
+  - first:
+      74: 7403030
+    second: cam cyl4 int2|CDA:cyl 2
+  - first:
+      74: 7403032
+    second: cam cyl4 int2|CDA:cyl 3
+  - first:
+      74: 7403034
+    second: cam cyl4 int2|CDA:cyl 4
+  - first:
+      74: 7403036
+    second: cam cyl4 int2|CDA:cyl1 vlv exh
+  - first:
+      74: 7403038
+    second: cam cyl4 int2|CDA:cyl1 vlv int
+  - first:
+      74: 7403040
+    second: cam cyl4 int2|CDA:cyl1 vlv intk
+  - first:
+      74: 7403042
+    second: cam cyl4 int2|CDA:cyl2 vlv exh
+  - first:
+      74: 7403044
+    second: cam cyl4 int2|CDA:cyl2 vlv int
+  - first:
+      74: 7403046
+    second: cam cyl4 int2|CDA:cyl3 vlv exh
+  - first:
+      74: 7403048
+    second: cam cyl4 int2|CDA:cyl3 vlv int
+  - first:
+      74: 7403050
+    second: cam cyl4 int2|CDA:cyl4 vlv exh
+  - first:
+      74: 7403052
+    second: cam cyl4 int2|CDA:main pulley drive
+  - first:
+      74: 7403054
+    second: cam cyl4 int2|CDA:rod 1
+  - first:
+      74: 7403056
+    second: cam cyl4 int2|CDA:rod 2
+  - first:
+      74: 7403058
+    second: cam cyl4 int2|CDA:rod 3
+  - first:
+      74: 7403060
+    second: cam cyl4 int2|CDA:rod 4
+  - first:
+      74: 7403062
+    second: cam exh|CDA:cam cyl1 exh
+  - first:
+      74: 7403064
+    second: cam exh|CDA:cam cyl1 int
+  - first:
+      74: 7403066
+    second: cam exh|CDA:cam cyl2 exh
+  - first:
+      74: 7403068
+    second: cam exh|CDA:cam cyl2 int
+  - first:
+      74: 7403070
+    second: cam exh|CDA:cam cyl3 exh
+  - first:
+      74: 7403072
+    second: cam exh|CDA:cam cyl3 int
+  - first:
+      74: 7403074
+    second: cam exh|CDA:cam cyl4 exh
+  - first:
+      74: 7403076
+    second: cam exh|CDA:cam cyl4 int
+  - first:
+      74: 7403078
+    second: cam exh|CDA:cam gear
+  - first:
+      74: 7403080
+    second: cam exh|CDA:crank 1
+  - first:
+      74: 7403082
+    second: cam exh|CDA:crank 2
+  - first:
+      74: 7403084
+    second: cam exh|CDA:crank 3
+  - first:
+      74: 7403086
+    second: cam exh|CDA:crank 4
+  - first:
+      74: 7403088
+    second: cam exh|CDA:crank pst 1
+  - first:
+      74: 7403090
+    second: cam exh|CDA:crank pst 2
+  - first:
+      74: 7403092
+    second: cam exh|CDA:crank pst 3
+  - first:
+      74: 7403094
+    second: cam exh|CDA:crank pst 4
+  - first:
+      74: 7403096
+    second: cam exh|CDA:cyl 1
+  - first:
+      74: 7403098
+    second: cam exh|CDA:cyl 2
+  - first:
+      74: 7403100
+    second: cam exh|CDA:cyl 3
+  - first:
+      74: 7403102
+    second: cam exh|CDA:cyl 4
+  - first:
+      74: 7403104
+    second: cam exh|CDA:cyl1 vlv exh
+  - first:
+      74: 7403106
+    second: cam exh|CDA:cyl1 vlv int
+  - first:
+      74: 7403108
+    second: cam exh|CDA:cyl1 vlv intk
+  - first:
+      74: 7403110
+    second: cam exh|CDA:cyl2 vlv exh
+  - first:
+      74: 7403112
+    second: cam exh|CDA:cyl2 vlv int
+  - first:
+      74: 7403114
+    second: cam exh|CDA:cyl3 vlv exh
+  - first:
+      74: 7403116
+    second: cam exh|CDA:cyl3 vlv int
+  - first:
+      74: 7403118
+    second: cam exh|CDA:cyl4 vlv exh
+  - first:
+      74: 7403120
+    second: cam exh|CDA:main pulley drive
+  - first:
+      74: 7403122
+    second: cam exh|CDA:rod 1
+  - first:
+      74: 7403124
+    second: cam exh|CDA:rod 2
+  - first:
+      74: 7403126
+    second: cam exh|CDA:rod 3
+  - first:
+      74: 7403128
+    second: cam exh|CDA:rod 4
+  - first:
+      74: 7403130
+    second: cam gears int|CDA:cam cyl1 exh
+  - first:
+      74: 7403132
+    second: cam gears int|CDA:cam cyl1 int
+  - first:
+      74: 7403134
+    second: cam gears int|CDA:cam cyl2 exh
+  - first:
+      74: 7403136
+    second: cam gears int|CDA:cam cyl2 int
+  - first:
+      74: 7403138
+    second: cam gears int|CDA:cam cyl3 exh
+  - first:
+      74: 7403140
+    second: cam gears int|CDA:cam cyl3 int
+  - first:
+      74: 7403142
+    second: cam gears int|CDA:cam cyl4 exh
+  - first:
+      74: 7403144
+    second: cam gears int|CDA:cam cyl4 int
+  - first:
+      74: 7403146
+    second: cam gears int|CDA:cam gear
+  - first:
+      74: 7403148
+    second: cam gears int|CDA:crank 1
+  - first:
+      74: 7403150
+    second: cam gears int|CDA:crank 2
+  - first:
+      74: 7403152
+    second: cam gears int|CDA:crank 3
+  - first:
+      74: 7403154
+    second: cam gears int|CDA:crank 4
+  - first:
+      74: 7403156
+    second: cam gears int|CDA:crank pst 1
+  - first:
+      74: 7403158
+    second: cam gears int|CDA:crank pst 2
+  - first:
+      74: 7403160
+    second: cam gears int|CDA:crank pst 3
+  - first:
+      74: 7403162
+    second: cam gears int|CDA:crank pst 4
+  - first:
+      74: 7403164
+    second: cam gears int|CDA:cyl 1
+  - first:
+      74: 7403166
+    second: cam gears int|CDA:cyl 2
+  - first:
+      74: 7403168
+    second: cam gears int|CDA:cyl 3
+  - first:
+      74: 7403170
+    second: cam gears int|CDA:cyl 4
+  - first:
+      74: 7403172
+    second: cam gears int|CDA:cyl1 vlv exh
+  - first:
+      74: 7403174
+    second: cam gears int|CDA:cyl1 vlv int
+  - first:
+      74: 7403176
+    second: cam gears int|CDA:cyl1 vlv intk
+  - first:
+      74: 7403178
+    second: cam gears int|CDA:cyl2 vlv exh
+  - first:
+      74: 7403180
+    second: cam gears int|CDA:cyl2 vlv int
+  - first:
+      74: 7403182
+    second: cam gears int|CDA:cyl3 vlv exh
+  - first:
+      74: 7403184
+    second: cam gears int|CDA:cyl3 vlv int
+  - first:
+      74: 7403186
+    second: cam gears int|CDA:cyl4 vlv exh
+  - first:
+      74: 7403188
+    second: cam gears int|CDA:main pulley drive
+  - first:
+      74: 7403190
+    second: cam gears int|CDA:rod 1
+  - first:
+      74: 7403192
+    second: cam gears int|CDA:rod 2
+  - first:
+      74: 7403194
+    second: cam gears int|CDA:rod 3
+  - first:
+      74: 7403196
+    second: cam gears int|CDA:rod 4
+  - first:
+      74: 7403198
+    second: cam pulley int|CDA:cam cyl1 exh
+  - first:
+      74: 7403200
+    second: cam pulley int|CDA:cam cyl1 int
+  - first:
+      74: 7403202
+    second: cam pulley int|CDA:cam cyl2 exh
+  - first:
+      74: 7403204
+    second: cam pulley int|CDA:cam cyl2 int
+  - first:
+      74: 7403206
+    second: cam pulley int|CDA:cam cyl3 exh
+  - first:
+      74: 7403208
+    second: cam pulley int|CDA:cam cyl3 int
+  - first:
+      74: 7403210
+    second: cam pulley int|CDA:cam cyl4 exh
+  - first:
+      74: 7403212
+    second: cam pulley int|CDA:cam cyl4 int
+  - first:
+      74: 7403214
+    second: cam pulley int|CDA:cam gear
+  - first:
+      74: 7403216
+    second: cam pulley int|CDA:crank 1
+  - first:
+      74: 7403218
+    second: cam pulley int|CDA:crank 2
+  - first:
+      74: 7403220
+    second: cam pulley int|CDA:crank 3
+  - first:
+      74: 7403222
+    second: cam pulley int|CDA:crank 4
+  - first:
+      74: 7403224
+    second: cam pulley int|CDA:crank pst 1
+  - first:
+      74: 7403226
+    second: cam pulley int|CDA:crank pst 2
+  - first:
+      74: 7403228
+    second: cam pulley int|CDA:crank pst 3
+  - first:
+      74: 7403230
+    second: cam pulley int|CDA:crank pst 4
+  - first:
+      74: 7403232
+    second: cam pulley int|CDA:cyl 1
+  - first:
+      74: 7403234
+    second: cam pulley int|CDA:cyl 2
+  - first:
+      74: 7403236
+    second: cam pulley int|CDA:cyl 3
+  - first:
+      74: 7403238
+    second: cam pulley int|CDA:cyl 4
+  - first:
+      74: 7403240
+    second: cam pulley int|CDA:cyl1 vlv exh
+  - first:
+      74: 7403242
+    second: cam pulley int|CDA:cyl1 vlv int
+  - first:
+      74: 7403244
+    second: cam pulley int|CDA:cyl1 vlv intk
+  - first:
+      74: 7403246
+    second: cam pulley int|CDA:cyl2 vlv exh
+  - first:
+      74: 7403248
+    second: cam pulley int|CDA:cyl2 vlv int
+  - first:
+      74: 7403250
+    second: cam pulley int|CDA:cyl3 vlv exh
+  - first:
+      74: 7403252
+    second: cam pulley int|CDA:cyl3 vlv int
+  - first:
+      74: 7403254
+    second: cam pulley int|CDA:cyl4 vlv exh
+  - first:
+      74: 7403256
+    second: cam pulley int|CDA:main pulley drive
+  - first:
+      74: 7403258
+    second: cam pulley int|CDA:rod 1
+  - first:
+      74: 7403260
+    second: cam pulley int|CDA:rod 2
+  - first:
+      74: 7403262
+    second: cam pulley int|CDA:rod 3
+  - first:
+      74: 7403264
+    second: cam pulley int|CDA:rod 4
+  - first:
+      74: 7403266
+    second: cam cyl4 exh2|CDA:cam cyl1 exh
+  - first:
+      74: 7403268
+    second: cam cyl4 exh2|CDA:cam cyl1 int
+  - first:
+      74: 7403270
+    second: cam cyl4 exh2|CDA:cam cyl2 exh
+  - first:
+      74: 7403272
+    second: cam cyl4 exh2|CDA:cam cyl2 int
+  - first:
+      74: 7403274
+    second: cam cyl4 exh2|CDA:cam cyl3 exh
+  - first:
+      74: 7403276
+    second: cam cyl4 exh2|CDA:cam cyl3 int
+  - first:
+      74: 7403278
+    second: cam cyl4 exh2|CDA:cam cyl4 exh
+  - first:
+      74: 7403280
+    second: cam cyl4 exh2|CDA:cam cyl4 int
+  - first:
+      74: 7403282
+    second: cam cyl4 exh2|CDA:cam gear
+  - first:
+      74: 7403284
+    second: cam cyl4 exh2|CDA:crank 1
+  - first:
+      74: 7403286
+    second: cam cyl4 exh2|CDA:crank 2
+  - first:
+      74: 7403288
+    second: cam cyl4 exh2|CDA:crank 3
+  - first:
+      74: 7403290
+    second: cam cyl4 exh2|CDA:crank 4
+  - first:
+      74: 7403292
+    second: cam cyl4 exh2|CDA:crank pst 1
+  - first:
+      74: 7403294
+    second: cam cyl4 exh2|CDA:crank pst 2
+  - first:
+      74: 7403296
+    second: cam cyl4 exh2|CDA:crank pst 3
+  - first:
+      74: 7403298
+    second: cam cyl4 exh2|CDA:crank pst 4
+  - first:
+      74: 7403300
+    second: cam cyl4 exh2|CDA:cyl 1
+  - first:
+      74: 7403302
+    second: cam cyl4 exh2|CDA:cyl 2
+  - first:
+      74: 7403304
+    second: cam cyl4 exh2|CDA:cyl 3
+  - first:
+      74: 7403306
+    second: cam cyl4 exh2|CDA:cyl 4
+  - first:
+      74: 7403308
+    second: cam cyl4 exh2|CDA:cyl1 vlv exh
+  - first:
+      74: 7403310
+    second: cam cyl4 exh2|CDA:cyl1 vlv int
+  - first:
+      74: 7403312
+    second: cam cyl4 exh2|CDA:cyl1 vlv intk
+  - first:
+      74: 7403314
+    second: cam cyl4 exh2|CDA:cyl2 vlv exh
+  - first:
+      74: 7403316
+    second: cam cyl4 exh2|CDA:cyl2 vlv int
+  - first:
+      74: 7403318
+    second: cam cyl4 exh2|CDA:cyl3 vlv exh
+  - first:
+      74: 7403320
+    second: cam cyl4 exh2|CDA:cyl3 vlv int
+  - first:
+      74: 7403322
+    second: cam cyl4 exh2|CDA:cyl4 vlv exh
+  - first:
+      74: 7403324
+    second: cam cyl4 exh2|CDA:main pulley drive
+  - first:
+      74: 7403326
+    second: cam cyl4 exh2|CDA:rod 1
+  - first:
+      74: 7403328
+    second: cam cyl4 exh2|CDA:rod 2
+  - first:
+      74: 7403330
+    second: cam cyl4 exh2|CDA:rod 3
+  - first:
+      74: 7403332
+    second: cam cyl4 exh2|CDA:rod 4
+  - first:
+      74: 7403334
+    second: cam cyl3 exh2|CDA:cam cyl1 exh
+  - first:
+      74: 7403336
+    second: cam cyl3 exh2|CDA:cam cyl1 int
+  - first:
+      74: 7403338
+    second: cam cyl3 exh2|CDA:cam cyl2 exh
+  - first:
+      74: 7403340
+    second: cam cyl3 exh2|CDA:cam cyl2 int
+  - first:
+      74: 7403342
+    second: cam cyl3 exh2|CDA:cam cyl3 exh
+  - first:
+      74: 7403344
+    second: cam cyl3 exh2|CDA:cam cyl3 int
+  - first:
+      74: 7403346
+    second: cam cyl3 exh2|CDA:cam cyl4 exh
+  - first:
+      74: 7403348
+    second: cam cyl3 exh2|CDA:cam cyl4 int
+  - first:
+      74: 7403350
+    second: cam cyl3 exh2|CDA:cam gear
+  - first:
+      74: 7403352
+    second: cam cyl3 exh2|CDA:crank 1
+  - first:
+      74: 7403354
+    second: cam cyl3 exh2|CDA:crank 2
+  - first:
+      74: 7403356
+    second: cam cyl3 exh2|CDA:crank 3
+  - first:
+      74: 7403358
+    second: cam cyl3 exh2|CDA:crank 4
+  - first:
+      74: 7403360
+    second: cam cyl3 exh2|CDA:crank pst 1
+  - first:
+      74: 7403362
+    second: cam cyl3 exh2|CDA:crank pst 2
+  - first:
+      74: 7403364
+    second: cam cyl3 exh2|CDA:crank pst 3
+  - first:
+      74: 7403366
+    second: cam cyl3 exh2|CDA:crank pst 4
+  - first:
+      74: 7403368
+    second: cam cyl3 exh2|CDA:cyl 1
+  - first:
+      74: 7403370
+    second: cam cyl3 exh2|CDA:cyl 2
+  - first:
+      74: 7403372
+    second: cam cyl3 exh2|CDA:cyl 3
+  - first:
+      74: 7403374
+    second: cam cyl3 exh2|CDA:cyl 4
+  - first:
+      74: 7403376
+    second: cam cyl3 exh2|CDA:cyl1 vlv exh
+  - first:
+      74: 7403378
+    second: cam cyl3 exh2|CDA:cyl1 vlv int
+  - first:
+      74: 7403380
+    second: cam cyl3 exh2|CDA:cyl1 vlv intk
+  - first:
+      74: 7403382
+    second: cam cyl3 exh2|CDA:cyl2 vlv exh
+  - first:
+      74: 7403384
+    second: cam cyl3 exh2|CDA:cyl2 vlv int
+  - first:
+      74: 7403386
+    second: cam cyl3 exh2|CDA:cyl3 vlv exh
+  - first:
+      74: 7403388
+    second: cam cyl3 exh2|CDA:cyl3 vlv int
+  - first:
+      74: 7403390
+    second: cam cyl3 exh2|CDA:cyl4 vlv exh
+  - first:
+      74: 7403392
+    second: cam cyl3 exh2|CDA:main pulley drive
+  - first:
+      74: 7403394
+    second: cam cyl3 exh2|CDA:rod 1
+  - first:
+      74: 7403396
+    second: cam cyl3 exh2|CDA:rod 2
+  - first:
+      74: 7403398
+    second: cam cyl3 exh2|CDA:rod 3
+  - first:
+      74: 7403400
+    second: cam cyl3 exh2|CDA:rod 4
+  - first:
+      74: 7403402
+    second: cam cyl 2 exh2|CDA:cam cyl1 exh
+  - first:
+      74: 7403404
+    second: cam cyl 2 exh2|CDA:cam cyl1 int
+  - first:
+      74: 7403406
+    second: cam cyl 2 exh2|CDA:cam cyl2 exh
+  - first:
+      74: 7403408
+    second: cam cyl 2 exh2|CDA:cam cyl2 int
+  - first:
+      74: 7403410
+    second: cam cyl 2 exh2|CDA:cam cyl3 exh
+  - first:
+      74: 7403412
+    second: cam cyl 2 exh2|CDA:cam cyl3 int
+  - first:
+      74: 7403414
+    second: cam cyl 2 exh2|CDA:cam cyl4 exh
+  - first:
+      74: 7403416
+    second: cam cyl 2 exh2|CDA:cam cyl4 int
+  - first:
+      74: 7403418
+    second: cam cyl 2 exh2|CDA:cam gear
+  - first:
+      74: 7403420
+    second: cam cyl 2 exh2|CDA:crank 1
+  - first:
+      74: 7403422
+    second: cam cyl 2 exh2|CDA:crank 2
+  - first:
+      74: 7403424
+    second: cam cyl 2 exh2|CDA:crank 3
+  - first:
+      74: 7403426
+    second: cam cyl 2 exh2|CDA:crank 4
+  - first:
+      74: 7403428
+    second: cam cyl 2 exh2|CDA:crank pst 1
+  - first:
+      74: 7403430
+    second: cam cyl 2 exh2|CDA:crank pst 2
+  - first:
+      74: 7403432
+    second: cam cyl 2 exh2|CDA:crank pst 3
+  - first:
+      74: 7403434
+    second: cam cyl 2 exh2|CDA:crank pst 4
+  - first:
+      74: 7403436
+    second: cam cyl 2 exh2|CDA:cyl 1
+  - first:
+      74: 7403438
+    second: cam cyl 2 exh2|CDA:cyl 2
+  - first:
+      74: 7403440
+    second: cam cyl 2 exh2|CDA:cyl 3
+  - first:
+      74: 7403442
+    second: cam cyl 2 exh2|CDA:cyl 4
+  - first:
+      74: 7403444
+    second: cam cyl 2 exh2|CDA:cyl1 vlv exh
+  - first:
+      74: 7403446
+    second: cam cyl 2 exh2|CDA:cyl1 vlv int
+  - first:
+      74: 7403448
+    second: cam cyl 2 exh2|CDA:cyl1 vlv intk
+  - first:
+      74: 7403450
+    second: cam cyl 2 exh2|CDA:cyl2 vlv exh
+  - first:
+      74: 7403452
+    second: cam cyl 2 exh2|CDA:cyl2 vlv int
+  - first:
+      74: 7403454
+    second: cam cyl 2 exh2|CDA:cyl3 vlv exh
+  - first:
+      74: 7403456
+    second: cam cyl 2 exh2|CDA:cyl3 vlv int
+  - first:
+      74: 7403458
+    second: cam cyl 2 exh2|CDA:cyl4 vlv exh
+  - first:
+      74: 7403460
+    second: cam cyl 2 exh2|CDA:main pulley drive
+  - first:
+      74: 7403462
+    second: cam cyl 2 exh2|CDA:rod 1
+  - first:
+      74: 7403464
+    second: cam cyl 2 exh2|CDA:rod 2
+  - first:
+      74: 7403466
+    second: cam cyl 2 exh2|CDA:rod 3
+  - first:
+      74: 7403468
+    second: cam cyl 2 exh2|CDA:rod 4
+  - first:
+      74: 7403470
+    second: cam cyl4 exh1|CDA:cam cyl1 exh
+  - first:
+      74: 7403472
+    second: cam cyl4 exh1|CDA:cam cyl1 int
+  - first:
+      74: 7403474
+    second: cam cyl4 exh1|CDA:cam cyl2 exh
+  - first:
+      74: 7403476
+    second: cam cyl4 exh1|CDA:cam cyl2 int
+  - first:
+      74: 7403478
+    second: cam cyl4 exh1|CDA:cam cyl3 exh
+  - first:
+      74: 7403480
+    second: cam cyl4 exh1|CDA:cam cyl3 int
+  - first:
+      74: 7403482
+    second: cam cyl4 exh1|CDA:cam cyl4 exh
+  - first:
+      74: 7403484
+    second: cam cyl4 exh1|CDA:cam cyl4 int
+  - first:
+      74: 7403486
+    second: cam cyl4 exh1|CDA:cam gear
+  - first:
+      74: 7403488
+    second: cam cyl4 exh1|CDA:crank 1
+  - first:
+      74: 7403490
+    second: cam cyl4 exh1|CDA:crank 2
+  - first:
+      74: 7403492
+    second: cam cyl4 exh1|CDA:crank 3
+  - first:
+      74: 7403494
+    second: cam cyl4 exh1|CDA:crank 4
+  - first:
+      74: 7403496
+    second: cam cyl4 exh1|CDA:crank pst 1
+  - first:
+      74: 7403498
+    second: cam cyl4 exh1|CDA:crank pst 2
+  - first:
+      74: 7403500
+    second: cam cyl4 exh1|CDA:crank pst 3
+  - first:
+      74: 7403502
+    second: cam cyl4 exh1|CDA:crank pst 4
+  - first:
+      74: 7403504
+    second: cam cyl4 exh1|CDA:cyl 1
+  - first:
+      74: 7403506
+    second: cam cyl4 exh1|CDA:cyl 2
+  - first:
+      74: 7403508
+    second: cam cyl4 exh1|CDA:cyl 3
+  - first:
+      74: 7403510
+    second: cam cyl4 exh1|CDA:cyl 4
+  - first:
+      74: 7403512
+    second: cam cyl4 exh1|CDA:cyl1 vlv exh
+  - first:
+      74: 7403514
+    second: cam cyl4 exh1|CDA:cyl1 vlv int
+  - first:
+      74: 7403516
+    second: cam cyl4 exh1|CDA:cyl1 vlv intk
+  - first:
+      74: 7403518
+    second: cam cyl4 exh1|CDA:cyl2 vlv exh
+  - first:
+      74: 7403520
+    second: cam cyl4 exh1|CDA:cyl2 vlv int
+  - first:
+      74: 7403522
+    second: cam cyl4 exh1|CDA:cyl3 vlv exh
+  - first:
+      74: 7403524
+    second: cam cyl4 exh1|CDA:cyl3 vlv int
+  - first:
+      74: 7403526
+    second: cam cyl4 exh1|CDA:cyl4 vlv exh
+  - first:
+      74: 7403528
+    second: cam cyl4 exh1|CDA:main pulley drive
+  - first:
+      74: 7403530
+    second: cam cyl4 exh1|CDA:rod 1
+  - first:
+      74: 7403532
+    second: cam cyl4 exh1|CDA:rod 2
+  - first:
+      74: 7403534
+    second: cam cyl4 exh1|CDA:rod 3
+  - first:
+      74: 7403536
+    second: cam cyl4 exh1|CDA:rod 4
+  - first:
+      74: 7403538
+    second: cam cyl3 exh1|CDA:cam cyl1 exh
+  - first:
+      74: 7403540
+    second: cam cyl3 exh1|CDA:cam cyl1 int
+  - first:
+      74: 7403542
+    second: cam cyl3 exh1|CDA:cam cyl2 exh
+  - first:
+      74: 7403544
+    second: cam cyl3 exh1|CDA:cam cyl2 int
+  - first:
+      74: 7403546
+    second: cam cyl3 exh1|CDA:cam cyl3 exh
+  - first:
+      74: 7403548
+    second: cam cyl3 exh1|CDA:cam cyl3 int
+  - first:
+      74: 7403550
+    second: cam cyl3 exh1|CDA:cam cyl4 exh
+  - first:
+      74: 7403552
+    second: cam cyl3 exh1|CDA:cam cyl4 int
+  - first:
+      74: 7403554
+    second: cam cyl3 exh1|CDA:cam gear
+  - first:
+      74: 7403556
+    second: cam cyl3 exh1|CDA:crank 1
+  - first:
+      74: 7403558
+    second: cam cyl3 exh1|CDA:crank 2
+  - first:
+      74: 7403560
+    second: cam cyl3 exh1|CDA:crank 3
+  - first:
+      74: 7403562
+    second: cam cyl3 exh1|CDA:crank 4
+  - first:
+      74: 7403564
+    second: cam cyl3 exh1|CDA:crank pst 1
+  - first:
+      74: 7403566
+    second: cam cyl3 exh1|CDA:crank pst 2
+  - first:
+      74: 7403568
+    second: cam cyl3 exh1|CDA:crank pst 3
+  - first:
+      74: 7403570
+    second: cam cyl3 exh1|CDA:crank pst 4
+  - first:
+      74: 7403572
+    second: cam cyl3 exh1|CDA:cyl 1
+  - first:
+      74: 7403574
+    second: cam cyl3 exh1|CDA:cyl 2
+  - first:
+      74: 7403576
+    second: cam cyl3 exh1|CDA:cyl 3
+  - first:
+      74: 7403578
+    second: cam cyl3 exh1|CDA:cyl 4
+  - first:
+      74: 7403580
+    second: cam cyl3 exh1|CDA:cyl1 vlv exh
+  - first:
+      74: 7403582
+    second: cam cyl3 exh1|CDA:cyl1 vlv int
+  - first:
+      74: 7403584
+    second: cam cyl3 exh1|CDA:cyl1 vlv intk
+  - first:
+      74: 7403586
+    second: cam cyl3 exh1|CDA:cyl2 vlv exh
+  - first:
+      74: 7403588
+    second: cam cyl3 exh1|CDA:cyl2 vlv int
+  - first:
+      74: 7403590
+    second: cam cyl3 exh1|CDA:cyl3 vlv exh
+  - first:
+      74: 7403592
+    second: cam cyl3 exh1|CDA:cyl3 vlv int
+  - first:
+      74: 7403594
+    second: cam cyl3 exh1|CDA:cyl4 vlv exh
+  - first:
+      74: 7403596
+    second: cam cyl3 exh1|CDA:main pulley drive
+  - first:
+      74: 7403598
+    second: cam cyl3 exh1|CDA:rod 1
+  - first:
+      74: 7403600
+    second: cam cyl3 exh1|CDA:rod 2
+  - first:
+      74: 7403602
+    second: cam cyl3 exh1|CDA:rod 3
+  - first:
+      74: 7403604
+    second: cam cyl3 exh1|CDA:rod 4
+  - first:
+      74: 7403606
+    second: cam cyl2 exh1|CDA:cam cyl1 exh
+  - first:
+      74: 7403608
+    second: cam cyl2 exh1|CDA:cam cyl1 int
+  - first:
+      74: 7403610
+    second: cam cyl2 exh1|CDA:cam cyl2 exh
+  - first:
+      74: 7403612
+    second: cam cyl2 exh1|CDA:cam cyl2 int
+  - first:
+      74: 7403614
+    second: cam cyl2 exh1|CDA:cam cyl3 exh
+  - first:
+      74: 7403616
+    second: cam cyl2 exh1|CDA:cam cyl3 int
+  - first:
+      74: 7403618
+    second: cam cyl2 exh1|CDA:cam cyl4 exh
+  - first:
+      74: 7403620
+    second: cam cyl2 exh1|CDA:cam cyl4 int
+  - first:
+      74: 7403622
+    second: cam cyl2 exh1|CDA:cam gear
+  - first:
+      74: 7403624
+    second: cam cyl2 exh1|CDA:crank 1
+  - first:
+      74: 7403626
+    second: cam cyl2 exh1|CDA:crank 2
+  - first:
+      74: 7403628
+    second: cam cyl2 exh1|CDA:crank 3
+  - first:
+      74: 7403630
+    second: cam cyl2 exh1|CDA:crank 4
+  - first:
+      74: 7403632
+    second: cam cyl2 exh1|CDA:crank pst 1
+  - first:
+      74: 7403634
+    second: cam cyl2 exh1|CDA:crank pst 2
+  - first:
+      74: 7403636
+    second: cam cyl2 exh1|CDA:crank pst 3
+  - first:
+      74: 7403638
+    second: cam cyl2 exh1|CDA:crank pst 4
+  - first:
+      74: 7403640
+    second: cam cyl2 exh1|CDA:cyl 1
+  - first:
+      74: 7403642
+    second: cam cyl2 exh1|CDA:cyl 2
+  - first:
+      74: 7403644
+    second: cam cyl2 exh1|CDA:cyl 3
+  - first:
+      74: 7403646
+    second: cam cyl2 exh1|CDA:cyl 4
+  - first:
+      74: 7403648
+    second: cam cyl2 exh1|CDA:cyl1 vlv exh
+  - first:
+      74: 7403650
+    second: cam cyl2 exh1|CDA:cyl1 vlv int
+  - first:
+      74: 7403652
+    second: cam cyl2 exh1|CDA:cyl1 vlv intk
+  - first:
+      74: 7403654
+    second: cam cyl2 exh1|CDA:cyl2 vlv exh
+  - first:
+      74: 7403656
+    second: cam cyl2 exh1|CDA:cyl2 vlv int
+  - first:
+      74: 7403658
+    second: cam cyl2 exh1|CDA:cyl3 vlv exh
+  - first:
+      74: 7403660
+    second: cam cyl2 exh1|CDA:cyl3 vlv int
+  - first:
+      74: 7403662
+    second: cam cyl2 exh1|CDA:cyl4 vlv exh
+  - first:
+      74: 7403664
+    second: cam cyl2 exh1|CDA:main pulley drive
+  - first:
+      74: 7403666
+    second: cam cyl2 exh1|CDA:rod 1
+  - first:
+      74: 7403668
+    second: cam cyl2 exh1|CDA:rod 2
+  - first:
+      74: 7403670
+    second: cam cyl2 exh1|CDA:rod 3
+  - first:
+      74: 7403672
+    second: cam cyl2 exh1|CDA:rod 4
+  - first:
+      74: 7403674
+    second: cam cyl1 exh1|CDA:cam cyl1 exh
+  - first:
+      74: 7403676
+    second: cam cyl1 exh1|CDA:cam cyl1 int
+  - first:
+      74: 7403678
+    second: cam cyl1 exh1|CDA:cam cyl2 exh
+  - first:
+      74: 7403680
+    second: cam cyl1 exh1|CDA:cam cyl2 int
+  - first:
+      74: 7403682
+    second: cam cyl1 exh1|CDA:cam cyl3 exh
+  - first:
+      74: 7403684
+    second: cam cyl1 exh1|CDA:cam cyl3 int
+  - first:
+      74: 7403686
+    second: cam cyl1 exh1|CDA:cam cyl4 exh
+  - first:
+      74: 7403688
+    second: cam cyl1 exh1|CDA:cam cyl4 int
+  - first:
+      74: 7403690
+    second: cam cyl1 exh1|CDA:cam gear
+  - first:
+      74: 7403692
+    second: cam cyl1 exh1|CDA:crank 1
+  - first:
+      74: 7403694
+    second: cam cyl1 exh1|CDA:crank 2
+  - first:
+      74: 7403696
+    second: cam cyl1 exh1|CDA:crank 3
+  - first:
+      74: 7403698
+    second: cam cyl1 exh1|CDA:crank 4
+  - first:
+      74: 7403700
+    second: cam cyl1 exh1|CDA:crank pst 1
+  - first:
+      74: 7403702
+    second: cam cyl1 exh1|CDA:crank pst 2
+  - first:
+      74: 7403704
+    second: cam cyl1 exh1|CDA:crank pst 3
+  - first:
+      74: 7403706
+    second: cam cyl1 exh1|CDA:crank pst 4
+  - first:
+      74: 7403708
+    second: cam cyl1 exh1|CDA:cyl 1
+  - first:
+      74: 7403710
+    second: cam cyl1 exh1|CDA:cyl 2
+  - first:
+      74: 7403712
+    second: cam cyl1 exh1|CDA:cyl 3
+  - first:
+      74: 7403714
+    second: cam cyl1 exh1|CDA:cyl 4
+  - first:
+      74: 7403716
+    second: cam cyl1 exh1|CDA:cyl1 vlv exh
+  - first:
+      74: 7403718
+    second: cam cyl1 exh1|CDA:cyl1 vlv int
+  - first:
+      74: 7403720
+    second: cam cyl1 exh1|CDA:cyl1 vlv intk
+  - first:
+      74: 7403722
+    second: cam cyl1 exh1|CDA:cyl2 vlv exh
+  - first:
+      74: 7403724
+    second: cam cyl1 exh1|CDA:cyl2 vlv int
+  - first:
+      74: 7403726
+    second: cam cyl1 exh1|CDA:cyl3 vlv exh
+  - first:
+      74: 7403728
+    second: cam cyl1 exh1|CDA:cyl3 vlv int
+  - first:
+      74: 7403730
+    second: cam cyl1 exh1|CDA:cyl4 vlv exh
+  - first:
+      74: 7403732
+    second: cam cyl1 exh1|CDA:main pulley drive
+  - first:
+      74: 7403734
+    second: cam cyl1 exh1|CDA:rod 1
+  - first:
+      74: 7403736
+    second: cam cyl1 exh1|CDA:rod 2
+  - first:
+      74: 7403738
+    second: cam cyl1 exh1|CDA:rod 3
+  - first:
+      74: 7403740
+    second: cam cyl1 exh1|CDA:rod 4
+  - first:
+      74: 7403742
+    second: cam cyl1 exh2|CDA:cam cyl1 exh
+  - first:
+      74: 7403744
+    second: cam cyl1 exh2|CDA:cam cyl1 int
+  - first:
+      74: 7403746
+    second: cam cyl1 exh2|CDA:cam cyl2 exh
+  - first:
+      74: 7403748
+    second: cam cyl1 exh2|CDA:cam cyl2 int
+  - first:
+      74: 7403750
+    second: cam cyl1 exh2|CDA:cam cyl3 exh
+  - first:
+      74: 7403752
+    second: cam cyl1 exh2|CDA:cam cyl3 int
+  - first:
+      74: 7403754
+    second: cam cyl1 exh2|CDA:cam cyl4 exh
+  - first:
+      74: 7403756
+    second: cam cyl1 exh2|CDA:cam cyl4 int
+  - first:
+      74: 7403758
+    second: cam cyl1 exh2|CDA:cam gear
+  - first:
+      74: 7403760
+    second: cam cyl1 exh2|CDA:crank 1
+  - first:
+      74: 7403762
+    second: cam cyl1 exh2|CDA:crank 2
+  - first:
+      74: 7403764
+    second: cam cyl1 exh2|CDA:crank 3
+  - first:
+      74: 7403766
+    second: cam cyl1 exh2|CDA:crank 4
+  - first:
+      74: 7403768
+    second: cam cyl1 exh2|CDA:crank pst 1
+  - first:
+      74: 7403770
+    second: cam cyl1 exh2|CDA:crank pst 2
+  - first:
+      74: 7403772
+    second: cam cyl1 exh2|CDA:crank pst 3
+  - first:
+      74: 7403774
+    second: cam cyl1 exh2|CDA:crank pst 4
+  - first:
+      74: 7403776
+    second: cam cyl1 exh2|CDA:cyl 1
+  - first:
+      74: 7403778
+    second: cam cyl1 exh2|CDA:cyl 2
+  - first:
+      74: 7403780
+    second: cam cyl1 exh2|CDA:cyl 3
+  - first:
+      74: 7403782
+    second: cam cyl1 exh2|CDA:cyl 4
+  - first:
+      74: 7403784
+    second: cam cyl1 exh2|CDA:cyl1 vlv exh
+  - first:
+      74: 7403786
+    second: cam cyl1 exh2|CDA:cyl1 vlv int
+  - first:
+      74: 7403788
+    second: cam cyl1 exh2|CDA:cyl1 vlv intk
+  - first:
+      74: 7403790
+    second: cam cyl1 exh2|CDA:cyl2 vlv exh
+  - first:
+      74: 7403792
+    second: cam cyl1 exh2|CDA:cyl2 vlv int
+  - first:
+      74: 7403794
+    second: cam cyl1 exh2|CDA:cyl3 vlv exh
+  - first:
+      74: 7403796
+    second: cam cyl1 exh2|CDA:cyl3 vlv int
+  - first:
+      74: 7403798
+    second: cam cyl1 exh2|CDA:cyl4 vlv exh
+  - first:
+      74: 7403800
+    second: cam cyl1 exh2|CDA:main pulley drive
+  - first:
+      74: 7403802
+    second: cam cyl1 exh2|CDA:rod 1
+  - first:
+      74: 7403804
+    second: cam cyl1 exh2|CDA:rod 2
+  - first:
+      74: 7403806
+    second: cam cyl1 exh2|CDA:rod 3
+  - first:
+      74: 7403808
+    second: cam cyl1 exh2|CDA:rod 4
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      108: 10800000
+    second: Lamp.008
+  - first:
+      108: 10800002
+    second: Lamp.009
+  - first:
+      108: 10800004
+    second: Lamp.010
+  - first:
+      108: 10800006
+    second: Lamp.011
+  - first:
+      108: 10800008
+    second: Lamp.012
+  - first:
+      108: 10800010
+    second: Lamp.013
+  - first:
+      108: 10800012
+    second: Lamp.014
+  - first:
+      108: 10800014
+    second: Lamp.015
+  - first:
+      74: 8536838415621551102
+    second: 3d scene
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
