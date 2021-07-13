@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45137662, g: 0.5004079, b: 0.56986135, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9489,7 +9489,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &94695998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14719,6 +14719,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1264542519}
+        m_TargetAssemblyTypeName: AssessOperationMixer, Assembly-CSharp
+        m_MethodName: PatchPanelListener
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: velocidadBaja
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &175056361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18289,7 +18301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 614.88916, y: -71.58601}
+  m_AnchoredPosition: {x: 598.43774, y: -73.57956}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542318354
@@ -21543,6 +21555,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1264542519}
+        m_TargetAssemblyTypeName: AssessOperationMixer, Assembly-CSharp
+        m_MethodName: PatchPanelListener
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: arranque
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1123358938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22610,6 +22634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1264542517}
   - component: {fileID: 1264542518}
+  - component: {fileID: 1264542519}
   m_Layer: 0
   m_Name: ScanController
   m_TagString: Untagged
@@ -22651,6 +22676,18 @@ MonoBehaviour:
   VideoPlayerAnim: {fileID: 114376073948286289}
   PlaceMixerButton: {fileID: 6490955315059155923}
   ModelPositionY: 0.35
+--- !u!114 &1264542519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264542516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab3e90b1d5eb966498825a0c602cd43b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1265811512
 GameObject:
   m_ObjectHideFlags: 0
@@ -23111,6 +23148,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1264542519}
+        m_TargetAssemblyTypeName: AssessOperationMixer, Assembly-CSharp
+        m_MethodName: PatchPanelListener
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: paro
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1292605754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23413,6 +23462,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1264542519}
+        m_TargetAssemblyTypeName: AssessOperationMixer, Assembly-CSharp
+        m_MethodName: PatchPanelListener
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: velocidadAlta
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1301138169
@@ -24168,7 +24229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1522977643
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25104,7 +25165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 183544, guid: 6d0acc00cc82d436b9d11446d2ddfef6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 406632, guid: 6d0acc00cc82d436b9d11446d2ddfef6, type: 3}
       propertyPath: m_RootOrder
@@ -26970,7 +27031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122.97783, y: -71.58601}
+  m_AnchoredPosition: {x: 119.687546, y: -73.57956}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1972776386
@@ -27906,7 +27967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 368.93347, y: -71.58601}
+  m_AnchoredPosition: {x: 359.06262, y: -73.57956}
   m_SizeDelta: {x: 120, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2081288699
@@ -29648,7 +29709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 35.89996}
+  m_AnchoredPosition: {x: 0, y: 35.899902}
   m_SizeDelta: {x: 1206.4, y: 198.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224433948902596987
@@ -31640,7 +31701,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7215513144192424723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1264542519}
+        m_TargetAssemblyTypeName: AssessOperationMixer, Assembly-CSharp
+        m_MethodName: PatchPanelListener
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: arranque
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7215513144192424723
 MonoBehaviour:
   m_ObjectHideFlags: 0

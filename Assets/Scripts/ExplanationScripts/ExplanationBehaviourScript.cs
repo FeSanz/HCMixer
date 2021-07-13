@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
+using Newtonsoft.Json;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Networking;
 
 public class ExplanationBehaviourScript : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class ExplanationBehaviourScript : MonoBehaviour
     [SerializeField] Transform Mixer;
 
     private TensarBandaBehaviourScript tbbs;
+    private UnityWebRequest webRequest;
 
     private int j, tam;
     private string[] lines;
@@ -91,30 +94,39 @@ public class ExplanationBehaviourScript : MonoBehaviour
             {
                 case 0:
                     tbbs.Step1();
+                    PatchSupportListener("1/9");
                     break;
                 case 1:
                     tbbs.Step2();
+                    PatchSupportListener("2/9");
                     break;
                 case 2:
                     tbbs.Step3();
+                    PatchSupportListener("3/9");
                     break;
                 case 3:
                     tbbs.Step4();
+                    PatchSupportListener("4/9");
                     break;
                 case 4:
                     tbbs.Step5();
+                    PatchSupportListener("5/9");
                     break;
                 case 5:
                     tbbs.Step6();
+                    PatchSupportListener("6/9");
                     break;
                 case 6:
                     tbbs.Step7();
+                    PatchSupportListener("7/9");
                     break;
                 case 7:
                     tbbs.Step8();
+                    PatchSupportListener("8/9");
                     break;
                 case 8:
                     tbbs.Step9();
+                    PatchSupportListener("9/9");
                     break;
             }
         }
@@ -125,7 +137,35 @@ public class ExplanationBehaviourScript : MonoBehaviour
             ButtonsPanel.gameObject.SetActive(false);
         }
     }
+    
+    public void PatchSupportListener(string value)
+    {
+        Dictionary<string, object> panelArranque = new Dictionary<string, object>(){{ "pasos", value }};
+        string json = JsonConvert.SerializeObject(panelArranque, Formatting.Indented);
 
+        StartCoroutine(PatchAssignment( AssessOperationMixer._url +"/assignmentRecordOperation/tensarBanda.json", json));
+    }
+    
+    private IEnumerator PatchAssignment(string url_api, string json)
+    {
+        using (webRequest = UnityWebRequest.Put(url_api, json))
+        {
+            webRequest.method = "PATCH";
+            webRequest.SetRequestHeader("Content-Type", "application/json");
+            webRequest.SetRequestHeader("Accept", "application/json");
+            yield return webRequest.SendWebRequest();
+            if (webRequest.result != UnityWebRequest.Result.Success)
+            {
+                print("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
+            }
+            else
+            {
+                print("Cambio exitoso!!!");
+                print(webRequest.downloadHandler.text);
+            }
+        }
+    }
+    
     public void ReadString(string name)
     {
         if (Mixer.gameObject.activeSelf)
