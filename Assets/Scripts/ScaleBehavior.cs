@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class ScaleBehavior : MonoBehaviour
@@ -16,13 +19,24 @@ public class ScaleBehavior : MonoBehaviour
 
     public static bool isEditionMode = false;
     public static float PositionY;
+    
+    private float timeOnOperation = 0.0f;
 
 
-    private AlertsBehaviour _alertsBehaviour = new AlertsBehaviour();
+    private AlertsBehaviour _alertsBehaviour;
+    private UnityWebRequest webRequest;
 
     private void Start()
     {
+        _alertsBehaviour = new AlertsBehaviour();
+        
         ResizeImage = GetComponent<Image>();
+    }
+
+    private void Update()
+    {
+        timeOnOperation += Time.deltaTime;
+        //print(timeOnOperation.ToString("f0"));
     }
 
     public void ShowExitListener()
@@ -36,11 +50,42 @@ public class ScaleBehavior : MonoBehaviour
 
     public void ExitApplicationListener()
     {
-        #if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-        #else 
-                Application.Quit();
-        #endif
+        PatchTimeOpearion(timeOnOperation);
+    }
+    
+    public void PatchTimeOpearion(float value)
+    {
+        Dictionary<string, object> panelArranque = new Dictionary<string, object>(){{ "tiempo", Mathf.Round(value / 60)}};
+        string json = JsonConvert.SerializeObject(panelArranque, Formatting.Indented);
+
+        StartCoroutine(PatchAssignment( AssessOperationMixer._url +"/assignmentRecordOperation.json", json));
+        //print(AssessOperationMixer._url);
+    }
+    
+    private IEnumerator PatchAssignment(string url_api, string json)
+    {
+        using (webRequest = UnityWebRequest.Put(url_api, json))
+        {
+            webRequest.method = "PATCH";
+            webRequest.SetRequestHeader("Content-Type", "application/json");
+            webRequest.SetRequestHeader("Accept", "application/json");
+            yield return webRequest.SendWebRequest();
+            if (webRequest.result != UnityWebRequest.Result.Success)
+            {
+                print("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
+            }
+            else
+            {
+                print("Cambio exitoso!!!");
+                print(webRequest.downloadHandler.text);
+            }
+            
+            #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+            #else
+            Application.Quit();
+            #endif
+        }
     }
 
     public void ShowScaleListener()
@@ -145,5 +190,17 @@ public class ScaleBehavior : MonoBehaviour
     {
         EditAnimation.Play("EditButton");
         EditPop.SetActive(false);
+    }
+    
+    void OnDisable ()
+    {
+        PatchTimeOpearion(timeOnOperation);
+        print("Disable");
+    }
+
+    private void OnDestroy()
+    {
+        PatchTimeOpearion(timeOnOperation);
+        print("Destroy");
     }
 }
