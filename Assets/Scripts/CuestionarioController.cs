@@ -4,6 +4,7 @@ using System.Net;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CuestionarioController : MonoBehaviour
@@ -29,7 +30,10 @@ public class CuestionarioController : MonoBehaviour
     private List<Pregunta> listaPreguntas;
     public int intento;
     private float timeBegin;
-     
+
+    public void changeMainScene() {
+        SceneManager.LoadScene("ARMixerScene");
+    }
     public float calculateCalif() {
         int suma = 0;
         
@@ -60,12 +64,15 @@ public class CuestionarioController : MonoBehaviour
     public void showQuestions(List<Pregunta> preguntas)
     {
 
-        content.GetComponent<RectTransform>().offsetMax = new Vector2((preguntas.Count -1) * 250, 0);
+        Debug.Log(preguntas.Count);
+        Debug.Log(panelQuestions.GetComponent<RectTransform>().rect.width);
         scrollbar.numberOfSteps = preguntas.Count;
 
         foreach (Pregunta pregunta in preguntas) {
 
             GameObject panel = Instantiate(panelQuestions, content);
+
+            Debug.Log(content.GetComponent<RectTransform>().rect.width);
 
 
             GameObject box = Instantiate(questionPrefab, panel.transform);
@@ -93,6 +100,8 @@ public class CuestionarioController : MonoBehaviour
 
 
             box1.transform.SetSiblingIndex(Random.Range(1, 5));
+            panel.GetComponent<RectTransform>().sizeDelta = new Vector2(
+                content.GetComponent<RectTransform>().rect.width, panel.GetComponent<RectTransform>().sizeDelta.y);
 
             foreach (Toggle toggle in pregunta.toggles)
             {
@@ -105,7 +114,10 @@ public class CuestionarioController : MonoBehaviour
 
         }
 
-        
+        content.GetComponent<RectTransform>().offsetMax = new Vector2( (preguntas.Count-1) * content.GetComponent<RectTransform>().rect.width, 0);
+
+
+
     }
 
 
