@@ -19,18 +19,32 @@ public class AssessOperationMixer : MonoBehaviour
     [SerializeField] private Image tensarBandaIcon;
     
     
+    [SerializeField] private Animator SnackBarAnimation;
+    [SerializeField] private Text SnackaBarText;
+    [SerializeField] private Image SnackBarImage;
+    private bool mostrarSinInternet = false,mostrarConInternet = false;
+    
     private UnityWebRequest webRequest;
-    private string user = "Curtis_Feitty";
+    private string user = "";
     public static string _url= "";
     private bool checkNull = true;
 
     private AssessStructure assessStructure;
+    private AlertsBehaviour _alertsBehaviour;
 
     private void Start()
     {
+        //user = CuestionarioController.userEmail;
+        user = "Felipe_Antonio";
         _url = "https://mixerar-d96f8-default-rtdb.firebaseio.com/" + user;
         assessStructure = new AssessStructure();
+        _alertsBehaviour = new AlertsBehaviour();
         StartCoroutine(GetAssignmentRecords());
+    }
+
+    private void Update()
+    {
+        CheckInternetConnection();
     }
 
     public void PatchPanelListener(string key)
@@ -56,7 +70,7 @@ public class AssessOperationMixer : MonoBehaviour
             yield return webRequest.SendWebRequest();
             if (webRequest.result != UnityWebRequest.Result.Success)
             {
-                print("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
+                _alertsBehaviour.AndroidToastMessage("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
             }
             else
             {
@@ -82,7 +96,7 @@ public class AssessOperationMixer : MonoBehaviour
             yield return webRequest.SendWebRequest();
             if (webRequest.result != UnityWebRequest.Result.Success)
             {
-                print("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
+                _alertsBehaviour.AndroidToastMessage("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
             }
             else
             {
@@ -123,7 +137,7 @@ public class AssessOperationMixer : MonoBehaviour
             yield return webRequest.SendWebRequest();
             if (webRequest.result != UnityWebRequest.Result.Success)
             {
-                print("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
+                _alertsBehaviour.AndroidToastMessage("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
             }
             else
             {
@@ -143,7 +157,7 @@ public class AssessOperationMixer : MonoBehaviour
             yield return webRequest.SendWebRequest();
             if (webRequest.result != UnityWebRequest.Result.Success)
             {
-                print("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
+                _alertsBehaviour.AndroidToastMessage("Error." + webRequest.error + ", " +  webRequest.downloadHandler.text);
             }
             else
             {
@@ -179,5 +193,54 @@ public class AssessOperationMixer : MonoBehaviour
         
         tensarBandaIcon.sprite = pasos.Equals("9/9") ? complete : incomplete;
         tensarBandaIcon.color = pasos.Equals("9/9") ? Color.green : Color.red;
+    }
+
+   
+    private void CheckInternetConnection()
+    {
+        if (Application.internetReachability == NetworkReachability.NotReachable)
+        {
+            if (!mostrarSinInternet)
+            {
+                SnackBarAlert("Sin internet", "Show", TypeAlert.Error);
+                mostrarSinInternet = true;
+                mostrarConInternet = false;
+            }
+        }
+        if (Application.internetReachability == NetworkReachability.ReachableViaCarrierDataNetwork || Application.internetReachability == NetworkReachability.ReachableViaLocalAreaNetwork)
+        {
+            if (!mostrarConInternet)
+            {
+                SnackBarAlert("En linea", "Toast", TypeAlert.Success);
+                mostrarConInternet = true;
+                mostrarSinInternet = false;
+            }
+        }
+    }
+    
+    private void SnackBarAlert(string message, string animacion, TypeAlert typeAlert)
+    {
+        SnackBarImage.color = TypeColor(typeAlert);
+        SnackaBarText.text = message;
+        SnackBarAnimation.Play(animacion);
+    }
+    private Color32 TypeColor(TypeAlert typeAlert)
+    {
+        if (typeAlert == TypeAlert.Error)
+        {
+            return new Color32(255, 4, 9, 94);
+        }
+        else if (typeAlert == TypeAlert.Success)
+        {
+            return new Color32(0, 234, 139, 94);
+        }
+        else if (typeAlert == TypeAlert.Default)
+        {
+            return new Color32(0, 0, 0, 94);
+        }
+        else
+        {
+            return new Color32(0, 0, 0, 94);
+        }
     }
 }

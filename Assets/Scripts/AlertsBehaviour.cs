@@ -8,6 +8,7 @@ using JetBrains.Annotations;
 
 public class AlertsBehaviour
 {
+    
     /// <summary>
     /// Metodo para ver alerta para Toast para android.
     /// </summary>
@@ -35,25 +36,11 @@ public class AlertsBehaviour
     /// Metodo para ver alerta de Debug en el Canvas
     /// </summary>
     /// <param name="message">Mensaje string para ver en la alerta</param>
-    public void DebugText(string message, Colour color)
+    public void DebugText(string message, TypeAlert alert)
     {
         TextMeshProUGUI deb = GameObject.FindWithTag("Debug").GetComponent<TextMeshProUGUI>();        
-        Color customColor = new Color();
-
-        if (color == Colour.Error)
-        {
-            customColor = Color.red;
-        }
-        if (color == Colour.Success)
-        {
-            customColor = Color.green;
-        }
-        if (color == Colour.Normal)
-        {
-            customColor = Color.white;
-        }
-
-        deb.color = customColor;
+       
+        deb.color = TypeColor(alert);
         deb.text = message;
     }
 
@@ -69,12 +56,38 @@ public class AlertsBehaviour
         IGDialogs.ShowOneBtnDialog(header, message, "Confirmar", () => Debug.Log("iOS. Alerta cerrada!"));
         #endif
     }
+    
+    private Color32 TypeColor(TypeAlert typeAlert)
+    {
+        Color color;
+        if (typeAlert == TypeAlert.Error)
+        {
+            color =new Color32(255, 4, 9, 94);
+            return color;
+        }
+        else if (typeAlert == TypeAlert.Success)
+        {
+            color = new Color32(0, 234, 139, 94);
+            return color;
+        }
+        else if (typeAlert == TypeAlert.Default)
+        {
+            color = new Color32(255, 255, 255, 94);
+            return color;
+        }
+        else
+        {
+            color = new Color32(255, 255, 255, 94);
+            return color;
+        }
+    }
 }
 
-public enum Colour
+
+public enum TypeAlert
 {
     Error,
     Success,
-    Normal
+    Default
 }
 
