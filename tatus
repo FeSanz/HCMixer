@@ -1,0 +1,121 @@
+[33mcommit 709e1065d552ed14cbe484e8bf836fa0bef42e64[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 84e9752 3b1200e
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Fri Jul 16 12:13:43 2021 -0500
+
+    Integrar Cambios de Felipe a Carlos
+
+[33mcommit 84e97524260afbce0050ba86448b45b11a9d325a[m
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Fri Jul 16 12:10:22 2021 -0500
+
+    Rest Api Cambio de Local a Remoto
+    
+    Se desplegó el backend en el servidor de Firebase, corrigiendo las solicitudes Get de Body a Params
+
+[33mcommit 3b1200e331a76d87d22daf096039cc67ff7c3a45[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: FeSanz <felipe.antonio.condor@gmail.com>
+Date:   Wed Jul 14 19:13:52 2021 -0500
+
+    Validacion de conexion
+    
+    Validacion de conexion, animaciones e interfaces de validacion
+
+[33mcommit 91845e275bfdd435aa648934d79466d34eee7df3[m
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Wed Jul 14 14:42:32 2021 -0500
+
+    Login Scene Responsive Canvas
+    
+    Se corrigió la escena para que séa responsiva
+
+[33mcommit 9f02fda03c90f0633c75264afcf43da1f8db8023[m
+Author: FeSanz <felipe.antonio.condor@gmail.com>
+Date:   Tue Jul 13 22:11:58 2021 -0500
+
+    Consulta de status de operación de la app
+    
+    UI y get de datos para revisar estatus de usuario interactuando con la app
+
+[33mcommit 0e9d4d6456de83afbb7e47e64b72434978d07195[m
+Merge: bba95ef 8e48423
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Mon Jul 12 20:11:04 2021 -0500
+
+    Merge branch 'main' of https://github.com/FeSanz/HCMixer into main
+
+[33mcommit 8e48423755736586ac0d149f03179e632da578f2[m
+Author: FeSanz <felipe.antonio.condor@gmail.com>
+Date:   Mon Jul 12 20:09:59 2021 -0500
+
+    Patch de cada operacion e interacion con panel
+    
+    Ya se realizan cada uno de los registros en la base de datos
+
+[33mcommit bba95ef1f49dc019816b41c87c1e8344370a99a1[m
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Mon Jul 12 20:02:45 2021 -0500
+
+    Responsive Canvas and Scroll View CuestionarioController
+    Corrección de problemas con la escala de dispositivos en el scroll view
+
+[33mcommit 7385a1fce27d783bef97fb971fdc32fc32134a0c[m
+Merge: b59dda6 9284fa4
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Thu Jul 8 19:40:11 2021 -0500
+
+    Merge branch 'main' of https://github.com/FeSanz/HCMixer into main
+
+[33mcommit b59dda6c9f83721fa11926752795db9e8c08af89[m
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Thu Jul 8 19:39:29 2021 -0500
+
+    Controlador de Cuestionario con los métodos HTTP
+    
+    Ya puede recibir status del cuestionario además de actualizar los estatus una vez se finalice el cuestionario.
+
+[33mcommit 9284fa421989ac3734aa73e4ec6ff143ddaffd81[m
+Author: FeSanz <felipe.antonio.condor@gmail.com>
+Date:   Thu Jul 8 00:26:07 2021 -0500
+
+    Estructura de Json
+    
+    Armado de PUT y PATCH para registro de operaciones en base de datos
+
+[33mcommit 767edd26b1a32e191b4a48a057bb35aeda22e396[m
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Wed Jul 7 20:43:39 2021 -0500
+
+    Add Questionario Scene
+    
+    Se agregarón las funciones de obtener el cuestionario y mostrarlo en un Scroll View
+
+[33mcommit 96ce6a3f765f7a27ae6f95cac667f2f01079b2d7[m
+Author: Roberto Carlos Tapia De León <rocatale@ciencias.unam.mx>
+Date:   Mon Jul 5 20:31:01 2021 -0500
+
+     GET POST PUT de Cuestionarios
+    
+    Se crearon los métodos en una escena de pruebas para los métodos GET POST y PUT para obtener información y estatus de los cuestionarios.
+
+[33mcommit 8c2390e7a10c7a513a5886903548c096f6b7259d[m
+Author: FeSanz <felipe.antonio.condor@gmail.com>
+Date:   Mon Jul 5 15:23:06 2021 -0500
+
+    Ejemplo Unity Web Request
+    
+    Ejemplo para post y get
+
+[33mcommit 407c69f98e0b68d6f44e0368b7dada357c5d9b8a[m
+Author: FeSanz <felipe.antonio.condor@gmail.com>
+Date:   Mon Jul 5 10:18:07 2021 -0500
+
+    Version para HCM
+    
+    Primer version para HCM
+
+[33mcommit ca8c5da7d45b616c1811a56ed72c7390da136af8[m
+Author: FeSanz <68288843+FeSanz@users.noreply.github.com>
+Date:   Mon Jul 5 10:14:53 2021 -0500
+
+    Initial commit

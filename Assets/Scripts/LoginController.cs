@@ -10,6 +10,7 @@ public class LoginController : MonoBehaviour
     [SerializeField] private TMP_InputField emailInput;
     [SerializeField] private TMP_InputField passwordInput;
     [SerializeField] private GameObject loadPanel;
+    [SerializeField] private TextMeshProUGUI statusText;
 
     private UnityWebRequest webRequest;
     private string rootPath = "https://us-central1-restservice-89269.cloudfunctions.net/app/";
@@ -48,11 +49,18 @@ public class LoginController : MonoBehaviour
         //}
         yield return webRequest.SendWebRequest();
 
-        if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.ProtocolError)
+        if (webRequest.result == UnityWebRequest.Result.ConnectionError)
         {
-            print("Ocurrio un error");
+            print("Ocurrio un error en la Conexión");
+            statusText.text = "Ocurrio un Error en la Conexión";
             loadPanel.SetActive(false);
         }
+        else if (webRequest.result == UnityWebRequest.Result.ProtocolError) {
+            print("Usuario o contraseña incorrectos");
+            statusText.text = "Usuario o contraseña incorrectos";
+            loadPanel.SetActive(false);
+        }
+
         else
         {
             print(webRequest.downloadHandler.text);
