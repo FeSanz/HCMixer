@@ -59,7 +59,7 @@ public class LoginController : MonoBehaviour
             User deserializeJson = JsonUtility.FromJson<User>(webRequest.downloadHandler.text);
             print(deserializeJson);
             loadPanel.SetActive(false);
-            SceneManager.LoadScene("CuestionarioTest");
+            SceneManager.LoadScene("ARMixerScene");
 
 
 

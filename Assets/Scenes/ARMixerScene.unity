@@ -16073,13 +16073,13 @@ RectTransform:
   - {fileID: 1890438926}
   - {fileID: 7215513145144377486}
   - {fileID: 7215513145452579514}
+  - {fileID: 7215513143845904134}
   - {fileID: 7215513145463593445}
+  - {fileID: 7215513143856591762}
   - {fileID: 7215513145209190638}
+  - {fileID: 7215513144786726442}
   - {fileID: 7215513143756196035}
   - {fileID: 7215513145269248362}
-  - {fileID: 7215513143845904134}
-  - {fileID: 7215513143856591762}
-  - {fileID: 7215513144786726442}
   - {fileID: 7215513144166167443}
   - {fileID: 7215513144354994997}
   - {fileID: 7215513143925953304}
@@ -16095,8 +16095,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00039672852, y: -0.00012207031}
-  m_SizeDelta: {x: 250.6199, y: 417.7}
+  m_AnchoredPosition: {x: -0.00064086914, y: -0.0004272461}
+  m_SizeDelta: {x: 225.68, y: 463.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &291015163
 MonoBehaviour:
@@ -20550,7 +20550,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 741043825}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1264542519}
+        m_TargetAssemblyTypeName: AssessOperationMixer, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: CuestionarioTest
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &741043825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20571,8 +20583,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 39f5f54228786e044ba7de02fc49abaf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -33303,7 +33315,7 @@ RectTransform:
   m_Children:
   - {fileID: 7215513144897649026}
   m_Father: {fileID: 291015162}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -33487,7 +33499,7 @@ RectTransform:
   - {fileID: 1273443821}
   - {fileID: 2020038418}
   m_Father: {fileID: 291015162}
-  m_RootOrder: 13
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -33599,7 +33611,7 @@ RectTransform:
   - {fileID: 310080837}
   - {fileID: 303905799}
   m_Father: {fileID: 291015162}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -34966,7 +34978,7 @@ RectTransform:
   m_Children:
   - {fileID: 1212148701}
   m_Father: {fileID: 291015162}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -35749,7 +35761,7 @@ RectTransform:
   m_Children:
   - {fileID: 7215513145475896801}
   m_Father: {fileID: 291015162}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -36123,7 +36135,7 @@ RectTransform:
   m_Children:
   - {fileID: 7215513145138987790}
   m_Father: {fileID: 291015162}
-  m_RootOrder: 12
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -36501,7 +36513,7 @@ RectTransform:
   m_Children:
   - {fileID: 7215513144540942506}
   m_Father: {fileID: 291015162}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}

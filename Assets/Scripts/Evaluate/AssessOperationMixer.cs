@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -20,7 +21,7 @@ public class AssessOperationMixer : MonoBehaviour
     
     
     private UnityWebRequest webRequest;
-    private string user = "Curtis_Feitty";
+    private string user = "Anonimus";
     public static string _url= "";
     private bool checkNull = true;
 
@@ -28,6 +29,7 @@ public class AssessOperationMixer : MonoBehaviour
 
     private void Start()
     {
+        user = CuestionarioController.userEmail;
         _url = "https://mixerar-d96f8-default-rtdb.firebaseio.com/" + user;
         assessStructure = new AssessStructure();
         StartCoroutine(GetAssignmentRecords());
@@ -179,5 +181,10 @@ public class AssessOperationMixer : MonoBehaviour
         
         tensarBandaIcon.sprite = pasos.Equals("9/9") ? complete : incomplete;
         tensarBandaIcon.color = pasos.Equals("9/9") ? Color.green : Color.red;
+    }
+
+    public void ChangeScene(string nameScene)
+    {
+        SceneManager.LoadScene(nameScene);
     }
 }
