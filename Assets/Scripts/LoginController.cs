@@ -12,7 +12,7 @@ public class LoginController : MonoBehaviour
     [SerializeField] private GameObject loadPanel;
 
     private UnityWebRequest webRequest;
-    private string rootPath = "http://localhost:5000/restservice-89269/us-central1/app/api/";
+    private string rootPath = "https://us-central1-restservice-89269.cloudfunctions.net/app/";
     // Start is called before the first frame update
     #region Login
 
@@ -27,25 +27,25 @@ public class LoginController : MonoBehaviour
 
     private IEnumerator GetLoginRequest()
     {
-        string path = "login";
+        string path = "api/login/" + "?user=" + CuestionarioController.userEmail + "&password=" + CuestionarioController.userPassword;
         webRequest = UnityWebRequest.Get(rootPath + path);
         webRequest.SetRequestHeader("Content-Type", "application/json");
 
-        User data = new User();
-        data.user = CuestionarioController.userEmail;
-        data.password = CuestionarioController.userPassword;
+        //User data = new User();
+        //data.user = CuestionarioController.userEmail;
+        //data.password = CuestionarioController.userPassword;
 
 
 
-        string jsonData = JsonUtility.ToJson(data);
+        //string jsonData = JsonUtility.ToJson(data);
 
-        if (jsonData != null)
-        {
-            byte[] datos = System.Text.Encoding.UTF8.GetBytes(jsonData);
-            UploadHandlerRaw upHandler = new UploadHandlerRaw(datos);
-            upHandler.contentType = "application/json";
-            webRequest.uploadHandler = upHandler;
-        }
+        //if (jsonData != null)
+        //{
+        //    byte[] datos = System.Text.Encoding.UTF8.GetBytes(jsonData);
+        //    UploadHandlerRaw upHandler = new UploadHandlerRaw(datos);
+        //    upHandler.contentType = "application/json";
+        //    webRequest.uploadHandler = upHandler;
+        //}
         yield return webRequest.SendWebRequest();
 
         if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.ProtocolError)
