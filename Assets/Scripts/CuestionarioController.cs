@@ -15,6 +15,7 @@ public class CuestionarioController : MonoBehaviour
     [SerializeField] private GameObject questionPrefab;
     [SerializeField] private GameObject answerPrefab;
     [SerializeField] private Scrollbar scrollbar;
+    [SerializeField] private ScrollRect scrollRect;
     [SerializeField] private GameObject btnGetCuestionario;
     [SerializeField] private GameObject statusWindow;
 
@@ -406,6 +407,27 @@ public class CuestionarioController : MonoBehaviour
             }
         }
     }
+    #endregion
+
+
+    #region Button Controler Cuestionario Question
+
+    public void nextQuestions() {
+        if (scrollRect.horizontalNormalizedPosition < 1)
+        {
+            scrollRect.horizontalNormalizedPosition += ((float)1 / (float)listaPreguntas.Count);
+        }
+    }
+
+    public void previousQuestion()
+    {
+        if(scrollRect.horizontalNormalizedPosition > 0)
+        {
+            scrollRect.horizontalNormalizedPosition -= ((float)1 / (float)listaPreguntas.Count);
+        }
+        Debug.Log(scrollRect.horizontalNormalizedPosition);
+    }
+
     #endregion
 }
 
