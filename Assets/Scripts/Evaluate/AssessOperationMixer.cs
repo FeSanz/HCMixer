@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
@@ -18,10 +19,12 @@ public class AssessOperationMixer : MonoBehaviour
     [SerializeField] private Image velocidadAltaIcon;
     [SerializeField] private Image velocidadBajaIcon;
     [SerializeField] private Image tensarBandaIcon;
+
+    [SerializeField] private TextMeshProUGUI userText;
     
     
     private UnityWebRequest webRequest;
-    private string user = "Anonimus";
+    public static string user = "Anonimus";
     public static string _url= "";
     private bool checkNull = true;
 
@@ -29,9 +32,11 @@ public class AssessOperationMixer : MonoBehaviour
 
     private void Start()
     {
-        user = CuestionarioController.userEmail;
+        userText.SetText(user);
+        user = "felipe_antonio";
         _url = "https://mixerar-d96f8-default-rtdb.firebaseio.com/" + user;
         assessStructure = new AssessStructure();
+
         StartCoroutine(GetAssignmentRecords());
     }
 

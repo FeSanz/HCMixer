@@ -31,33 +31,17 @@ public class LoginController : MonoBehaviour
         string path = "api/login/" + "?user=" + CuestionarioController.userEmail + "&password=" + CuestionarioController.userPassword;
         webRequest = UnityWebRequest.Get(rootPath + path);
         webRequest.SetRequestHeader("Content-Type", "application/json");
+        
 
-        //User data = new User();
-        //data.user = CuestionarioController.userEmail;
-        //data.password = CuestionarioController.userPassword;
-
-
-
-        //string jsonData = JsonUtility.ToJson(data);
-
-        //if (jsonData != null)
-        //{
-        //    byte[] datos = System.Text.Encoding.UTF8.GetBytes(jsonData);
-        //    UploadHandlerRaw upHandler = new UploadHandlerRaw(datos);
-        //    upHandler.contentType = "application/json";
-        //    webRequest.uploadHandler = upHandler;
-        //}
         yield return webRequest.SendWebRequest();
 
         if (webRequest.result == UnityWebRequest.Result.ConnectionError)
         {
-            print("Ocurrio un error en la Conexión");
-            statusText.text = "Ocurrio un Error en la Conexión";
+            statusText.SetText("*Ocurrio un error en la conexiÃ³n"); 
             loadPanel.SetActive(false);
         }
         else if (webRequest.result == UnityWebRequest.Result.ProtocolError) {
-            print("Usuario o contraseña incorrectos");
-            statusText.text = "Usuario o contraseña incorrectos";
+            statusText.SetText("*Usuario o contraseÃ±a incorrectos");
             loadPanel.SetActive(false);
         }
 
@@ -67,10 +51,8 @@ public class LoginController : MonoBehaviour
             User deserializeJson = JsonUtility.FromJson<User>(webRequest.downloadHandler.text);
             print(deserializeJson);
             loadPanel.SetActive(false);
+            AssessOperationMixer.user = emailInput.text;
             SceneManager.LoadScene("ARMixerScene");
-
-
-
         }
 
     }

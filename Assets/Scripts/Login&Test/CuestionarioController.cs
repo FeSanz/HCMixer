@@ -163,7 +163,7 @@ public class CuestionarioController : MonoBehaviour
         if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.ProtocolError)
         {
             print("Ocurrio un error");
-            txtStatus.text = "No se ha presentado este Cuestionario";
+            txtStatus.text = "No se ha presentado este cuestionario";
             btnGetCuestionario.SetActive(true);
 
 
@@ -173,12 +173,12 @@ public class CuestionarioController : MonoBehaviour
             print(webRequest.downloadHandler.text);
             GetSetCuestionarioStatus deserializeJson = JsonUtility.FromJson<GetSetCuestionarioStatus>(webRequest.downloadHandler.text);
 
-            txtStatus.text = "Usuario : " + deserializeJson.user + "\n" +
-                "Tiempo : " + deserializeJson.tiempo.ToString() + "\n" +
-                "Completado : " + deserializeJson.completo.ToString() + "\n" +
-                "Calificacion : " + deserializeJson.calificacion.ToString() + "\n" +
-                "Intentos : " + deserializeJson.intentos.ToString() + "\n" +
-                "Pasos completos : " + deserializeJson.pasos_completos.ToString() + "\n";
+            txtStatus.text = "USUARIO : " + deserializeJson.user + "\n\n" +
+                "TIEMPO : " + deserializeJson.tiempo.ToString() + " min\n" +
+                "COMPLETP : " + deserializeJson.completo.ToString() + "\n" +
+                "CALIFICACIÓN : " + deserializeJson.calificacion.ToString() + "\n" +
+                "INTENTOS : " + deserializeJson.intentos.ToString() + "\n" +
+                "PASOS COMPLETOS : " + deserializeJson.pasos_completos.ToString() + "\n";
 
             intento = deserializeJson.intentos;
 

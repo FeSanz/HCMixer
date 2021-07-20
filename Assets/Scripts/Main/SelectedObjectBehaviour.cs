@@ -9,13 +9,20 @@ public class SelectedObjectBehaviour : LeanSelectableBehaviour
     private AlertsBehaviour _alertsBehaviour = new AlertsBehaviour();
     protected override void OnSelect(LeanFinger finger)
     {
-        SelectedIndicators.SetActive(true);
-       _alertsBehaviour.AndroidToastMessage("Objeto seleccionado, ahora puede mover y rotar");
+        if (ScaleBehavior.isEditionMode)
+        {
+            SelectedIndicators.SetActive(true);
+            _alertsBehaviour.AndroidToastMessage("Objeto seleccionado, ahora puede mover y rotar");
+        }
+        
     }
 
     protected override void OnDeselect()
     {
-        SelectedIndicators.SetActive(false);
-        _alertsBehaviour.AndroidToastMessage("Objeto deseleccionado");
+        if (ScaleBehavior.isEditionMode)
+        {
+            SelectedIndicators.SetActive(false);
+            _alertsBehaviour.AndroidToastMessage("Objeto deseleccionado");
+        }
     }
 }

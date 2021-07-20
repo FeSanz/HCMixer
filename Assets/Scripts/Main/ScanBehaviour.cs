@@ -26,11 +26,14 @@ public class ScanBehaviour : MonoBehaviour
     public static bool placeObject = false;
     public static float PosYHit;
     
-    private const float ModelRotation = 180.0f; 
+    private Transform camera;
+
+    private float damping = 5.0f;
 
     void Start()
     {
         screenCenter.Set(Screen.width / 2, Screen.height / 2, 0);
+        camera = Camera.main.transform;
     }
 
     void Update()
@@ -94,7 +97,21 @@ public class ScanBehaviour : MonoBehaviour
         MixerModel.SetActive(true); //Hacer visible el modelo en la escena después del toque
         MixerModel.transform.position = new Vector3(currentPose.position.x, (currentPose.position.y) + ModelPositionY, currentPose.position.z); // Posicionar al modelo en el lugar de toque del plano
         PosYHit = (currentPose.position.y) + ModelPositionY;
-        MixerModel.transform.Rotate(0, ModelRotation, 0, Space.Self); // Compensar la rotación hitPose que se aleja del raycast       
-        MixerModel.transform.Rotate(0, -90f, 0, Space.Self);
+        
+        var lookPos = camera.position - MixerModel.transform.position;
+        lookPos.y = 0;
+        var rotation = Quaternion.LookRotation(lookPos);
+        rotation *= Quaternion.Euler(0, 90, 0);
+        
+        MixerModel.transform.rotation = Quaternion.Slerp(MixerModel.transform.rotation, rotation, Time.deltaTime * damping);
+        
+        //MixerModel.transform.Rotate(0, ModelRotation, 0, Space.Self); // Compensar la rotación hitPose que se aleja del raycast       
+        //MixerModel.transform.Rotate(0, -90f, 0, Space.Self);
+    }
+
+    public void DestroyStaticsValues()
+    {
+        placeObject = false;
+        ScaleBehavior.isEditionMode = false;
     }
 }
