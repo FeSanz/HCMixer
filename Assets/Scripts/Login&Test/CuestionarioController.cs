@@ -22,7 +22,7 @@ public class CuestionarioController : MonoBehaviour
 
 
 
-    public static string userEmail = "carlos.tapia.condor@gmail.com";
+    public static string userEmail = "felipe_antonio";
     public static string userPassword;
 
     private UnityWebRequest webRequest;
@@ -174,23 +174,15 @@ public class CuestionarioController : MonoBehaviour
             GetSetCuestionarioStatus deserializeJson = JsonUtility.FromJson<GetSetCuestionarioStatus>(webRequest.downloadHandler.text);
 
             txtStatus.text = "USUARIO : " + deserializeJson.user + "\n\n" +
-                "TIEMPO : " + deserializeJson.tiempo.ToString() + " min\n" +
+                "TIEMPO : " + deserializeJson.tiempo.ToString() + " seg\n" +
                 "COMPLETP : " + deserializeJson.completo.ToString() + "\n" +
                 "CALIFICACIÓN : " + deserializeJson.calificacion.ToString() + "\n" +
                 "INTENTOS : " + deserializeJson.intentos.ToString() + "\n" +
                 "PASOS COMPLETOS : " + deserializeJson.pasos_completos.ToString() + "\n";
 
             intento = deserializeJson.intentos;
+            btnGetCuestionario.SetActive(true);
 
-            if (deserializeJson.intentos < 3)
-            {
-                btnGetCuestionario.SetActive(true);
-            }
-            else
-            {
-                btnGetCuestionario.SetActive(false);
-                txtStatus.text += "Se han superado los intentos de realizar el examen";
-            }
 
             print(deserializeJson);
         }
@@ -413,7 +405,7 @@ public class CuestionarioController : MonoBehaviour
     #region Button Controler Cuestionario Question
 
     public void nextQuestions() {
-        if (scrollRect.horizontalNormalizedPosition < 1)
+        if (scrollRect.horizontalNormalizedPosition < 1 - ((float)1 / (float)listaPreguntas.Count))
         {
             scrollRect.horizontalNormalizedPosition += ((float)1 / (float)listaPreguntas.Count);
         }
