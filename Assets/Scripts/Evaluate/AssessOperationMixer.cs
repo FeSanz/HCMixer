@@ -33,7 +33,6 @@ public class AssessOperationMixer : MonoBehaviour
     private void Start()
     {
         userText.SetText(user);
-        user = "felipe_antonio";
         _url = "https://mixerar-d96f8-default-rtdb.firebaseio.com/" + user;
         assessStructure = new AssessStructure();
 
